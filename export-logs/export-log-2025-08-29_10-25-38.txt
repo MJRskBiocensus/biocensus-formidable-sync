@@ -1,0 +1,144 @@
+Export Time: 2025-08-29 10:25:38
+Updated forms: Question-A, Order, RSK Vehicle Info, PPE Request Form, PPE Items, Vehicle Hire Request, Vehicle Hire Cancellation/Update Request, PPE Register | actions: Second-Confirmation, Confirmation, Confirmation, Confirmation, Confirmation, Confirmation, Confirmation, Confirmation, Third-Send Email, First-Confirmation, Update cancelation/update request entry, Confirmation, Confirmation, Confirmation, Send Email, Update Email, Admin Alert Email, Send Processed Email, Alert/Confirmation Email, Send Email, Update original vehicle booking request, Send Email | views: Question-A-1View, Question-A View, PPE Request Form Item Count View, PPE Request Form Listing Grid, PPE Request Form Grid, Vehicle Hire Request Test Export DB entry View, API view 2, PPE Register View, Items List, view for api call, Vehicle Hire Request Log, RSK Vehicle Info Table, PPE Request Form View | styles: Big Text, Divi, Formidable Style, Formidable Style, Formidable Style, Mad Libs Lines, Modern Dark, Sleek & Smooth Style | snippets: Make upload filenames lowercase, Disable admin bar, Allow smilies, Current year | plugins: code-snippets, duplicator-pro, formidable, formidable-abandonment, formidable-autoresponder, formidable-bootstrap, formidable-campaignmonitor, formidable-charts, formidable-dates, formidable-geo, formidable-locations, formidable-pdfs, formidable-pro, formidable-signature, formidable-user-tracking, formidable-views, sg-cachepress, sg-security, woocommerce
+
+FORMS CHANGES:
+- Question-A
+  • 1
+- Order
+  • 1
+- RSK Vehicle Info
+  • 1
+- PPE Request Form
+  • 1
+- PPE Items
+  • 1
+- Vehicle Hire Request
+  • 1
+- Vehicle Hire Cancellation/Update Request
+  • 1
+- PPE Register
+  • 1
+
+VIEWS CHANGES:
+  • "Question-A-1View":
+      1
+  • "Question-A View":
+      1
+  • "PPE Request Form Item Count View":
+      1
+  • "PPE Request Form Listing Grid":
+      1
+  • "PPE Request Form Grid":
+      1
+  • "Vehicle Hire Request Test Export DB entry View":
+      1
+  • "API view 2":
+      1
+  • "PPE Register View":
+      1
+  • "Items List":
+      1
+  • "view for api call":
+      1
+  • "Vehicle Hire Request Log":
+      1
+  • "RSK Vehicle Info Table":
+      1
+  • "PPE Request Form View":
+      1
+
+ACTIONS CHANGES:
+  • "Second-Confirmation":
+      1
+  • "Confirmation":
+      1
+  • "Confirmation":
+      1
+  • "Confirmation":
+      1
+  • "Confirmation":
+      1
+  • "Confirmation":
+      1
+  • "Confirmation":
+      1
+  • "Confirmation":
+      1
+  • "Third-Send Email":
+      1
+  • "First-Confirmation":
+      1
+  • "Update cancelation/update request entry":
+      1
+  • "Confirmation":
+      1
+  • "Confirmation":
+      1
+  • "Confirmation":
+      1
+  • "Send Email":
+      1
+  • "Update Email":
+      1
+  • "Admin Alert Email":
+      1
+  • "Send Processed Email":
+      1
+  • "Alert/Confirmation Email":
+      1
+  • "Send Email":
+      1
+  • "Update original vehicle booking request":
+      1
+  • "Send Email":
+      1
+
+STYLES CHANGES:
+  • "Big Text":
+      1
+  • "Divi":
+      1
+  • "Formidable Style":
+      1
+  • "Formidable Style":
+      1
+  • "Formidable Style":
+      1
+  • "Mad Libs Lines":
+      1
+  • "Modern Dark":
+      1
+  • "Sleek & Smooth Style":
+      1
+
+SNIPPETS CHANGES:
+  • "Make upload filenames lowercase":
+      1
+  • "Disable admin bar":
+      1
+  • "Allow smilies":
+      1
+  • "Current year":
+      1
+
+PLUGINS CHANGES:
+code-snippets
+duplicator-pro
+formidable
+formidable-abandonment
+formidable-autoresponder
+formidable-bootstrap
+formidable-campaignmonitor
+formidable-charts
+formidable-dates
+formidable-geo
+formidable-locations
+formidable-pdfs
+formidable-pro
+formidable-signature
+formidable-user-tracking
+formidable-views
+sg-cachepress
+sg-security
+woocommerce
+

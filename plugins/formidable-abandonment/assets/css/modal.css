@@ -1,0 +1,95 @@
+.frm-abandonment-modal * {
+	box-sizing: border-box;
+}
+
+.frm-abandonment-modal {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 1000;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	visibility: hidden;
+	overflow: hidden;
+	opacity: 0;
+	-webkit-overflow-scrolling: touch;
+}
+
+.frm-abandonment-modal .tingle-modal__close {
+	display: none;
+}
+
+.frm-abandonment-modal .tingle-modal-box {
+	position: relative;
+	flex-shrink: 0;
+	margin-top: auto;
+	margin-bottom: auto;
+	max-width: 345px;
+	background: #fff;
+	opacity: 1;
+	cursor: auto;
+	border-radius: var(--border-radius);
+	will-change: transform, opacity;
+	padding: 1.5rem;
+	box-shadow: 1px 1px 11px 2px rgba(0, 0, 0, 0.2);
+}
+
+.frm-abandonment-modal .tingle-modal-box__content h3{
+	margin-top: 0;
+}
+
+a.frm-abandonment-close {
+	position: absolute;
+	top: 10px;
+	right: 5%;
+	text-decoration: none;
+	color: currentColor;
+	opacity: .8;
+	font-size: 30px;
+	font-weight: 300;
+	line-height: 21px;
+}
+
+.frm-abandonment-btn-invisible {
+	opacity: 0;
+}
+
+.tingle-enabled {
+	position: fixed;
+	right: 0;
+	left: 0;
+	overflow: hidden;
+}
+
+.frm-abandonment-modal.tingle-modal--visible .tingle-modal-box__footer {
+	bottom: 0;
+}
+
+.frm-abandonment-modal.tingle-modal--visible {
+	visibility: visible;
+	opacity: 1;
+	background: rgba(0, 0, 0, 0.5);
+}
+
+.frm-abandonment-modal.tingle-modal--visible .tingle-modal-box {
+	animation: abdn-scale .2s cubic-bezier(.68, -.55, .265, 1.55) forwards;
+}
+
+.tingle-modal--overflow {
+	overflow-y: scroll;
+	padding-top: 8px;
+}
+
+@keyframes abdn-scale {
+	0% {
+		opacity: 0;
+		transform: scale(.9);
+	}
+	100% {
+		opacity: 1;
+		transform: scale(1);
+	}
+}

@@ -1,0 +1,104 @@
+# Copyright (C) 2024 Strategy11
+# This file is distributed under the GPL-2.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: a2d8bc55ffb2a23897925e74530a7308\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/formidable-pdfs\n"
+"Last-Translator: \n"
+"Language-Team: Japanese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-06-06T16:19:08+00:00\n"
+"PO-Revision-Date: 2024-06-07 13:26\n"
+"X-Generator: WP-CLI 2.10.0\n"
+"X-Domain: formidable-pdfs\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: a2d8bc55ffb2a23897925e74530a7308\n"
+"X-Crowdin-Project-ID: 28\n"
+"X-Crowdin-Language: ja\n"
+"X-Crowdin-File: /[Strategy11.formidable-pdfs] master/languages/formidable-pdfs.pot\n"
+"X-Crowdin-File-ID: 2464\n"
+"Language: ja_JP\n"
+
+#. Plugin Name of the plugin
+#: formidable-pdfs.php
+msgid "Formidable PDFs"
+msgstr "Formidable PDF"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: formidable-pdfs.php
+msgid "https://formidableforms.com/"
+msgstr "https://formidableforms.com/"
+
+#. Description of the plugin
+#: formidable-pdfs.php
+msgid "Export entry as PDF and attach PDF file to email"
+msgstr "エントリーを PDF としてエクスポートし、PDF ファイルをメールに添付する"
+
+#. Author of the plugin
+#: formidable-pdfs.php
+msgid "Strategy11"
+msgstr "Strategy11"
+
+#: classes/controllers/FrmPdfsShortcodeController.php:35
+msgid "Download PDF"
+msgstr "PDF をダウンロード"
+
+#: classes/controllers/FrmPdfsShortcodeController.php:201
+#: classes/controllers/FrmPdfsShortcodeController.php:213
+msgid "You are not allowed to view this file"
+msgstr "このファイルを表示する権限がありません。"
+
+#: classes/controllers/FrmPdfsShortcodeController.php:209
+msgid "Entry does not exist"
+msgstr "エントリーが存在しません"
+
+#: classes/controllers/FrmPdfsShortcodeController.php:280
+msgid "PDF link"
+msgstr "PDF リンク"
+
+#: classes/controllers/FrmPdfsViewEntryController.php:46
+msgid "Download as PDF"
+msgstr "PDF としてダウンロード"
+
+#. translators: PHP version.
+#: classes/helpers/FrmPdfsAppHelper.php:124
+msgid "Formidable PDFs requires at least PHP %s. Please update your PHP version."
+msgstr "Formidable PDF には PHP %s以上が必要です。PHP のバージョンを更新してください。"
+
+#. translators: Formidable Forms version.
+#: classes/helpers/FrmPdfsAppHelper.php:133
+msgid "Formidable PDFs requires at least Formidable Forms %s."
+msgstr "Formidable PDF には、Formidable Forms %s以上が必要です。"
+
+#. translators: Formidable Forms Pro version.
+#: classes/helpers/FrmPdfsAppHelper.php:141
+msgid "Formidable PDFs requires at least Formidable Forms Pro %s."
+msgstr "Formidable PDF には、Formidable Forms Pro %s以上が必要です。"
+
+#. translators: PHP extensions.
+#: classes/helpers/FrmPdfsAppHelper.php:163
+msgid "Formidable PDFs requires following extensions to be installed: %s"
+msgstr "Formidable PDF は、次の拡張機能をインストールする必要があります: %s"
+
+#. Translators: %1$s: page number, %2$s: total pages.
+#: classes/helpers/FrmPdfsAppHelper.php:377
+msgid "Page %1$s of %2$s"
+msgstr "%1$sページ目 (%2$sページ中)"
+
+#. translators: .htaccess file path.
+#: classes/helpers/FrmPdfsFileProtectionHelper.php:86
+msgid "Unable to write to %s to access files for PDFs."
+msgstr "PDF ファイルにアクセスするために、%s に書き込むことができません。"
+
+#: classes/views/email-attachment-setting.php:35
+msgid "Attach PDF of entry to email"
+msgstr "エントリーの PDF をメールに添付"
+
+#. Translators: date string.
+#: classes/views/pdf-entry.php:20
+msgid "Added on: %s"
+msgstr "追加日: %s"
+

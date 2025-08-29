@@ -1,0 +1,6 @@
+/* Start entry statuses */
+.frm-entry-status-3 {
+    color: var(--error-700);
+    background: var(--error-100);
+}/* 3 is Abandoned  status */
+/* End entry statuses */

@@ -1,0 +1,11 @@
+{
+    "id": "3",
+    "name": "Allow smilies",
+    "code": "add_filter( 'widget_text', 'convert_smilies' );\nadd_filter( 'the_title', 'convert_smilies' );\nadd_filter( 'wp_title', 'convert_smilies' );\nadd_filter( 'get_bloginfo', 'convert_smilies' );",
+    "tags": "sample",
+    "description": "Allows smiley conversion in obscure places.\n\nThis is a sample snippet. Feel free to use it, edit it, or remove it.",
+    "scope": "global",
+    "priority": "10",
+    "active": "1",
+    "type": ""
+}

@@ -1,0 +1,31 @@
+{
+    "ID": 9,
+    "post_author": "1",
+    "post_date": "2025-07-31 09:15:09",
+    "post_date_gmt": "2025-07-31 09:15:09",
+    "post_content": "{\"event\":[\"create\"],\"email_to\":\"[default-email]\",\"cc\":\"\",\"bcc\":\"\",\"from\":\"[sitename] <[default-from-email]>\",\"reply_to\":\"\",\"email_subject\":\"\",\"email_message\":\"[default-message][4][3][2]\",\"email_attachment_id\":\"\",\"conditions\":{\"send_stop\":\"send\",\"any_all\":\"any\"},\"autoresponder\":{\"is_active\":\"\",\"do_default_trigger\":\"no\",\"send_interval\":\"30\",\"send_unit\":\"days\",\"send_before_after\":\"after\",\"send_date\":\"update\",\"send_after_interval_type\":\"number\",\"send_after_interval\":\"1\",\"send_after_interval_field\":\"\",\"send_after_unit\":\"days\",\"send_after_count\":\"1\"}}",
+    "post_title": "Third-Send Email",
+    "post_excerpt": "email",
+    "post_status": "publish",
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "post_password": "",
+    "post_name": "1_email_9",
+    "to_ping": "",
+    "pinged": "",
+    "post_modified": "2025-08-04 16:36:12",
+    "post_modified_gmt": "2025-08-04 16:36:12",
+    "post_content_filtered": "",
+    "post_parent": 0,
+    "guid": "https:\/\/test1.biocensus.co.uk\/frm_form_actions\/1_email_\/",
+    "menu_order": 1,
+    "post_type": "frm_form_actions",
+    "post_mime_type": "",
+    "comment_count": "0",
+    "filter": "raw",
+    "meta": {
+        "_wp_old_slug": [
+            "1_email_"
+        ]
+    }
+}

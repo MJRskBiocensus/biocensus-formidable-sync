@@ -1,0 +1,51 @@
+.frm-user-flow {
+	word-break: break-word;
+}
+
+.frm-user-flow tr {
+	background-color: var(--sidebar-color) !important;
+}
+
+.frm-user-flow tr:nth-child(even) {
+	background-color: transparent !important;
+}
+
+.frm-user-flow tr.frm-usr-trk-date-row {
+	font-size: 1.1em;
+}
+
+.frm-user-flow td:first-child,
+.frm-user-flow td:last-child {
+	font-weight: 600;
+}
+
+.frm-usr-trk-toggle-date {
+	font-weight: normal;
+}
+
+.frm-usr-trk-toggle-date, .frm-usr-trk-toggle-date * {
+	float: right;
+}
+
+.frm-usr-trk-toggle-date.open .frm-usr-trk-toggle-icon {
+	transform: rotate(-90deg);
+}
+
+.frm-user-flow .frm-child-row td:first-child{
+	max-width: 100px;
+	width: 25%;
+}
+
+.frm-user-flow .frm-child-row td:last-child{
+	max-width: 120px;
+	width: 25%;
+}
+
+.frm-user-flow td a:not(.frm-usr-trk-toggle-date), .frm-user-flow td svg {
+	opacity: .7;
+}
+
+.frm-user-flow td svg {
+	width: 15px;
+	height: 15px;
+}

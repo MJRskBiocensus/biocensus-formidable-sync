@@ -1,0 +1,84 @@
+{
+    "ID": 38,
+    "post_author": "0",
+    "post_date": "2024-11-01 13:59:24",
+    "post_date_gmt": "2024-11-01 13:59:24",
+    "post_content": "[{\"box\":0,\"content\":\"\"},{\"box\":12,\"content\":\"<p><span style=\\\"color: #ffffff;\\\"><strong>[id]<\\\/strong><\\\/span><\\\/p>\",\"style\":{\"backgroundColor\":\"#093e50\",\"padding\":\"8px\"}},{\"box\":41,\"content\":\"[11031]\"},{\"box\":43,\"content\":\"[10999 format=\\\"d\\\/m\\\/Y\\\"]\"},{\"box\":52,\"content\":\"\"},{\"box\":131,\"content\":\"<p><span style=\\\"color: #ffffff;\\\"><strong>[id]<\\\/strong><\\\/span><\\\/p>\",\"style\":{\"backgroundColor\":\"#093e50\",\"padding\":\"8px\"}},{\"box\":132,\"content\":\"[11031]\",\"style\":{\"padding\":\"8px\"}},{\"box\":134,\"content\":\"[10999 format=\\\"d\\\/m\\\/Y\\\"]\",\"style\":{\"padding\":\"8px\"}},{\"box\":133,\"content\":\"[display-frm-data id=392459 pid=\\\"[id]\\\"]\",\"style\":{\"padding\":\"8px\"}},{\"box\":111,\"content\":\"[if 11034 equals=\\\"Yes\\\"]<div style=\\\"background: #7aad37; color: #ffffff; height: 100%;width: 100%;text-align: center;padding-top: 5%;\\\"><strong>Processed<\\\/strong><\\\/div>[else]<div style=\\\"background: #e27730; color: #ffffff; height: 100%;width: 100%;text-align: center;padding-top: 5%;\\\"><strong>Open<\\\/strong><\\\/div>[\\\/if 11034]\"},{\"box\":95,\"content\":\"<div class=\\\"wp-block-btn-button free  align\\\" id=\\\"btnButton-sca-link\\\"><style> #btnButton-sca-link .btnButton{ font-weight: 600; font-size: 16px; font-style: normal; text-transform: none; text-decoration: none; line-height: 135%; letter-spacing: 0px; max-width:150px; } @media (max-width: 768px) { #btnButton-sca-link .btnButton{ font-size: 16px; } } @media (max-width: 576px) { #btnButton-sca-link .btnButton{ font-size: 16px; } } #btnButton-sca-link{ text-align: center; } @media only screen and (min-width: 769px) { #btnButton-sca-link .btnButton:not(.btnEditor){ display: block; } #btnButton-sca-link .btnButton.btnEditor{ opacity: 1; } } @media only screen and (max-width: 768px) and (min-width: 577px) { #btnButton-sca-link .btnButton:not(.btnEditor){ display: block; } #btnButton-sca-link .btnButton.btnEditor{ opacity: 1; } } @media only screen and (max-width: 576px) { #btnButton-sca-link .btnButton:not(.btnEditor){ display: block; } #btnButton-sca-link .btnButton.btnEditor{ opacity: 1; } } #btnButton-sca-link .btnButton{ color: #fff; background: rgba(66, 89, 104, 1); width: auto; padding: 12px 24px; border-radius: 5px; box-shadow: none; } #btnButton-sca-link .btnButton:hover{ color: #fff; background: rgba(149, 193, 31, 1); } <\\\/style>[frmmodal-content modal_class=\\\"no-fade btnButton aos-init aos-animate\\\" label=\\\"<span class='btnText'>View Order<\\\/span>\\\"][display-frm-data id=38 entry=[id]][\\\/frmmodal-content]<\\\/div>\",\"style\":{\"padding\":\"8px\"}}]",
+    "post_title": "PPE Request Form Listing Grid",
+    "post_excerpt": "",
+    "post_status": "private",
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "post_password": "",
+    "post_name": "ppe-request-form-listing-grid",
+    "to_ping": "",
+    "pinged": "",
+    "post_modified": "2025-08-01 12:51:47",
+    "post_modified_gmt": "2025-08-01 12:51:47",
+    "post_content_filtered": "",
+    "post_parent": 0,
+    "guid": "https:\/\/test1.biocensus.co.uk\/frm_display\/ppe-request-form-listing-grid\/",
+    "menu_order": 0,
+    "post_type": "frm_display",
+    "post_mime_type": "",
+    "comment_count": "0",
+    "filter": "raw",
+    "form_key": "pperequestform",
+    "meta": {
+        "frm_form_id": [
+            "6"
+        ],
+        "frm_grid_view": [
+            "1"
+        ],
+        "frm_view_type": [
+            "grid"
+        ],
+        "frm_show_count": [
+            "dynamic"
+        ],
+        "frm_options": [
+            "a:20:{s:13:\"date_field_id\";s:0:\"\";s:14:\"edate_field_id\";s:0:\"\";s:21:\"repeat_event_field_id\";s:0:\"\";s:21:\"repeat_edate_field_id\";s:0:\"\";s:14:\"before_content\";s:0:\"\";s:13:\"after_content\";s:0:\"\";s:9:\"empty_msg\";s:16:\"No Entries Found\";s:5:\"limit\";s:0:\"\";s:9:\"page_size\";s:0:\"\";s:6:\"offset\";s:0:\"\";s:5:\"no_rt\";i:0;s:15:\"ajax_pagination\";s:1:\"0\";s:12:\"ajax_refresh\";i:0;s:8:\"order_by\";a:1:{i:0;s:10:\"created_at\";}s:5:\"order\";a:1:{i:0;s:4:\"DESC\";}s:17:\"grid_column_count\";i:1;s:12:\"grid_row_gap\";s:2:\"20\";s:15:\"grid_column_gap\";s:1:\"2\";s:12:\"grid_classes\";s:0:\"\";s:15:\"grid_responsive\";i:1;}"
+        ],
+        "frm_param": [
+            "entry"
+        ],
+        "frm_dyncontent": [
+            "[{\"box\":0,\"content\":\"\"},{\"box\":1,\"content\":\"[display-frm-data id=392339 orderid=\"[id]\"]\"}]"
+        ],
+        "frm_type": [
+            "id"
+        ],
+        "frm_active_preview_filter": [
+            "limited"
+        ],
+        "_oembed_524cc3d129bde1eb8282e65af0f79c70": [
+            "{{unknown}}"
+        ],
+        "_oembed_7a782beca759560d81f777a75d163d2a": [
+            "{{unknown}}"
+        ],
+        "_oembed_bad94ed9567f26e392d6f718a735af09": [
+            "{{unknown}}"
+        ],
+        "_oembed_e1ecfffce6a5944281a24b7b4360d433": [
+            "{{unknown}}"
+        ],
+        "_oembed_ff4de2bca8d95bab8d62602f465ec832": [
+            "{{unknown}}"
+        ],
+        "_oembed_44bee76a22a94fad98b49a6ce0d7fe9d": [
+            "{{unknown}}"
+        ],
+        "_oembed_8ceb06e9ffe0e4697be29ea0b0c05aa1": [
+            "<a href=\"https:\/\/www.ardmoor.co.uk\/products\/skellerup-quatro-s5-super-safety-thigh-wader-wellington-boots-sk202115?variant=41242193199295&#038;currency=GBP&#038;utm_source=google&#038;utm_medium=cpc&#038;utm_campaign=shopping&#038;utm_content=Skellerup%20Quatro%20S5%20Super%20Safety%20Thigh%20Wader%20Wellington%20Boots&#038;gclid=CjwKCAjwp9qZBhBkEiwAsYFsb73TTEzADUkZ9_6D4gh6hJljIKSLSfoFsFaSlrYZ7l3Mt1pNvELNQhoC0C4QAvD_BwE\">Skellerup Quatro S5 Super Safety Thigh Wader Wellington Boots<\/a>"
+        ],
+        "_oembed_time_8ceb06e9ffe0e4697be29ea0b0c05aa1": [
+            "1730471563"
+        ],
+        "_oembed_4eb00687f072904b1980feb2bbe46156": [
+            "{{unknown}}"
+        ]
+    },
+    "layout": null
+}

@@ -1,0 +1,104 @@
+# Copyright (C) 2024 Strategy11
+# This file is distributed under the same license as the Formidable Campaign Monitor plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: a2d8bc55ffb2a23897925e74530a7308\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/formidable-campaignmonitor\n"
+"Last-Translator: \n"
+"Language-Team: Japanese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-06-07T13:46:06+00:00\n"
+"PO-Revision-Date: 2024-06-08 01:32\n"
+"X-Generator: WP-CLI 2.10.0\n"
+"X-Domain: frm-campaignmonitor\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: a2d8bc55ffb2a23897925e74530a7308\n"
+"X-Crowdin-Project-ID: 28\n"
+"X-Crowdin-Language: ja\n"
+"X-Crowdin-File: /[Strategy11.formidable-campaignmonitor] master/languages/frm-campaignmonitor.pot\n"
+"X-Crowdin-File-ID: 2366\n"
+"Language: ja_JP\n"
+
+#. Plugin Name of the plugin
+#: formidable-campaignmonitor.php
+msgid "Formidable Campaign Monitor"
+msgstr "Formidable Campaign Monitor"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: formidable-campaignmonitor.php
+msgid "https://formidableforms.com/"
+msgstr "https://formidableforms.com/"
+
+#. Description of the plugin
+#: formidable-campaignmonitor.php
+msgid "Add users to your Campaign Monitor list from your Formidable forms"
+msgstr "Formidable フォームから Campaign Monitor リストにユーザーを追加します"
+
+#. Author of the plugin
+#: formidable-campaignmonitor.php
+msgid "Strategy11"
+msgstr "Strategy11"
+
+#: api/campaign-monitor.php:39
+msgid "No API key specified."
+msgstr "API キーが指定されていません。"
+
+#: api/campaign-monitor.php:42
+msgid "No Client ID specified."
+msgstr "クライアント ID が指定されていません。"
+
+#: api/campaign-monitor.php:81
+msgid "Could not get lists."
+msgstr "リストを取得できませんでした。"
+
+#: api/campaign-monitor.php:119
+msgid "Could not get custom fields."
+msgstr "カスタムフィールドを取得できませんでした。"
+
+#: controllers/FrmCMAppController.php:32
+msgid "You are running an outdated version of Formidable. This plugin needs Formidable v4.0 + to work correctly."
+msgstr "Formidable のバージョンが古いようです。このプラグインを正しく動作させるには Formidable v4.0以上が必要です。"
+
+#: controllers/FrmCMSettingsController.php:106
+msgid "API key and/or Client ID may not be correct"
+msgstr "API キーとクライアント ID、またはそのいずれかが正しくない可能性があります"
+
+#: views/action-settings/options.php:13
+msgid "Contact List"
+msgstr "お問い合わせリスト"
+
+#: views/action-settings/options.php:43
+msgid "Clear Cache"
+msgstr "キャッシュをクリア"
+
+#: views/settings/form.php:20
+msgid " API Key"
+msgstr " API キー"
+
+#: views/settings/form.php:26
+msgid "Your API key can be found at yoursite.createsend.com/account/apikeys. Go to your Campaign Monitor account. Click on your name in the top corner then \"Account Settings\" - \"API Keys\""
+msgstr "API キーは yoursite.createsend.com/account/apikeys にあります。Campaign Monitor アカウントにアクセスして、上部の隅にある自分の名前をクリックし、\"Account Settings\" - \"API Keys\" をクリックします。"
+
+#: views/settings/form.php:34
+msgid "Client ID"
+msgstr "クライアント ID"
+
+#: views/settings/form.php:42
+msgid "Debug Mode"
+msgstr "デバッグモード"
+
+#: views/settings/form.php:46
+msgid "No"
+msgstr "いいえ"
+
+#: views/settings/form.php:49
+msgid "Yes"
+msgstr "はい"
+
+#: views/settings/form.php:53
+msgid "See Campaign Monitor response on form submit"
+msgstr "フォーム送信時に Campaign Monitor の回答を表示"
+

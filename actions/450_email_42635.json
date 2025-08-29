@@ -1,0 +1,31 @@
+{
+    "ID": 52,
+    "post_author": "0",
+    "post_date": "2021-09-30 14:01:30",
+    "post_date_gmt": "2021-09-30 13:01:30",
+    "post_content": "{\"event\":[\"create\"],\"email_to\":\"EcologyBusinessSupport@rskbiocensus.com\",\"cc\":\"\",\"bcc\":\"\",\"from\":\"[sitename] <[admin_email]>\",\"reply_to\":\"\",\"email_subject\":\"New vehicle hire request for [11287] starting on [11292] (ID: [id])\",\"email_message\":\"[if 11288 not_equal=\\\"11287\\\"][11288] has submitted a [11289] request on behalf of [11287][\\\/if 11288][if 11288 equals=\\\"11287\\\"][11287] has submitted a [11289] request [\\\/if 11288] with a start date of [11292]. Please see the full request here: <a href=\\\"https:\\\/\\\/dev2.biocensus.co.uk\\\/vehicle-hire-request-log\\\/entry\\\/[id]\\\">Hire Request<\\\/a>\",\"email_attachment_id\":\"\",\"conditions\":{\"send_stop\":\"send\",\"any_all\":\"any\"},\"autoresponder\":{\"is_active\":\"\",\"do_default_trigger\":\"no\",\"send_interval\":\"30\",\"send_unit\":\"days\",\"send_before_after\":\"after\",\"send_date\":\"update\",\"send_after_interval_type\":\"number\",\"send_after_interval\":\"0\",\"send_after_unit\":\"days\",\"send_after_count\":\"1\"}}",
+    "post_title": "Admin Alert Email",
+    "post_excerpt": "email",
+    "post_status": "publish",
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "post_password": "",
+    "post_name": "450_email_42635",
+    "to_ping": "",
+    "pinged": "",
+    "post_modified": "2025-08-01 12:51:47",
+    "post_modified_gmt": "2025-08-01 12:51:47",
+    "post_content_filtered": "",
+    "post_parent": 0,
+    "guid": "https:\/\/test1.biocensus.co.uk\/frm_form_actions\/450_email_42635\/",
+    "menu_order": 8,
+    "post_type": "frm_form_actions",
+    "post_mime_type": "",
+    "comment_count": "0",
+    "filter": "raw",
+    "meta": {
+        "_wp_old_slug": [
+            "450_email_"
+        ]
+    }
+}

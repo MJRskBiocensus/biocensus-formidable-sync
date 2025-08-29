@@ -1,0 +1,104 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"X-Generator: babel-plugin-makepot\n"
+
+#: js/src/blocks/view.js:38
+msgid "Display a View"
+msgstr ""
+
+#: js/src/blocks/view.js:46
+msgid "data display"
+msgstr ""
+
+#: js/src/blocks/view.js:47
+msgid "show entries"
+msgstr ""
+
+#: js/src/blocks/view.js:57
+msgid "This site does not have any Views."
+msgstr ""
+
+#: js/src/blocks/view/calendar/calendar.js:119
+msgid "Color"
+msgstr ""
+
+#: js/src/blocks/view/calendar/calendar.js:130
+msgid "Text"
+msgstr ""
+
+#: js/src/blocks/view/calendar/calendar.js:140
+msgid "Background"
+msgstr ""
+
+#: js/src/blocks/view/calendar/calendar.js:150
+msgid "Strokes"
+msgstr ""
+
+#: js/src/blocks/view/calendar/calendar.js:160
+msgid "Primary Color"
+msgstr ""
+
+#: js/src/blocks/view/calendar/calendar.js:167
+msgid "Typography"
+msgstr ""
+
+#: js/src/blocks/view/calendar/calendar.js:26
+msgid "Small"
+msgstr ""
+
+#: js/src/blocks/view/calendar/calendar.js:31
+msgid "Medium"
+msgstr ""
+
+#: js/src/blocks/view/calendar/calendar.js:36
+msgid "Large"
+msgstr ""
+
+#: js/src/blocks/view/inspector.js:43
+msgid "Select a View"
+msgstr ""
+
+#: js/src/blocks/view/inspector.js:57
+msgid "Go to View"
+msgstr ""
+
+#: js/src/blocks/view/inspector.js:62
+msgid "View Filtering"
+msgstr ""
+
+#: js/src/blocks/view/inspector.js:70
+msgid "Limited"
+msgstr ""
+
+#: js/src/blocks/view/inspector.js:72
+msgid ""
+"Recommended. Adds automatic paragraphs and line breaks and filters most "
+"shortcodes."
+msgstr ""
+
+#: js/src/blocks/view/inspector.js:75
+msgid "Everything"
+msgstr ""
+
+#: js/src/blocks/view/inspector.js:77
+msgid ""
+"Use only when shortcodes from other plugins are shown when Limited is "
+"selected. May cause conflicts with some plugins."
+msgstr ""
+
+#: js/src/blocks/view/inspector.js:80
+msgid "None"
+msgstr ""
+
+#: js/src/blocks/view/inspector.js:94
+msgid "Shortcode"
+msgstr ""
+
+#: js/src/blocks/view/viewselect.js:42
+msgid "View"
+msgstr ""
+
+#: js/src/blocks/view/viewselect.js:43
+msgid "Views"
+msgstr ""

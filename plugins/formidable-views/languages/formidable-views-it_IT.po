@@ -1,0 +1,927 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: a2d8bc55ffb2a23897925e74530a7308\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/formidable-views\n"
+"Last-Translator: \n"
+"Language-Team: Italian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-07-29T13:10:37+00:00\n"
+"PO-Revision-Date: 2024-07-30 00:31\n"
+"Language: it_IT\n"
+"X-Generator: WP-CLI 2.10.0\n"
+"X-Domain: formidable-views\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: a2d8bc55ffb2a23897925e74530a7308\n"
+"X-Crowdin-Project-ID: 28\n"
+"X-Crowdin-Language: it\n"
+"X-Crowdin-File: /[Strategy11.formidable-views] master/languages/formidable-views.pot\n"
+"X-Crowdin-File-ID: 2444\n"
+
+#. Plugin Name of the plugin
+#: formidable-views.php
+msgid "Formidable Visual Views"
+msgstr "Formidable Visual Views"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: formidable-views.php
+msgid "https://formidableforms.com/"
+msgstr "https://formidableforms.com/"
+
+#. Description of the plugin
+#: formidable-views.php
+msgid "Add the power of views to Formidable Forms to display form submissions in listings, tables, calendars, and more."
+msgstr "Aggiungi la potenza delle views a Formidable Forms per visualizzare gli invii dei moduli in elenchi, tabelle, calendari e altro ancora."
+
+#. Author of the plugin
+#: formidable-views.php
+msgid "Strategy11"
+msgstr "Strategy11"
+
+#. translators: %s name.
+#: classes/controllers/FrmViewsAppController.php:146
+msgid "%s View"
+msgstr "%s Visualizzazione"
+
+#: classes/controllers/FrmViewsAppController.php:165
+#: classes/controllers/FrmViewsDisplaysController.php:25
+#: classes/controllers/FrmViewsDisplaysController.php:46
+#: classes/controllers/FrmViewsDisplaysController.php:65
+#: classes/controllers/FrmViewsDisplaysController.php:66
+#: classes/controllers/FrmViewsDisplaysController.php:179
+#: classes/controllers/FrmViewsDisplaysController.php:252
+#: classes/controllers/FrmViewsSimpleBlocksController.php:32
+#: classes/helpers/FrmViewsAppHelper.php:308
+#: classes/widgets/FrmViewsElementorWidget.php:14
+#: js/src/blocks/view/viewselect.js:39
+msgid "Views"
+msgstr "Viste"
+
+#: classes/controllers/FrmViewsAppController.php:298
+msgid "All"
+msgstr "Tutto"
+
+#: classes/controllers/FrmViewsDisplaysController.php:47
+#: classes/controllers/FrmViewsDisplaysController.php:48
+#: classes/controllers/FrmViewsDisplaysController.php:3433
+#: classes/views/displays/submitbox_actions.php:9
+#: classes/views/editor/publish_button.php:11
+#: classes/widgets/FrmViewsElementorWidget.php:40
+#: js/src/blocks/view/viewselect.js:38
+msgid "View"
+msgstr "Visualizza"
+
+#: classes/controllers/FrmViewsDisplaysController.php:49
+msgid "Edit"
+msgstr "Modifica"
+
+#: classes/controllers/FrmViewsDisplaysController.php:50
+msgid "Search"
+msgstr "Cerca"
+
+#: classes/controllers/FrmViewsDisplaysController.php:51
+msgid "No Views Found."
+msgstr "Nessuna visualizzazione trovata."
+
+#: classes/controllers/FrmViewsDisplaysController.php:52
+msgid "Add New View"
+msgstr "Aggiungi nuova visualizzazione"
+
+#: classes/controllers/FrmViewsDisplaysController.php:53
+msgid "Edit View"
+msgstr "Modifica visualizzazione"
+
+#: classes/controllers/FrmViewsDisplaysController.php:54
+msgid "Views list"
+msgstr ""
+
+#: classes/controllers/FrmViewsDisplaysController.php:55
+msgid "Views list navigation"
+msgstr ""
+
+#: classes/controllers/FrmViewsDisplaysController.php:56
+msgid "Filter Views list"
+msgstr ""
+
+#: classes/controllers/FrmViewsDisplaysController.php:84
+msgid "View all forms"
+msgstr "Visualizza tutti i moduli"
+
+#: classes/controllers/FrmViewsDisplaysController.php:216
+msgid "Submit for Review"
+msgstr "Invia per la revisione"
+
+#: classes/controllers/FrmViewsDisplaysController.php:221
+msgid "Schedule"
+msgstr "Programma"
+
+#: classes/controllers/FrmViewsDisplaysController.php:223
+msgid "Publish"
+msgstr "Pubblica"
+
+#: classes/controllers/FrmViewsDisplaysController.php:227
+#: classes/views/editor/publish_button.php:7
+#: js/editor.js:3746
+#: js/editor.js:3955
+#: js/editor.js:4292
+#: js/editor.js:7287
+msgid "Update"
+msgstr "Aggiorna"
+
+#: classes/controllers/FrmViewsDisplaysController.php:232
+msgid "Preview"
+msgstr "Anteprima"
+
+#: classes/controllers/FrmViewsDisplaysController.php:272
+msgid "Add new view"
+msgstr "Aggiungi una nuova view"
+
+#: classes/controllers/FrmViewsDisplaysController.php:279
+msgid "Add New"
+msgstr "Aggiungi Nuovo"
+
+#: classes/controllers/FrmViewsDisplaysController.php:289
+#: classes/controllers/FrmViewsDisplaysController.php:297
+#: js/editor.js:4972
+msgid "Duplicate"
+msgstr "Duplica"
+
+#: classes/controllers/FrmViewsDisplaysController.php:294
+msgid "Duplicate view"
+msgstr "View duplicata"
+
+#: classes/controllers/FrmViewsDisplaysController.php:319
+msgid "View Title"
+msgstr "Titolo vista"
+
+#: classes/controllers/FrmViewsDisplaysController.php:327
+#: classes/controllers/FrmViewsDisplaysController.php:501
+#: js/index.js:786
+msgid "Description"
+msgstr "Descrizione"
+
+#: classes/controllers/FrmViewsDisplaysController.php:328
+#: classes/controllers/FrmViewsEditorController.php:1664
+msgid "Form"
+msgstr "Modulo"
+
+#: classes/controllers/FrmViewsDisplaysController.php:329
+msgid "View Type"
+msgstr "Tipo di view"
+
+#: classes/controllers/FrmViewsDisplaysController.php:330
+#: classes/controllers/FrmViewsDisplaysController.php:500
+#: classes/views/displays/mb_dyncontent.php:50
+#: classes/views/editor/wysiwyg.php:6
+msgid "Content"
+msgstr "Contenuti"
+
+#: classes/controllers/FrmViewsDisplaysController.php:331
+#: classes/views/displays/mb_dyncontent.php:81
+msgid "Dynamic Content"
+msgstr "Contenuto dinamico"
+
+#: classes/controllers/FrmViewsDisplaysController.php:332
+msgid "Date"
+msgstr "Data"
+
+#: classes/controllers/FrmViewsDisplaysController.php:333
+#: classes/views/displays/mb_advanced.php:117
+msgid "Key"
+msgstr "Chiave"
+
+#: classes/controllers/FrmViewsDisplaysController.php:334
+msgid "Former ID"
+msgstr "ID Former"
+
+#: classes/controllers/FrmViewsDisplaysController.php:335
+#: js/editor.js:4900
+msgid "Actions"
+msgstr "Azioni"
+
+#: classes/controllers/FrmViewsDisplaysController.php:384
+msgid "N/A"
+msgstr "N/D"
+
+#: classes/controllers/FrmViewsDisplaysController.php:499
+msgid "Basic Settings"
+msgstr "Impostazioni di base"
+
+#: classes/controllers/FrmViewsDisplaysController.php:502
+#: js/editor.js:923
+msgid "Advanced Settings"
+msgstr "Impostazioni avanzate"
+
+#: classes/controllers/FrmViewsDisplaysController.php:503
+msgid "Customization"
+msgstr "Personalizzazione"
+
+#: classes/controllers/FrmViewsDisplaysController.php:1186
+msgid "day"
+msgstr "giorno"
+
+#: classes/controllers/FrmViewsDisplaysController.php:1186
+msgid "days"
+msgstr "giorni"
+
+#: classes/controllers/FrmViewsDisplaysController.php:1186
+msgid "daily"
+msgstr "giornalmente"
+
+#: classes/controllers/FrmViewsDisplaysController.php:1186
+msgid "week"
+msgstr "settimana"
+
+#: classes/controllers/FrmViewsDisplaysController.php:1186
+msgid "weeks"
+msgstr "settimane"
+
+#: classes/controllers/FrmViewsDisplaysController.php:1186
+msgid "weekly"
+msgstr "settimanalmente"
+
+#: classes/controllers/FrmViewsDisplaysController.php:1186
+msgid "month"
+msgstr "mese"
+
+#: classes/controllers/FrmViewsDisplaysController.php:1186
+msgid "months"
+msgstr "mesi"
+
+#: classes/controllers/FrmViewsDisplaysController.php:1186
+msgid "monthly"
+msgstr "mensilmente"
+
+#: classes/controllers/FrmViewsDisplaysController.php:1186
+msgid "year"
+msgstr "anno"
+
+#: classes/controllers/FrmViewsDisplaysController.php:1186
+msgid "years"
+msgstr "anni"
+
+#: classes/controllers/FrmViewsDisplaysController.php:1186
+msgid "yearly"
+msgstr "annualmente"
+
+#: classes/controllers/FrmViewsDisplaysController.php:1316
+msgid "There are no views with that ID"
+msgstr "Non ci sono visualizzazioni con quell'ID"
+
+#: classes/controllers/FrmViewsDisplaysController.php:3380
+msgid "Select a view:"
+msgstr "Seleziona una visualizzazione:"
+
+#: classes/controllers/FrmViewsDisplaysController.php:3392
+msgid "Filter shortcodes within the view content"
+msgstr "Filtra gli shortcode all'interno del contenuto della visualizzazione"
+
+#: classes/controllers/FrmViewsDisplaysController.php:3396
+#: classes/views/displays/mb_advanced.php:12
+#: js/editor.js:2479
+msgid "Limit"
+msgstr "Limite"
+
+#: classes/controllers/FrmViewsDisplaysController.php:3401
+msgid "Page size"
+msgstr "Dimensioni pagina"
+
+#: classes/controllers/FrmViewsDisplaysController.php:3406
+msgid "Entry order"
+msgstr "Ordinamento voci"
+
+#: classes/controllers/FrmViewsDisplaysController.php:3409
+#: js/editor.js:1756
+msgid "Default"
+msgstr "Predefinito"
+
+#: classes/controllers/FrmViewsDisplaysController.php:3410
+#: classes/views/displays/order_row.php:32
+#: js/editor.js:3944
+msgid "Ascending"
+msgstr "Ascendente"
+
+#: classes/controllers/FrmViewsDisplaysController.php:3411
+#: classes/views/displays/order_row.php:35
+#: js/editor.js:3945
+msgid "Descending"
+msgstr "Discendente"
+
+#: classes/controllers/FrmViewsDisplaysController.php:3416
+msgid "Include draft entries"
+msgstr "Includi bozze delle voci"
+
+#: classes/controllers/FrmViewsDisplaysController.php:3419
+msgid "No draft entries"
+msgstr "Nessuna voce in bozza"
+
+#: classes/controllers/FrmViewsDisplaysController.php:3420
+msgid "Only draft entries"
+msgstr "Solo voci in bozza"
+
+#: classes/controllers/FrmViewsDisplaysController.php:3421
+msgid "All entries"
+msgstr "Tutte le voci"
+
+#: classes/controllers/FrmViewsDisplaysController.php:3434
+msgid "Insert a View"
+msgstr "Inserisci una visualizzazione"
+
+#: classes/controllers/FrmViewsDisplaysController.php:3458
+msgid "Use Settings from View"
+msgstr "Usa impostazioni da Visualizzazione"
+
+#: classes/controllers/FrmViewsEditorController.php:509
+msgid "Your account license has expired. In order to access more Pro features, please renew your subscription."
+msgstr "La licenza del tuo account è scaduta. Per accedere a ulteriori funzioni Pro, rinnova l'abbonamento."
+
+#: classes/controllers/FrmViewsEditorController.php:1664
+#: classes/controllers/FrmViewsEditorController.php:1672
+#: classes/views/editor/header_view_editor_publish_wrapper.php:8
+msgid "Untitled"
+msgstr "Senza titolo"
+
+#: classes/controllers/FrmViewsEditorController.php:1726
+#: classes/views/displays/where_options.php:24
+msgid "Draft or complete entry"
+msgstr "Voce in bozza o completa"
+
+#: classes/controllers/FrmViewsEditorController.php:1727
+#: classes/views/displays/where_options.php:30
+msgid "Complete entry"
+msgstr "Completa voce"
+
+#: classes/controllers/FrmViewsEditorController.php:1728
+#: classes/views/displays/where_options.php:27
+msgid "Draft"
+msgstr "Bozza"
+
+#: classes/controllers/FrmViewsEditorController.php:1741
+msgid "Please return an array of options."
+msgstr "Riporta un array di opzioni."
+
+#: classes/helpers/FrmViewsAppHelper.php:367
+msgid "Previous Page"
+msgstr "Pagina precedente"
+
+#: classes/helpers/FrmViewsAppHelper.php:371
+msgid "Next Page"
+msgstr "Pagina successiva"
+
+#: classes/helpers/FrmViewsCalendarHeaderHelper.php:193
+msgid "Today"
+msgstr "Oggi"
+
+#: classes/helpers/FrmViewsDisplaysHelper.php:103
+msgid "No Entries Found"
+msgstr "Nessuna voce trovata"
+
+#: classes/helpers/FrmViewsDisplaysHelper.php:155
+#: js/editor.js:3725
+msgid "equals"
+msgstr "è uguale a"
+
+#: classes/helpers/FrmViewsDisplaysHelper.php:156
+#: js/editor.js:3726
+msgid "does not equal"
+msgstr "non è uguale a"
+
+#: classes/helpers/FrmViewsDisplaysHelper.php:157
+#: js/editor.js:3727
+msgid "is greater than"
+msgstr "è maggiore di"
+
+#: classes/helpers/FrmViewsDisplaysHelper.php:158
+#: js/editor.js:3728
+msgid "is less than"
+msgstr "è inferiore a"
+
+#: classes/helpers/FrmViewsDisplaysHelper.php:159
+#: js/editor.js:3729
+msgid "is greater than or equal to"
+msgstr "è maggiore o uguale a"
+
+#: classes/helpers/FrmViewsDisplaysHelper.php:160
+#: js/editor.js:3730
+msgid "is less than or equal to"
+msgstr "è inferiore o uguale a"
+
+#: classes/helpers/FrmViewsDisplaysHelper.php:161
+#: js/editor.js:3731
+msgid "contains"
+msgstr "contiene"
+
+#: classes/helpers/FrmViewsDisplaysHelper.php:162
+#: js/editor.js:3732
+msgid "does not contain"
+msgstr "non contiene"
+
+#: classes/helpers/FrmViewsDisplaysHelper.php:163
+#: js/editor.js:3733
+msgid "starts with"
+msgstr "inizia con"
+
+#: classes/helpers/FrmViewsDisplaysHelper.php:164
+#: js/editor.js:3734
+msgid "ends with"
+msgstr "finisce con"
+
+#: classes/helpers/FrmViewsDisplaysHelper.php:165
+#: js/editor.js:3735
+msgid "is unique (get oldest entries)"
+msgstr "è unico (ottieni le voci più vecchie)"
+
+#: classes/helpers/FrmViewsDisplaysHelper.php:166
+#: js/editor.js:3736
+msgid "is unique (get newest entries)"
+msgstr "è unico (ottieni le voci più recenti)"
+
+#: classes/helpers/FrmViewsDisplaysHelper.php:302
+msgid "Please return an array of valid view types."
+msgstr ""
+
+#: classes/helpers/FrmViewsDisplaysHelper.php:428
+#: js/editor.js:2917
+#: js/index.js:244
+msgid "Calendar"
+msgstr "Calendario"
+
+#: classes/helpers/FrmViewsDisplaysHelper.php:430
+#: js/editor.js:1380
+#: js/index.js:240
+msgid "Grid"
+msgstr "Griglia"
+
+#: classes/helpers/FrmViewsDisplaysHelper.php:432
+#: js/index.js:248
+msgid "Table"
+msgstr "Tabella"
+
+#: classes/helpers/FrmViewsDisplaysHelper.php:434
+#: js/editor.js:2925
+#: js/index.js:260
+msgid "Map"
+msgstr "Mappa"
+
+#: classes/helpers/FrmViewsDisplaysHelper.php:437
+#: js/editor.js:2855
+#: js/index.js:252
+msgid "Classic"
+msgstr "Classico"
+
+#: classes/models/FrmViewsDisplay.php:217
+#: classes/views/calendars/_calendar_options.php:9
+#: classes/views/calendars/_calendar_options.php:26
+#: classes/views/displays/order_row.php:15
+#: classes/views/displays/where_row.php:10
+#: classes/views/editor/field_select_template_options.php:8
+#: js/editor.js:1463
+#: js/index.js:744
+msgid "Entry creation date"
+msgstr "Data di creazione Voci"
+
+#: classes/models/FrmViewsDisplay.php:219
+#: classes/views/displays/where_row.php:13
+#: classes/views/editor/field_select_template_options.php:11
+msgid "Entry updated date"
+msgstr "Data aggiornamento voce"
+
+#: classes/models/FrmViewsDisplay.php:221
+#: classes/views/displays/order_row.php:9
+#: classes/views/displays/where_row.php:16
+#: classes/views/editor/field_select_template_options.php:14
+msgid "Entry ID"
+msgstr "ID Voce"
+
+#: classes/models/FrmViewsDisplay.php:223
+#: classes/views/displays/where_row.php:19
+#: classes/views/editor/field_select_template_options.php:17
+msgid "Entry key"
+msgstr "Chiave voce"
+
+#: classes/models/FrmViewsDisplay.php:225
+#: classes/views/displays/where_row.php:22
+#: classes/views/editor/field_select_template_options.php:20
+msgid "Post ID"
+msgstr "ID articolo"
+
+#: classes/models/FrmViewsDisplay.php:227
+msgid "Parent Entry ID"
+msgstr "ID voce genitore"
+
+#: classes/models/FrmViewsDisplay.php:229
+#: classes/views/displays/where_row.php:28
+#: classes/views/editor/field_select_template_options.php:26
+msgid "Entry status"
+msgstr "Stato voce"
+
+#: classes/models/FrmViewsDisplay.php:645
+msgid "Single Post"
+msgstr "Articolo singolo"
+
+#: classes/models/FrmViewsDisplay.php:653
+msgid "Used for the single post page"
+msgstr "Utilizzato per la pagina articolo singolo"
+
+#: classes/models/FrmViewsSettings.php:27
+msgid "Load More"
+msgstr "Carica di più"
+
+#: classes/views/actions/post_options.php:7
+#: classes/widgets/FrmViewsElementorWidget.php:32
+msgid "Select View"
+msgstr "Seleziona vista"
+
+#: classes/views/actions/post_options.php:9
+#: classes/views/displays/where_row.php:8
+#: classes/views/editor/field_select_template_options.php:6
+msgid "&mdash; Select &mdash;"
+msgstr "&mdash; Seleziona &mdash;"
+
+#: classes/views/actions/post_options.php:10
+#: js/index.js:115
+msgid "Create new view"
+msgstr "Crea una nuova view"
+
+#: classes/views/actions/post_options.php:26
+msgid "Customize Content"
+msgstr "Personalizza il contenuto"
+
+#: classes/views/actions/post_options.php:27
+msgid "The content shown on the single post page. If nothing is entered here, the regular post content will be used."
+msgstr "Il contenuto mostrato nella pagina del singolo articolo. Se non viene inserito nulla in questo campo, verrà utilizzato il contenuto normale dell'articolo."
+
+#: classes/views/actions/post_options.php:38
+msgid "Add text, HTML, and fields from a form to build the post content."
+msgstr "Aggiungi testo, HTML e campi da un modulo per creare il contenuto dell'articolo."
+
+#: classes/views/actions/post_options.php:45
+msgid "Editing this box will update the existing view or create a new one."
+msgstr "Modificando questa casella si aggiorna la view esistente o se ne crea una nuova."
+
+#: classes/views/calendars/_calendar_options.php:6
+#: js/editor.js:1055
+#: js/index.js:822
+msgid "Event Date"
+msgstr "Data Evento"
+
+#: classes/views/calendars/_calendar_options.php:12
+#: classes/views/calendars/_calendar_options.php:29
+#: classes/views/displays/order_row.php:18
+#: js/editor.js:1466
+#: js/index.js:745
+msgid "Entry update date"
+msgstr "Data Aggiornamento"
+
+#: classes/views/calendars/_calendar_options.php:22
+#: js/editor.js:1072
+#: js/index.js:839
+msgid "End Date or Day Count"
+msgstr "Data di fine o Conteggio Giorno"
+
+#: classes/views/calendars/_calendar_options.php:24
+msgid "No multi-day events"
+msgstr "Non ci sono eventi di più giorni"
+
+#: classes/views/calendars/_calendar_options.php:40
+#: js/editor.js:1199
+msgid "Repeat"
+msgstr "Ripeti"
+
+#: classes/views/calendars/_calendar_options.php:41
+msgid "Select a field from the form that contains values like 1 week, 2 weeks, 1 year, etc. This will set the repeat period for each event."
+msgstr "Seleziona un campo dal modulo che contenga valori come 1 settimana, 2 settimane, 1 anno, ecc. In questo modo verrà impostato il periodo di ripetizione per ogni evento."
+
+#: classes/views/calendars/_calendar_options.php:44
+#: js/editor.js:1278
+msgid "No repeating events"
+msgstr "Non ripetere evento"
+
+#: classes/views/calendars/_calendar_options.php:53
+#: js/editor.js:1223
+msgid "End Repeat"
+msgstr "Fine ripetizione"
+
+#: classes/views/calendars/_calendar_options.php:55
+#: js/editor.js:1286
+msgid "Never"
+msgstr "Mai"
+
+#: classes/views/displays/mb_advanced.php:13
+#: js/editor.js:2487
+msgid "If you don’t want all form entries displayed, you can insert the number limit here. Leave blank if you’d like all entries shown."
+msgstr "Se non vuoi che vengano visualizzate tutte le voci del modulo, puoi inserire qui il limite numerico. Lascia in bianco se vuoi che vengano visualizzate tutte le voci."
+
+#: classes/views/displays/mb_advanced.php:21
+#: js/editor.js:2498
+msgid "Page Size"
+msgstr "Dimensione pagina"
+
+#: classes/views/displays/mb_advanced.php:22
+#: js/editor.js:2511
+msgid "The number of entries to show per page. Leave blank to not use pagination."
+msgstr "Il numero di voci da visualizzare per pagina. Lascia vuoto per non utilizzare la paginazione."
+
+#: classes/views/displays/mb_advanced.php:31
+msgid "Sort & Filter"
+msgstr "Ordina & Filtra"
+
+#: classes/views/displays/mb_advanced.php:36
+msgid "Order"
+msgstr "Ordine"
+
+#: classes/views/displays/mb_advanced.php:40
+#: classes/views/displays/mb_advanced.php:63
+msgid "Add"
+msgstr "Aggiungi"
+
+#: classes/views/displays/mb_advanced.php:57
+msgid "Filter Entries"
+msgstr "Filtra voci"
+
+#: classes/views/displays/mb_advanced.php:58
+msgid "Narrow down which entries will be used. The Unique options uses SQL GROUP BY to make sure only one entry is shown for each value in the selected field(s)."
+msgstr "Restringi le voci che verranno utilizzate. L'opzione Unica usa SQL GROUP BY per assicurarsi che venga mostrata una sola voce per ogni valore del campo o dei campi selezionati."
+
+#: classes/views/displays/mb_advanced.php:79
+#: js/editor.js:795
+msgid "No Entries Message"
+msgstr "Messaggio nessuna voce"
+
+#: classes/views/displays/mb_advanced.php:87
+msgid "Advanced"
+msgstr "Avanzato"
+
+#: classes/views/displays/mb_advanced.php:92
+#: js/editor.js:820
+msgid "View Key"
+msgstr "Visualizza la chiave"
+
+#: classes/views/displays/mb_advanced.php:101
+#: js/editor.js:844
+msgid "Detail Page Slug"
+msgstr "Slug della pagina dettagli"
+
+#: classes/views/displays/mb_advanced.php:102
+#: js/editor.js:858
+msgid "Example: If parameter name is 'contact', the url would be like %1$s/selected-page?contact=2. If this entry is linked to a post, the post permalink will be used instead."
+msgstr "Esempio: Se il nome del parametro è 'contatto', l'url sarebbe come %1$s/pagina-selezionata?contatto=2. Se questa voce è legata ad un articolo, sarà invece utilizzato il permalink dell'articolo."
+
+#: classes/views/displays/mb_advanced.php:109
+msgid "Parameter Value"
+msgstr "Valore parametro"
+
+#: classes/views/displays/mb_advanced.php:114
+msgid "ID"
+msgstr "ID"
+
+#: classes/views/displays/mb_advanced.php:129
+msgid "Copy this View to other sites when Formidable Forms is activated. (Use only field keys in the content box(es) above.)"
+msgstr "Copia questa View in altri siti quando Formidable Forms è attivato. (Usa solo le chiavi di campo nei box in alto)."
+
+#: classes/views/displays/mb_dyncontent.php:10
+#: classes/views/displays/mb_dyncontent.php:13
+#: classes/views/displays/mb_dyncontent.php:22
+#: js/editor.js:3047
+msgid "Detail Page"
+msgstr "Pagina dettagli"
+
+#: classes/views/displays/mb_dyncontent.php:10
+#: classes/views/displays/mb_dyncontent.php:15
+#: js/editor.js:3041
+msgid "Listing Page"
+msgstr "Pagina elenco"
+
+#: classes/views/displays/mb_dyncontent.php:27
+msgid "This page lists multiple entries. Link to a single entry/detail page using [detaillink]"
+msgstr "Questa pagina elenca molte voci. Collega ad una singola pagina voce/dettagli usando [detaillink]"
+
+#: classes/views/displays/mb_dyncontent.php:30
+msgid "This is the detail page for a single entry in this form"
+msgstr "Questa è la pagina dei dettagli di una singola voce di questo modulo"
+
+#: classes/views/displays/mb_dyncontent.php:43
+msgid "Before Content"
+msgstr "Prima del contenuto"
+
+#: classes/views/displays/mb_dyncontent.php:44
+msgid "This content will not be repeated. This would be a good place to put any HTML table tags."
+msgstr "Questo contenuto non verrà ripetuto. Sarebbe un buon posto per inserire eventuali tag di una tabella HTML."
+
+#: classes/views/displays/mb_dyncontent.php:44
+#: classes/views/displays/mb_dyncontent.php:72
+msgid "optional"
+msgstr "opzionale"
+
+#: classes/views/displays/mb_dyncontent.php:51
+#: classes/views/editor/wysiwyg.php:7
+msgid "The HTML for the page. If 'All Entries' is selected above, this content will be repeated for each entry. The field ID and Key work synonymously, although there are times one choice may be better. If you are panning to copy the view settings to other blogs, use the Key since they will be copied and the ids may differ from blog to blog."
+msgstr "L'HTML della pagina. Se in precedenza è stato selezionato \"Tutte le voci\", questo contenuto verrà ripetuto per ogni voce. I campi ID e Chiave funzionano come sinonimi, anche se in alcuni casi è preferibile una sola scelta. Se vuoi copiare le impostazioni di visualizzazione su altri blog, usa la Chiave perché verranno copiate e gli ID potrebbero essere diversi da blog a blog."
+
+#: classes/views/displays/mb_dyncontent.php:58
+#: classes/views/editor/wysiwyg.php:12
+msgid "Disable visual editor for this view"
+msgstr "Disabilita l'editor visuale per questa visualizzazione"
+
+#: classes/views/displays/mb_dyncontent.php:60
+#: classes/views/editor/wysiwyg.php:14
+msgid "It is recommended to check this box if you include a <table> tag in the Before Content box. If you are editing a view and notice the visual tab is selected and the table HTML is missing, you can switch to the HTML tab, go up to the url in your browser and hit enter to reload the page. As long as the settings have not been saved, the old HTML will be back to way it was before loading it in the visual tab."
+msgstr "Ti consigliamo di selezionare questa casella se si include un tag <table> nella casella Prima del contenuto. Se stai modificando una view e noti che è selezionata la scheda visuale e manca l'HTML della tabella, puoi passare alla scheda HTML, andare all'url nel browser e premere invio per ricaricare la pagina. Se le impostazioni non sono state salvate, il vecchio HTML tornerà a essere quello che era prima del caricamento nella scheda visuale."
+
+#: classes/views/displays/mb_dyncontent.php:70
+msgid "After Content"
+msgstr "Dopo il contenuto"
+
+#: classes/views/displays/mb_dyncontent.php:71
+msgid "This content will not be repeated. This would be a good place to close any HTML tags from the Before Content field."
+msgstr "Questo contenuto non verrà ripetuto. Sarebbe un buon posto per chiudere eventuali tag dal campo Prima del contenuto HTML."
+
+#: classes/views/displays/mb_dyncontent.php:82
+msgid "The HTML for the entry on the dynamic page. This content will NOT be repeated, and will only show when the %1$s is clicked."
+msgstr "Il codice HTML per la voce nella pagina dinamica. Questo contenuto NON verrà ripetuto, e sarà mostrato solo quando si fa clic su %1$s."
+
+#: classes/views/displays/mb_excerpt.php:7
+msgid "This is not displayed anywhere, but is just for your reference. (optional)"
+msgstr "Questo non viene visualizzato da nessuna parte, ma è solo per il tuo riferimento. (facoltativo)"
+
+#: classes/views/displays/mb_form_disp_type.php:9
+#: js/editor.js:2669
+#: js/index.js:342
+msgid "Use Entries from Form"
+msgstr "Utilizza voci dal modulo"
+
+#: classes/views/displays/mb_form_disp_type.php:18
+msgid "View Format"
+msgstr "Formato visualizzazione"
+
+#: classes/views/displays/mb_form_disp_type.php:26
+msgid "All Entries &mdash; list all entries in the specified form"
+msgstr "Tutte le voci &mdash; elenca tutte le voci del modulo specificato"
+
+#: classes/views/displays/mb_form_disp_type.php:31
+msgid "Single Entry &mdash; display one entry"
+msgstr "Voce singola &mdash; visualizza una voce"
+
+#: classes/views/displays/mb_form_disp_type.php:36
+msgid "Both (Dynamic) &mdash; list the entries that will link to a single entry page"
+msgstr "Entrambi (Dynamic) &mdash; elenca le voci che saranno collegato ad una singola pagina voce"
+
+#: classes/views/displays/mb_form_disp_type.php:42
+msgid "Calendar &mdash; insert entries into a calendar"
+msgstr "Calendario &mdash; inserisci voci in un calendario"
+
+#: classes/views/displays/order_row.php:12
+msgid "Entry Key"
+msgstr "Inserisci chiave"
+
+#: classes/views/displays/order_row.php:21
+#: js/editor.js:3679
+msgid "Random"
+msgstr "Casuale"
+
+#. translators: accessibility text
+#: classes/views/displays/publish-box.php:18
+msgid "(opens in a new tab)"
+msgstr "(si apre in una nuova scheda)"
+
+#: classes/views/displays/submitbox_actions.php:10
+msgid "Shortcodes"
+msgstr "Shortcode"
+
+#: classes/views/displays/submitbox_actions.php:13
+msgid "Show"
+msgstr "Mostra"
+
+#: classes/views/displays/submitbox_actions.php:16
+msgid "Save to get ID"
+msgstr "Salva per ottenere l'ID"
+
+#: classes/views/displays/submitbox_actions.php:22
+msgid "Insert with PHP"
+msgstr "Inserisci con PHP"
+
+#: classes/views/displays/submitbox_actions.php:29
+msgid "Hide"
+msgstr "Nascondi"
+
+#: classes/views/displays/where_options.php:36
+#: js/editor.js:3697
+msgid "Date options: 'NOW' or a date in yyyy-mm-dd format."
+msgstr "Opzioni Data: 'ORA' o una data nel formato gg-mm-yyyy."
+
+#: classes/views/displays/where_row.php:25
+#: classes/views/editor/field_select_template_options.php:23
+msgid "Parent entry ID"
+msgstr "ID voce-genitore"
+
+#: classes/views/displays/where_row.php:36
+#: classes/views/editor/field_select_template_options.php:94
+msgid "IP"
+msgstr "IP"
+
+#: classes/views/displays/where_row.php:39
+msgid "is"
+msgstr "è"
+
+#: classes/views/editor/field_select_template_options.php:43
+msgid "First"
+msgstr "Primo"
+
+#: classes/views/editor/field_select_template_options.php:44
+msgid "Last"
+msgstr "Ultimo"
+
+#: classes/views/editor/field_select_template_options.php:67
+msgid "Country"
+msgstr "Paese"
+
+#: classes/views/editor/field_select_template_options.php:68
+msgid "State"
+msgstr "Stato"
+
+#: classes/views/editor/field_select_template_options.php:69
+msgid "City"
+msgstr "Città"
+
+#: classes/views/editor/field_select_template_options.php:70
+msgid "Zip"
+msgstr "Zip"
+
+#: classes/views/editor/publish_button.php:15
+msgid "Embed"
+msgstr "Incorpora"
+
+#: classes/views/index/new-view-icons.php:32
+msgid "Create view"
+msgstr "Crea view"
+
+#: classes/views/settings/messages.php:8
+msgid "Load More Button Text"
+msgstr "Testo del pulsante Carica altro"
+
+#: classes/views/settings/messages.php:9
+msgid "The text used in the Load More button that appears in views with AJAX Pagination."
+msgstr "Il testo utilizzato nel pulsante Carica altro che appare nelle viste con paginazione AJAX."
+
+#: classes/widgets/FrmListEntries.php:12
+msgid "Display a list of Formidable entries"
+msgstr "Visualizza un elenco di voci Formidable"
+
+#: classes/widgets/FrmListEntries.php:13
+msgid "Formidable Entries List"
+msgstr "Elenco voci Formidable"
+
+#: classes/widgets/FrmListEntries.php:62
+#: js/index.js:770
+msgid "Title"
+msgstr "Titolo"
+
+#: classes/widgets/FrmListEntries.php:67
+msgid "Views with a \"Both (Dynamic)\" format will show here."
+msgstr "Le viste con formato \"Entrambi (Dinamico)\" verranno mostrate qui."
+
+#: classes/widgets/FrmListEntries.php:69
+msgid "Page"
+msgstr "Pagina"
+
+#: classes/widgets/FrmListEntries.php:80
+msgid "Title Field"
+msgstr "Campo Titolo"
+
+#: classes/widgets/FrmListEntries.php:98
+msgid "List Entries by Category"
+msgstr "Elenca voci per categoria"
+
+#: classes/widgets/FrmListEntries.php:102
+msgid "Category Field"
+msgstr "Campo categoria"
+
+#: classes/widgets/FrmListEntries.php:119
+msgid "Show Entry Counts"
+msgstr "Mostra conteggio voci"
+
+#: classes/widgets/FrmListEntries.php:124
+msgid "Show Only Category Name"
+msgstr "Mostra solo Nome categoria"
+
+#: classes/widgets/FrmListEntries.php:129
+msgid "Show Entries Beneath Categories"
+msgstr "Mostra voci sotto categorie"
+
+#: classes/widgets/FrmListEntries.php:136
+msgid "Entry Limit (leave blank to list all)"
+msgstr "Limite voci (lascia vuoto per elencarle tutte)"
+
+#: formidable-views.php:49
+msgid "Formidable Views requires Formidable Forms to be installed."
+msgstr "Formidable Views richiede l'installazione di Formidable Forms."
+
+#: formidable-views.php:51
+msgid "Install Formidable Forms"
+msgstr "Installa Formidable Forms"
+
+#: formidable-views.php:61
+msgid "Formidable Views requires Formidable Forms Pro to be installed."
+msgstr "Formidable Views richiede l'installazione di Formidable Forms Pro."

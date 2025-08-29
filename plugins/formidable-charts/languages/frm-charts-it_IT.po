@@ -1,0 +1,669 @@
+# Copyright (C) 2024 Strategy11
+# This file is distributed under the GPL-2.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: a2d8bc55ffb2a23897925e74530a7308\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/formidable-charts\n"
+"Last-Translator: \n"
+"Language-Team: Italian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-04-29T14:28:17+00:00\n"
+"PO-Revision-Date: 2024-05-04 22:47\n"
+"X-Generator: WP-CLI 2.10.0\n"
+"X-Domain: frm-charts\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: a2d8bc55ffb2a23897925e74530a7308\n"
+"X-Crowdin-Project-ID: 28\n"
+"X-Crowdin-Language: it\n"
+"X-Crowdin-File: /[Strategy11.formidable-charts] master/languages/frm-charts.pot\n"
+"X-Crowdin-File-ID: 2492\n"
+"Language: it_IT\n"
+
+#. Plugin Name of the plugin
+#: formidable-charts.php
+msgid "Formidable Charts"
+msgstr "Formidable Charts"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: formidable-charts.php
+msgid "https://formidableforms.com/"
+msgstr "https://formidableforms.com/"
+
+#. Description of the plugin
+#: formidable-charts.php
+msgid "Build charts and graphs from your Formidable data."
+msgstr "Crea grafici e diagrammi con i dati di Formidable."
+
+#. Author of the plugin
+#: formidable-charts.php
+msgid "Strategy11"
+msgstr "Strategy11"
+
+#: classes/controllers/FrmChartsAppController.php:22
+msgid "Formidable Charts requires Formidable Forms Pro to be activated."
+msgstr "Formidable Charts richiede l'attivazione di Formidable Forms Pro."
+
+#: classes/controllers/FrmChartsGraphController.php:228
+msgid "The number of entries"
+msgstr "Il numero di voci"
+
+#: classes/controllers/FrmChartsGraphController.php:229
+msgid "Add the field values together"
+msgstr "Aggiungi i valori del campo insieme"
+
+#: classes/controllers/FrmChartsGraphController.php:230
+msgid "Average the totaled field values"
+msgstr "Media dei valori totali dei campi"
+
+#: classes/controllers/FrmChartsRESTController.php:75
+msgid "No form ID"
+msgstr "Nessun ID modulo"
+
+#: blocks-src/graph/components/AddPropertiesControl.js:250
+msgid "+ Add more properties"
+msgstr "+ Aggiungi altre proprietà"
+
+#: blocks-src/graph/components/ColorPaletteOrPicker.js:26
+msgid "Select a color"
+msgstr "Seleziona un colore"
+
+#: blocks-src/graph/components/ColorPaletteOrPicker.js:37
+msgid "Custom color"
+msgstr "Colore personalizzato"
+
+#: blocks-src/graph/components/ColorPaletteOrPicker.js:48
+msgid "Theme color"
+msgstr "Colore del tema"
+
+#: blocks-src/graph/components/ColorPickerButton.js:23
+msgid "color"
+msgstr "colore"
+
+#: blocks-src/graph/components/DataSourceControl.js:7
+#: blocks-src/graph/components/DataSourceControl.js:36
+msgid "Select data source"
+msgstr "Seleziona la fonte dei dati"
+
+#: blocks-src/graph/components/DataSourceControl.js:11
+msgid "Created at"
+msgstr "Creato a"
+
+#: blocks-src/graph/components/DataSourceControl.js:15
+msgid "Updated at"
+msgstr "Aggiornato a"
+
+#: blocks-src/graph/components/FieldsSelect.js:62
+msgid "Select fields"
+msgstr "Seleziona i campi"
+
+#: blocks-src/graph/components/FilterRow.js:11
+msgid "Select a field"
+msgstr "Seleziona un campo"
+
+#: blocks-src/graph/components/FilterRow.js:67
+msgid "Enter filtering value"
+msgstr "Inserisci il valore del filtro"
+
+#: blocks-src/graph/components/FiltersModal.js:49
+msgid "+ Add filters"
+msgstr "+ Aggiungi filtri"
+
+#: blocks-src/graph/components/FiltersModal.js:54
+msgid "Add filters"
+msgstr "Aggiungi filtri"
+
+#: blocks-src/graph/components/FiltersModal.js:71
+msgid "+ Add filter"
+msgstr "+ Aggiungi un filtro"
+
+#: blocks-src/graph/components/FiltersModal.js:80
+msgid "Cancel"
+msgstr "Annulla"
+
+#: blocks-src/graph/components/FiltersModal.js:81
+msgid "Save"
+msgstr "Salva"
+
+#: blocks-src/graph/components/FormFieldsSelect.js:60
+msgid "Sort fields"
+msgstr "Ordina i campi"
+
+#: blocks-src/graph/components/FormSelect.js:44
+msgid "(no title)"
+msgstr "(nessun titolo)"
+
+#: blocks-src/graph/components/FormSelect.js:48
+msgid "Select a form"
+msgstr "Seleziona un modulo"
+
+#: blocks-src/graph/components/MultiSelectWithSearch.js:44
+msgid "%d selected"
+msgstr "%d selezionati"
+
+#: blocks-src/graph/components/MultiSelectWithSearch.js:71
+#: blocks-src/graph/components/SelectWithSearch.js:75
+msgid "No results"
+msgstr "Nessun risultato"
+
+#: blocks-src/graph/edit.js:117
+msgid "Loading graph..."
+msgstr "Caricamento del grafico..."
+
+#: blocks-src/graph/helpers.js:241
+msgid "Column"
+msgstr "Colonna"
+
+#: blocks-src/graph/helpers.js:246
+msgid "Horizontal bar"
+msgstr "Barra orizzontale"
+
+#: blocks-src/graph/helpers.js:251
+msgid "Pie chart"
+msgstr "Grafico a torta"
+
+#: blocks-src/graph/helpers.js:256
+msgid "Line"
+msgstr "Linea"
+
+#: blocks-src/graph/helpers.js:261
+msgid "Area"
+msgstr "Area"
+
+#: blocks-src/graph/helpers.js:266
+msgid "Scatter"
+msgstr "Dispersione"
+
+#: blocks-src/graph/helpers.js:271
+msgid "Stepped"
+msgstr "A gradini"
+
+#: blocks-src/graph/helpers.js:276
+msgid "Map"
+msgstr "Mappa"
+
+#: blocks-src/graph/helpers.js:281
+msgid "Table"
+msgstr "Tabella"
+
+#: blocks-src/graph/helpers.js:289
+msgid "Group by"
+msgstr "Raggruppa per"
+
+#: blocks-src/graph/helpers.js:294
+msgid "None"
+msgstr "Nessuna"
+
+#: blocks-src/graph/helpers.js:298
+msgid "Month"
+msgstr "Mese"
+
+#: blocks-src/graph/helpers.js:302
+msgid "Quarter"
+msgstr "Trimestre"
+
+#: blocks-src/graph/helpers.js:306
+msgid "Year"
+msgstr "Anno"
+
+#: blocks-src/graph/helpers.js:309
+msgid "Group entries by month, quarter, or year."
+msgstr "Raggruppa le voci per mese, trimestre o anno."
+
+#: blocks-src/graph/helpers.js:313
+msgid "Is stacked"
+msgstr "È incolonnato"
+
+#: blocks-src/graph/helpers.js:315
+msgid "Place related values atop one another. If there are any negative values, they are stacked in reverse order below the chart's axis baseline."
+msgstr "Posiziona i valori correlati uno sopra l'altro. Se ci sono valori negativi, vengono sovrapposti in ordine inverso sotto la linea di base dell'asse del grafico."
+
+#: blocks-src/graph/helpers.js:319
+#: blocks-src/graph/helpers.js:378
+msgid "Title size"
+msgstr "Dimensione del titolo"
+
+#: blocks-src/graph/helpers.js:321
+msgid "Set the font size of the x-axis title. This parameter will only apply if x_title is included."
+msgstr "Imposta la dimensione del font del titolo dell'asse x. Questo parametro si applica solo se x_title è incluso."
+
+#: blocks-src/graph/helpers.js:325
+#: blocks-src/graph/helpers.js:384
+msgid "Title color"
+msgstr "Colore del titolo"
+
+#: blocks-src/graph/helpers.js:328
+msgid "Set the font color of the x-axis title. This parameter will only apply if x_title is included."
+msgstr "Imposta il colore del carattere del titolo dell'asse x. Questo parametro si applica solo se x_title è incluso."
+
+#: blocks-src/graph/helpers.js:332
+#: blocks-src/graph/helpers.js:390
+msgid "Labels size"
+msgstr "Dimensioni delle etichette"
+
+#: blocks-src/graph/helpers.js:334
+msgid "Set the font size of the labels on the x-axis."
+msgstr "Imposta la dimensione del font delle etichette sull'asse x."
+
+#: blocks-src/graph/helpers.js:338
+msgid "Slanted text"
+msgstr "Testo inclinato"
+
+#: blocks-src/graph/helpers.js:341
+msgid "By default the labels on the x-axis are slanted. To remove the slant and make the labels horizontal, use x_slanted_text=0."
+msgstr "Per impostazione predefinita, le etichette sull'asse x sono inclinate. Per rimuovere l'inclinazione e rendere le etichette orizzontali, usa x_slanted_text=0."
+
+#: blocks-src/graph/helpers.js:345
+msgid "Text angle"
+msgstr "Inclinazione del testo"
+
+#: blocks-src/graph/helpers.js:346
+msgid "Set the angle of the slanted text labels on the x axis."
+msgstr "Imposta l'angolo delle etichette di testo inclinate sull'asse x."
+
+#: blocks-src/graph/helpers.js:350
+msgid "Show text every"
+msgstr "Mostra un testo qualsiasi"
+
+#: blocks-src/graph/helpers.js:351
+msgid "Determine how often an x-axis label should be displayed. If you would like to show the x-axis label for every bar or coordinate, use x_show_text_every=\"1\". If you would like to show the x-axis label for every three bars or coordinates, use x_show_text_every=\"3\"."
+msgstr "Determina la frequenza con cui deve essere visualizzata l'etichetta dell'asse x. Se vuoi mostrare l'etichetta dell'asse x per ogni barra o coordinata, usa x_show_text_every=\"1\". Se vuoi mostrare l'etichetta dell'asse x ogni tre barre o coordinate, usa x_show_text_every=\"3\"."
+
+#: blocks-src/graph/helpers.js:355
+msgid "Order"
+msgstr "Ordine"
+
+#: blocks-src/graph/helpers.js:360
+msgid "Default"
+msgstr "Predefinito"
+
+#: blocks-src/graph/helpers.js:364
+msgid "Field options"
+msgstr "Opzioni del campo"
+
+#: blocks-src/graph/helpers.js:368
+msgid "Description"
+msgstr "Descrizione"
+
+#: blocks-src/graph/helpers.js:371
+msgid "Determine the order for your x-axis labels. By default, a field's options will be graphed alphabetically. You may reverse this order with x_order=\"desc\". If you're graphing a checkbox, dropdown, or radio button field and you would like to remove alphabetical ordering, add x_order=\"field_opts\" to your graph shortcode. When you remove alphabetical ordering, the options will be graphed in the same order as your field options."
+msgstr "Determina l'ordine delle etichette dell'asse x. Per impostazione predefinita, le opzioni di un campo saranno rappresentate in ordine alfabetico. Puoi invertire l'ordine con x_order=\"desc\". Se stai tracciando il grafico di una casella di controllo, di un menu a tendina o di un pulsante di opzione e desideri rimuovere l'ordine alfabetico, aggiungi x_order=\"field_opts\" al tuo shortcode del grafico. Quando rimuovi l'ordine alfabetico, le opzioni saranno rappresentate nello stesso ordine delle opzioni del campo."
+
+#: blocks-src/graph/helpers.js:380
+msgid "Set the font size of the y-axis title. This parameter will only apply if y_title is included."
+msgstr "Imposta la dimensione del font del titolo dell'asse y. Questo parametro si applica solo se y_title è incluso."
+
+#: blocks-src/graph/helpers.js:386
+msgid "Set the font color of the y-axis title. This parameter will only apply if y_title is included."
+msgstr "Imposta il colore del font del titolo dell'asse y. Questo parametro si applica solo se y_title è incluso."
+
+#: blocks-src/graph/helpers.js:392
+msgid "Set the font size of the labels on the y-axis."
+msgstr "Imposta la dimensione del font delle etichette sull'asse y."
+
+#: blocks-src/graph/helpers.js:399
+msgid "Background color"
+msgstr "Colore sfondo"
+
+#: blocks-src/graph/helpers.js:401
+msgid "Change the background color."
+msgstr "Cambia il colore dello sfondo."
+
+#: blocks-src/graph/helpers.js:405
+msgid "Grid color"
+msgstr "Colore della griglia"
+
+#: blocks-src/graph/helpers.js:407
+msgid "Change the color of the horizontal lines on the graph."
+msgstr "Cambia il colore delle linee orizzontali del grafico."
+
+#: blocks-src/graph/helpers.js:411
+msgid "X grid color"
+msgstr "Colore griglia X"
+
+#: blocks-src/graph/helpers.js:413
+msgid "Change the color of the vertical lines on the graph."
+msgstr "Cambia il colore delle linee verticali del grafico."
+
+#: blocks-src/graph/helpers.js:417
+msgid "Chart width"
+msgstr "Larghezza del diagramma"
+
+#: blocks-src/graph/helpers.js:420
+msgid "Set the width of the chart area to pixels or a percent."
+msgstr "Imposta la larghezza dell'area del diagramma in pixel o in percentuale."
+
+#: blocks-src/graph/helpers.js:424
+msgid "Chart height"
+msgstr "Altezza del diagramma"
+
+#: blocks-src/graph/helpers.js:427
+msgid "Set the height of the chart area to pixels or a percent."
+msgstr "Imposta l'altezza dell'area del diagramma in pixel o in percentuale."
+
+#: blocks-src/graph/helpers.js:431
+msgid "Chart top"
+msgstr "Diagramma in alto"
+
+#: blocks-src/graph/helpers.js:434
+msgid "Set the top placement of the chart area to pixels or a percent."
+msgstr "Imposta il posizionamento superiore dell'area del diagramma in pixel o in percentuale."
+
+#: blocks-src/graph/helpers.js:438
+msgid "Chart left"
+msgstr "Diagramma a sinistra"
+
+#: blocks-src/graph/helpers.js:441
+msgid "Set the left placement of the chart area to pixels or a percent."
+msgstr "Imposta il posizionamento a sinistra dell'area del diagramma in pixel o in percentuale."
+
+#: blocks-src/graph/helpers.js:445
+msgid "3D graph"
+msgstr "Grafico 3D"
+
+#: blocks-src/graph/helpers.js:448
+msgid "Turn your graph three-dimensional. This option is only available for pie graphs."
+msgstr "Rendi il tuo grafico tridimensionale. Questa opzione è disponibile solo per i grafici a torta."
+
+#: blocks-src/graph/helpers.js:452
+msgid "Pie hole"
+msgstr "Pie hole"
+
+#: blocks-src/graph/helpers.js:458
+msgid "Turn your pie graph into a donut graph. This option accepts values between 0 and .9, corresponding to the ratio of the donut hole to the chart."
+msgstr "Trasforma il tuo grafico a torta in un grafico a ciambella. Questa opzione accetta valori compresi tra 0 e .9, corrispondenti al rapporto tra il diametro della ciambella e il diagramma."
+
+#: blocks-src/graph/helpers.js:462
+msgid "Curve line"
+msgstr "Linea della curva"
+
+#: blocks-src/graph/helpers.js:465
+msgid "Smooth the lines of a line graph."
+msgstr "Sfuma le linee di un grafico a linee."
+
+#: blocks-src/graph/helpers.js:469
+msgid "No data"
+msgstr "Nessun dato"
+
+#: blocks-src/graph/helpers.js:470
+msgid "Determine the message that will display when there is no data to be shown on the graph."
+msgstr "Determina il messaggio che verrà visualizzato quando non ci sono dati da mostrare sul grafico."
+
+#: blocks-src/graph/helpers.js:474
+msgid "Page size"
+msgstr "Dimensioni pagina"
+
+#: blocks-src/graph/helpers.js:479
+msgid "The number of rows in each page, when using the table graph type."
+msgstr "Il numero di righe in ogni pagina, quando si utilizza il tipo di grafico a tabella."
+
+#: blocks-src/graph/helpers.js:483
+msgid "Sort column"
+msgstr "Ordinamento della colonna"
+
+#: blocks-src/graph/helpers.js:485
+msgid "Change the column to sort by on page load when using the table graph type. 0 is the first column and 1 is column 2."
+msgstr "Cambia la colonna per cui ordinare al caricamento della pagina quando si utilizza il tipo di grafico a tabella. 0 è la prima colonna e 1 è la seconda colonna."
+
+#: blocks-src/graph/helpers.js:489
+msgid "Sort ascending"
+msgstr "Ordina in modo ascendente"
+
+#: blocks-src/graph/helpers.js:491
+msgid "Change the sorting order on page load when using the table graph type."
+msgstr "Cambia l'ordine di ordinamento al caricamento della pagina quando si utilizza il tipo di grafico a tabella."
+
+#: blocks-src/graph/helpers.js:498
+msgid "Legend size"
+msgstr "Dimensione della legenda"
+
+#: blocks-src/graph/helpers.js:500
+msgid "Change the size of the legend in pixels. This parameter will only apply if show_key is included."
+msgstr "Modifica la dimensione della legenda in pixel. Questo parametro si applica solo se show_key è incluso."
+
+#: blocks-src/graph/helpers.js:504
+msgid "Tooltip label"
+msgstr "Etichetta del tooltip"
+
+#: blocks-src/graph/helpers.js:505
+msgid "Change the default tooltip label for a graph. The tooltip label defaults to the field title."
+msgstr "Cambia l'etichetta predefinita del tooltip di un grafico. L'etichetta del tooltip corrisponde di default al titolo del campo."
+
+#: blocks-src/graph/helpers.js:536
+msgid "Right"
+msgstr "Destra"
+
+#: blocks-src/graph/helpers.js:540
+msgid "Left"
+msgstr "Sinistra"
+
+#: blocks-src/graph/helpers.js:544
+msgid "Top"
+msgstr "Alto"
+
+#: blocks-src/graph/helpers.js:548
+msgid "Bottom"
+msgstr "In basso"
+
+#: blocks-src/graph/helpers.js:554
+msgid "Select a filter"
+msgstr "Seleziona un filtro"
+
+#: blocks-src/graph/helpers.js:558
+msgid "User ID"
+msgstr "ID utente"
+
+#: blocks-src/graph/helpers.js:560
+msgid "Graph entries for a specific user or for the current logged-in user. Insert the ID of a specific user or use 'current' to only graph data from the current user."
+msgstr "Le voci del grafico di un utente specifico o dell'utente correntemente connesso. Inserisci l'ID di un utente specifico o usa 'current' per i dati del grafico dell'utente corrente."
+
+#: blocks-src/graph/helpers.js:563
+msgid "Entry"
+msgstr "Voce"
+
+#: blocks-src/graph/helpers.js:565
+msgid "Display a graph of a specific entry or entries. You may use entry IDs or keys."
+msgstr "Visualizza il grafico di una o più voci specifiche. Puoi utilizzare gli ID delle voci o le chiavi."
+
+#: blocks-src/graph/helpers.js:568
+msgid "Entry status"
+msgstr "Stato voce"
+
+#: blocks-src/graph/helpers.js:570
+msgid "By default, the frm-graph shortcode does not include draft entries. You can choose to include only drafts using drafts=\"1\", or both drafts and entries using drafts=\"both\"."
+msgstr "Per impostazione predefinita, lo shortcode frm-graph non include le bozze. Puoi scegliere di includere solo le bozze utilizzando drafts=\"1\", oppure sia le bozze che le voci utilizzando drafts=\"both\"."
+
+#: blocks-src/graph/helpers.js:575
+msgid "Only include entries created after a specific or dynamic date. For example, you may show entries created in the last month with created_at_greater_than=\"-1 month\" or use a specific date like created_at_greater_than=\"2016-07-31\". When using a specific date, it must be in the Y-m-d format."
+msgstr "Include solo le voci create dopo una data specifica o dinamica. Ad esempio, puoi mostrare le voci create nell'ultimo mese con created_at_greater_than=\"-1 mese\" o utilizzare una data specifica come created_at_greater_than=\"2016-07-31\". Quando si utilizza una data specifica, questa deve essere nel formato Y-m-d."
+
+#: blocks-src/graph/helpers.js:580
+msgid "Only include entries created before a specific or dynamic date. For example, you may show entries created before today with created_at_less_than=\"-1 day\" or use a specific date like created_at_less_than=\"2016-05-31\". When using a specific date, it must be in the Y-m-d format."
+msgstr "Include solo le voci create prima di una data specifica o dinamica. Ad esempio, puoi mostrare le voci create prima di oggi con created_at_less_than=\"-1 day\" o utilizzare una data specifica come created_at_less_than=\"2016-05-31\". Quando si utilizza una data specifica, questa deve essere nel formato Y-m-d."
+
+#: blocks-src/graph/helpers.js:583
+msgid "Limit"
+msgstr "Limite"
+
+#: blocks-src/graph/helpers.js:585
+msgid "Limit the number of bars, coordinates, or pie slices displayed in the graph. This will limit the graph to the highest values."
+msgstr "Limita il numero di barre, coordinate o spicchi di torta da visualizzare nel grafico. Questo limiterà il grafico ai valori più alti."
+
+#: blocks-src/graph/helpers.js:588
+msgid "Field is equal to"
+msgstr "Il campo è uguale a"
+
+#: blocks-src/graph/helpers.js:590
+msgid "Only include entries where another field in the form has a specific value."
+msgstr "Include solo le voci in cui un altro campo del modulo ha un valore specifico."
+
+#: blocks-src/graph/helpers.js:593
+msgid "Field is NOT equal to"
+msgstr "Il campo NON è uguale a"
+
+#: blocks-src/graph/helpers.js:595
+msgid "Only include entries where another field in the form is NOT equal to a specific value."
+msgstr "Include solo le voci in cui un altro campo del modulo NON è uguale a un valore specifico."
+
+#: blocks-src/graph/helpers.js:598
+msgid "Field is greater than"
+msgstr "Il campo è maggiore di"
+
+#: blocks-src/graph/helpers.js:600
+msgid "Only include entries where another field in the form is greater than a specific value."
+msgstr "Include solo le voci in cui un altro campo del modulo è maggiore di un valore specifico."
+
+#: blocks-src/graph/helpers.js:603
+msgid "Field is greater than or equal to"
+msgstr "Il campo è maggiore o uguale a"
+
+#: blocks-src/graph/helpers.js:605
+msgid "Only include entries where another field in the form is greater than or equal to a specific value."
+msgstr "Include solo le voci in cui un altro campo del modulo è maggiore o uguale a un valore specifico."
+
+#: blocks-src/graph/helpers.js:608
+msgid "Field is less than"
+msgstr "Il campo è inferiore a"
+
+#: blocks-src/graph/helpers.js:610
+msgid "Only include entries where another field in the form is less than a specific value."
+msgstr "Include solo le voci in cui un altro campo del modulo è inferiore a un valore specifico."
+
+#: blocks-src/graph/helpers.js:613
+msgid "Field is less than or equal to"
+msgstr "Il campo è inferiore o uguale a"
+
+#: blocks-src/graph/helpers.js:615
+msgid "Only include entries where another field in the form is less than or equal to a specific value."
+msgstr "Include solo le voci in cui un altro campo del modulo è inferiore o uguale a un valore specifico."
+
+#: blocks-src/graph/helpers.js:618
+msgid "Field contains"
+msgstr "Il campo contiene"
+
+#: blocks-src/graph/helpers.js:620
+msgid "Only include entries where another field in the form contains a specific value."
+msgstr "Include solo le voci in cui un altro campo del modulo contiene un valore specifico."
+
+#: blocks-src/graph/sections/SectionChart.js:11
+msgid "Chart settings"
+msgstr "Impostazioni del diagramma"
+
+#: blocks-src/graph/sections/SectionChart.js:12
+msgid "Type"
+msgstr "Tipo"
+
+#: blocks-src/graph/sections/SectionDataSource.js:9
+msgid "Primary data source"
+msgstr "Fonte dei dati primari"
+
+#: blocks-src/graph/sections/SectionLegend.js:13
+msgid "Legend"
+msgstr "Leggenda"
+
+#: blocks-src/graph/sections/SectionLegend.js:15
+msgid "Display a legend"
+msgstr "Visualizza una legenda"
+
+#: blocks-src/graph/sections/SectionLegend.js:24
+msgid "Legend position"
+msgstr "Posizione della leggenda"
+
+#: blocks-src/graph/sections/SectionShortcode.js:20
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: blocks-src/graph/sections/SectionShortcode.js:27
+msgid "Copy"
+msgstr "Copia"
+
+#: blocks-src/graph/sections/SectionStyle.js:18
+msgid "Appearance"
+msgstr "Aspetto"
+
+#: blocks-src/graph/sections/SectionStyle.js:22
+msgid "Height"
+msgstr "Altezza"
+
+#: blocks-src/graph/sections/SectionStyle.js:29
+msgid "Width"
+msgstr "Larghezza"
+
+#: blocks-src/graph/sections/SectionStyle.js:39
+msgid "Graph colors"
+msgstr "Colori del grafico"
+
+#: blocks-src/graph/sections/SectionTitle.js:33
+msgid "Title"
+msgstr "Titolo"
+
+#: blocks-src/graph/sections/SectionTitle.js:43
+msgid "EDIT TEXT STYLE"
+msgstr "MODIFICA LO STILE DEL TESTO"
+
+#: blocks-src/graph/sections/SectionTitle.js:45
+msgid "Title font"
+msgstr "Font del titolo"
+
+#: blocks-src/graph/sections/SectionTitle.js:63
+msgid "size"
+msgstr "dimensione"
+
+#: blocks-src/graph/sections/SectionXAxis.js:20
+msgid "Horizontal axis"
+msgstr "Asse orizzontale"
+
+#: blocks-src/graph/sections/SectionXAxis.js:21
+msgid "Data source"
+msgstr "Fonte dei dati"
+
+#: blocks-src/graph/sections/SectionXAxis.js:31
+msgid "Data over time graph"
+msgstr "Grafico dei dati nel tempo"
+
+#: blocks-src/graph/sections/SectionXAxis.js:38
+msgid "Data type"
+msgstr "Tipo di dati"
+
+#: blocks-src/graph/sections/SectionXAxis.js:46
+msgid "X-axis title"
+msgstr "Titolo dell'asse X"
+
+#: blocks-src/graph/sections/SectionXAxis.js:54
+msgid "X-axis min value"
+msgstr "Valore min asse X"
+
+#: blocks-src/graph/sections/SectionXAxis.js:61
+msgid "X-axis max value"
+msgstr "Valore max asse X"
+
+#: blocks-src/graph/sections/SectionYAxis.js:17
+msgid "Vertical axis"
+msgstr "Asse verticale"
+
+#: blocks-src/graph/sections/SectionYAxis.js:19
+msgid "Y-axis title"
+msgstr "Titolo dell'asse Y"
+
+#: blocks-src/graph/sections/SectionYAxis.js:27
+msgid "Y-axis min value"
+msgstr "Valore min asse Y"
+
+#: blocks-src/graph/sections/SectionYAxis.js:34
+msgid "Y-axis max value"
+msgstr "Valore max asse Y"
+
+#: blocks-src/graph/block.json
+#: blocks/graph/block.json
+msgctxt "block title"
+msgid "Formidable Chart"
+msgstr "Formidable Chart"
+
+#: blocks-src/graph/block.json
+#: blocks/graph/block.json
+msgctxt "block description"
+msgid "Create charts and graphs from form data"
+msgstr "Crea grafici e diagrammi dai dati del modulo"
+

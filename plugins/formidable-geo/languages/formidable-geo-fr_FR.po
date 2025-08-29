@@ -1,0 +1,88 @@
+# Copyright (C) 2024 Strategy11
+# This file is distributed under the same license as the Formidable Geolocation plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: a2d8bc55ffb2a23897925e74530a7308\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/formidable-geo\n"
+"Last-Translator: \n"
+"Language-Team: French\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-07-29T15:43:58+00:00\n"
+"PO-Revision-Date: 2024-07-29 19:29\n"
+"X-Generator: WP-CLI 2.10.0\n"
+"X-Domain: formidable-geo\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Crowdin-Project: a2d8bc55ffb2a23897925e74530a7308\n"
+"X-Crowdin-Project-ID: 28\n"
+"X-Crowdin-Language: fr\n"
+"X-Crowdin-File: /[Strategy11.formidable-geo] main/languages/formidable-geo.pot\n"
+"X-Crowdin-File-ID: 2480\n"
+"Language: fr_FR\n"
+
+#. Plugin Name of the plugin
+#: formidable-geo.php
+msgid "Formidable Geolocation"
+msgstr "Formidable Geolocation"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: formidable-geo.php
+msgid "https://formidableforms.com/"
+msgstr "https://formidableforms.com/"
+
+#. Description of the plugin
+#: formidable-geo.php
+msgid "Save a longitude and latitude with autocomplete."
+msgstr "Enregistrez une longitude et une latitude avec l’autocomplétion."
+
+#. Author of the plugin
+#: formidable-geo.php
+msgid "Strategy11"
+msgstr "Strategy11"
+
+#: classes/controllers/FrmGeoAppController.php:598
+msgid "Latitude"
+msgstr "Latitude"
+
+#: classes/controllers/FrmGeoAppController.php:600
+msgid "Longitude"
+msgstr "Longitude"
+
+#: classes/controllers/FrmGeoSettingsController.php:36
+msgid "Geolocation"
+msgstr "Géolocalisation"
+
+#: classes/views/settings/field.php:17
+msgid "Add address autocomplete"
+msgstr "Ajouter l’autocomplétion d’adresse"
+
+#: classes/views/settings/field.php:23
+msgid "Show map"
+msgstr "Afficher la carte"
+
+#: classes/views/settings/field.php:27
+msgid "Turning on this will request permissions on page load."
+msgstr "L’activation de cette option demandera des droits lors du chargement de la page."
+
+#: classes/views/settings/field.php:29
+msgid "Use visitor location"
+msgstr "Utiliser l’emplacement de l’internaute"
+
+#: classes/views/settings/form.php:17
+msgid "Google Maps API Key"
+msgstr "Clé d’API Google Maps"
+
+#: formidable-geo.php:70
+msgid "Formidable Geolocation requires Formidable Forms to be installed."
+msgstr "Pour utiliser Formidable Geolocation, l’extension Formidable Forms doit être installée."
+
+#: formidable-geo.php:72
+msgid "Install Formidable Forms"
+msgstr "Installer Formidable Forms"
+
+#: formidable-geo.php:85
+msgid "Formidable Geolocation requires Formidable Forms Pro to be installed."
+msgstr "Formidable Geolocation nécessite que Formidable Forms Pro soit installé."
+

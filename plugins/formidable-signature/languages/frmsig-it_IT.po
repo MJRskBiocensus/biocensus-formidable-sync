@@ -1,0 +1,121 @@
+# Copyright (C) 2024 Strategy11
+# This file is distributed under the same license as the Formidable Digital Signatures plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: a2d8bc55ffb2a23897925e74530a7308\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/formidable-signature\n"
+"Last-Translator: \n"
+"Language-Team: Italian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-03-28T18:01:47+00:00\n"
+"PO-Revision-Date: 2024-04-13 15:41\n"
+"X-Generator: WP-CLI 2.10.0\n"
+"X-Domain: frmsig\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: a2d8bc55ffb2a23897925e74530a7308\n"
+"X-Crowdin-Project-ID: 28\n"
+"X-Crowdin-Language: it\n"
+"X-Crowdin-File: /[Strategy11.formidable-signature] master/languages/frmsig.pot\n"
+"X-Crowdin-File-ID: 2416\n"
+"Language: it_IT\n"
+
+#. Plugin Name of the plugin
+#: signature.php
+msgid "Formidable Digital Signatures"
+msgstr "Formidable Digital Signatures"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: signature.php
+msgid "https://formidableforms.com"
+msgstr "https://formidableforms.com"
+
+#. Description of the plugin
+#: signature.php
+msgid "Collect e-signatures in your Formidable forms"
+msgstr "Raccogli le firme elettroniche nei tuoi moduli Formidable"
+
+#. Author of the plugin
+#: signature.php
+msgid "Strategy11"
+msgstr "Strategy11"
+
+#: controllers/FrmSigAppController.php:71
+msgid "You are running an outdated version of Formidable. This plugin will not work correctly if you do not update Formidable."
+msgstr "Si esegue una versione non aggiornata di Formidable. Questo plugin potrebbe non funzionare correttamente se non si aggiorna Formidable."
+
+#: controllers/FrmSigAppController.php:168
+msgid "Signature"
+msgstr "Firma"
+
+#: controllers/FrmSigAppController.php:567
+msgid "Drawn signatures"
+msgstr "Firme disegnate"
+
+#: controllers/FrmSigAppController.php:915
+#: models/FrmSigField.php:49
+msgid "Draw It"
+msgstr "Disegnala"
+
+#: controllers/FrmSigAppController.php:916
+#: models/FrmSigField.php:50
+msgid "Type It"
+msgstr "Digitala"
+
+#: controllers/FrmSigAppController.php:917
+#: models/FrmSigField.php:51
+#: views/drawn.php:14
+msgid "Clear"
+msgstr "Cancella"
+
+#. translators: %1$s: html line break
+#: views/admin_field.php:16
+msgid "This is a placeholder for your signature field. %1$sView your form to see it in action."
+msgstr "Questo è un segnaposto per il campo della firma. %1$sVisualizza il tuo modulo per vederlo in azione."
+
+#: views/options_form.php:14
+msgid "Field Size"
+msgstr "Dimensione Campo"
+
+#: views/options_form.php:18
+msgid "pixels wide"
+msgstr "pixel di larghezza"
+
+#: views/options_form.php:21
+msgid "pixels high"
+msgstr "pixel di altezza"
+
+#: views/options_form.php:27
+msgid "Signature Options"
+msgstr "Opzioni di firma"
+
+#: views/options_form.php:32
+msgid "Draw It Label"
+msgstr "Etichetta \"Disegnala\""
+
+#: views/options_form.php:39
+msgid "Type It Label"
+msgstr "Etichetta \"Digitala\""
+
+#: views/options_form.php:46
+msgid "Clear Label"
+msgstr "Cancella etichetta"
+
+#: views/options_form.php:55
+msgid "Hide Draw It and Type It tabs"
+msgstr "Nascondi le schede Disegnala e Digitala"
+
+#: views/options_form.php:62
+msgid "Set Type It as default"
+msgstr "Imposta la digitazione come predefinita"
+
+#: views/options_form.php:69
+msgid "Allow editing"
+msgstr "Consenti la modifica"
+
+#: views/update_formidable.php:15
+msgid "Formidable Digital Signatures requires that Formidable Forms version 3.0 or greater be installed. Until then, keep Formidable Digital Signatures activated only to continue enjoying this insightful message."
+msgstr "Formidable Digital Signatures richiede l'installazione di Formidable Forms versione 3.0 o superiore. Fino a quel momento, tieni attivato Formidable Digital Signatures solo per continuare a ricevere questo messaggio ricco di spunti."
+

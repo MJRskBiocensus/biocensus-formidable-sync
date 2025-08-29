@@ -1,0 +1,11 @@
+{
+    "id": "1",
+    "name": "Make upload filenames lowercase",
+    "code": "add_filter( 'sanitize_file_name', 'mb_strtolower' );",
+    "tags": "sample, media",
+    "description": "Makes sure that image and file uploads have lowercase filenames.\n\nThis is a sample snippet. Feel free to use it, edit it, or remove it.",
+    "scope": "global",
+    "priority": "10",
+    "active": "1",
+    "type": ""
+}

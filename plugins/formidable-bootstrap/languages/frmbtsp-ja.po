@@ -1,0 +1,92 @@
+# Copyright (C) 2024 Strategy11
+# This file is distributed under the same license as the Formidable Bootstrap plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: a2d8bc55ffb2a23897925e74530a7308\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/formidable-bootstrap\n"
+"Last-Translator: \n"
+"Language-Team: Japanese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-03-20T15:04:18+00:00\n"
+"PO-Revision-Date: 2024-04-19 03:57\n"
+"X-Generator: WP-CLI 2.10.0\n"
+"X-Domain: frmbtsp\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: a2d8bc55ffb2a23897925e74530a7308\n"
+"X-Crowdin-Project-ID: 28\n"
+"X-Crowdin-Language: ja\n"
+"X-Crowdin-File: /[Strategy11.formidable-bootstrap] master/languages/frmbtsp.pot\n"
+"X-Crowdin-File-ID: 2504\n"
+"Language: ja_JP\n"
+
+#. Plugin Name of the plugin
+#: formidable-bootstrap.php
+msgid "Formidable Bootstrap"
+msgstr "Formidable Bootstrap"
+
+#. Plugin URI of the plugin
+#: formidable-bootstrap.php
+msgid "http://formidablepro.com/"
+msgstr "http://formidablepro.com/"
+
+#. Description of the plugin
+#: formidable-bootstrap.php
+msgid "Instantly add Bootstrap styling to your forms"
+msgstr "Bootstrap スタイルをフォームに即座に追加できます"
+
+#. Author of the plugin
+#: formidable-bootstrap.php
+msgid "Strategy11"
+msgstr "Strategy11"
+
+#. Author URI of the plugin
+#: formidable-bootstrap.php
+msgid "http://strategy11.com"
+msgstr "http://strategy11.com"
+
+#: views/field-options.php:2
+msgid "Prepend and Append"
+msgstr "先頭追加と末尾追加"
+
+#: views/field-options.php:3
+msgid "Include before input:"
+msgstr "入力の前に含める:"
+
+#: views/field-options.php:5
+msgid "Include after input:"
+msgstr "入力の後に含める:"
+
+#: views/style-settings.php:3
+msgid "Bootstrap Styling"
+msgstr "Bootstrap のスタイル"
+
+#: views/style-settings.php:5
+msgid "Bootstrap styling"
+msgstr "Bootstrap のスタイル"
+
+#: views/style-settings.php:7
+msgid "load on every page"
+msgstr "すべてのページに読み込む"
+
+#: views/style-settings.php:8
+msgid "only load on applicable pages"
+msgstr "該当ページにのみ読み込む"
+
+#: views/style-settings.php:9
+msgid "do not load"
+msgstr "読み込まない"
+
+#: views/style-settings.php:13
+msgid "Bootstrap version"
+msgstr "Bootstrap バージョン"
+
+#: views/style-settings.php:15
+msgid "3.3.7"
+msgstr "3.3.7"
+
+#: views/style-settings.php:16
+msgid "5.0.2"
+msgstr "5.0.2"
+

@@ -1,0 +1,26 @@
+.frm_submit #frm-auto-save-time {
+	font-size: var(--submit-font-size);
+	padding: var(--submit-padding);
+	opacity: .8;
+}
+
+#frm-abandonment-copy-link {
+	width: auto !important;
+	max-width: 100%;
+	margin: 0 !important;
+	font-size: var(--success-font-size) !important;
+	display: inline-flex !important;
+	align-items: center !important;
+	gap: 4px;
+}
+
+#frm-abandonment-copy-link svg {
+	fill: none;
+	width: 20px;
+	height: 20px;
+}
+
+.frm-abandonment-copy-box .frm_submit {
+	display: flex;
+	align-items: center;
+}

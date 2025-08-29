@@ -1,0 +1,13 @@
+<?php
+/*
+Plugin Name: Formidable Bootstrap
+Description: Instantly add Bootstrap styling to your forms
+Version: 2.0.1
+Plugin URI: http://formidablepro.com/
+Author URI: http://strategy11.com
+Author: Strategy11
+Text Domain: frmbtsp
+*/
+
+include __DIR__ . '/controllers/FrmBtspAppController.php';
+$obj = new FrmBtspAppController();

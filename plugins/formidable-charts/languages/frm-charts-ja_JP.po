@@ -1,0 +1,669 @@
+# Copyright (C) 2024 Strategy11
+# This file is distributed under the GPL-2.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: a2d8bc55ffb2a23897925e74530a7308\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/formidable-charts\n"
+"Last-Translator: \n"
+"Language-Team: Japanese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-04-29T14:28:17+00:00\n"
+"PO-Revision-Date: 2024-04-29 20:59\n"
+"X-Generator: WP-CLI 2.10.0\n"
+"X-Domain: frm-charts\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: a2d8bc55ffb2a23897925e74530a7308\n"
+"X-Crowdin-Project-ID: 28\n"
+"X-Crowdin-Language: ja\n"
+"X-Crowdin-File: /[Strategy11.formidable-charts] master/languages/frm-charts.pot\n"
+"X-Crowdin-File-ID: 2492\n"
+"Language: ja_JP\n"
+
+#. Plugin Name of the plugin
+#: formidable-charts.php
+msgid "Formidable Charts"
+msgstr "Formidable チャート"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: formidable-charts.php
+msgid "https://formidableforms.com/"
+msgstr "https://formidableforms.com/"
+
+#. Description of the plugin
+#: formidable-charts.php
+msgid "Build charts and graphs from your Formidable data."
+msgstr "Formidable のデータからチャートやグラフを作成できます。"
+
+#. Author of the plugin
+#: formidable-charts.php
+msgid "Strategy11"
+msgstr "Strategy11"
+
+#: classes/controllers/FrmChartsAppController.php:22
+msgid "Formidable Charts requires Formidable Forms Pro to be activated."
+msgstr "Formidable チャートを使用するには、Formidable Forms Pro の有効化が必要です。"
+
+#: classes/controllers/FrmChartsGraphController.php:228
+msgid "The number of entries"
+msgstr "エントリー数"
+
+#: classes/controllers/FrmChartsGraphController.php:229
+msgid "Add the field values together"
+msgstr "フィールド値をすべて足す"
+
+#: classes/controllers/FrmChartsGraphController.php:230
+msgid "Average the totaled field values"
+msgstr "フィールド値の合計の平均"
+
+#: classes/controllers/FrmChartsRESTController.php:75
+msgid "No form ID"
+msgstr "フォーム ID なし"
+
+#: blocks-src/graph/components/AddPropertiesControl.js:250
+msgid "+ Add more properties"
+msgstr "+ プロパティを追加"
+
+#: blocks-src/graph/components/ColorPaletteOrPicker.js:26
+msgid "Select a color"
+msgstr "色を選択"
+
+#: blocks-src/graph/components/ColorPaletteOrPicker.js:37
+msgid "Custom color"
+msgstr "カスタムカラー"
+
+#: blocks-src/graph/components/ColorPaletteOrPicker.js:48
+msgid "Theme color"
+msgstr "テーマの色"
+
+#: blocks-src/graph/components/ColorPickerButton.js:23
+msgid "color"
+msgstr "色"
+
+#: blocks-src/graph/components/DataSourceControl.js:7
+#: blocks-src/graph/components/DataSourceControl.js:36
+msgid "Select data source"
+msgstr "データソースを選択"
+
+#: blocks-src/graph/components/DataSourceControl.js:11
+msgid "Created at"
+msgstr "作成日時"
+
+#: blocks-src/graph/components/DataSourceControl.js:15
+msgid "Updated at"
+msgstr "更新 "
+
+#: blocks-src/graph/components/FieldsSelect.js:62
+msgid "Select fields"
+msgstr "フィールドを選択"
+
+#: blocks-src/graph/components/FilterRow.js:11
+msgid "Select a field"
+msgstr "フィールドを選択"
+
+#: blocks-src/graph/components/FilterRow.js:67
+msgid "Enter filtering value"
+msgstr "フィルターの値を入力"
+
+#: blocks-src/graph/components/FiltersModal.js:49
+msgid "+ Add filters"
+msgstr "+ フィルターを追加"
+
+#: blocks-src/graph/components/FiltersModal.js:54
+msgid "Add filters"
+msgstr "フィルターを追加"
+
+#: blocks-src/graph/components/FiltersModal.js:71
+msgid "+ Add filter"
+msgstr "+ フィルターを追加"
+
+#: blocks-src/graph/components/FiltersModal.js:80
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: blocks-src/graph/components/FiltersModal.js:81
+msgid "Save"
+msgstr "保存"
+
+#: blocks-src/graph/components/FormFieldsSelect.js:60
+msgid "Sort fields"
+msgstr "ソートフィールド"
+
+#: blocks-src/graph/components/FormSelect.js:44
+msgid "(no title)"
+msgstr "(タイトルなし)"
+
+#: blocks-src/graph/components/FormSelect.js:48
+msgid "Select a form"
+msgstr "フォームを選択"
+
+#: blocks-src/graph/components/MultiSelectWithSearch.js:44
+msgid "%d selected"
+msgstr "%d個を選択中"
+
+#: blocks-src/graph/components/MultiSelectWithSearch.js:71
+#: blocks-src/graph/components/SelectWithSearch.js:75
+msgid "No results"
+msgstr "結果なし"
+
+#: blocks-src/graph/edit.js:117
+msgid "Loading graph..."
+msgstr "グラフを読み込みんでいます..."
+
+#: blocks-src/graph/helpers.js:241
+msgid "Column"
+msgstr "カラム"
+
+#: blocks-src/graph/helpers.js:246
+msgid "Horizontal bar"
+msgstr "横棒"
+
+#: blocks-src/graph/helpers.js:251
+msgid "Pie chart"
+msgstr "円グラフ"
+
+#: blocks-src/graph/helpers.js:256
+msgid "Line"
+msgstr "ライン"
+
+#: blocks-src/graph/helpers.js:261
+msgid "Area"
+msgstr "エリア"
+
+#: blocks-src/graph/helpers.js:266
+msgid "Scatter"
+msgstr "散布図"
+
+#: blocks-src/graph/helpers.js:271
+msgid "Stepped"
+msgstr "階段状"
+
+#: blocks-src/graph/helpers.js:276
+msgid "Map"
+msgstr "地図"
+
+#: blocks-src/graph/helpers.js:281
+msgid "Table"
+msgstr "テーブル"
+
+#: blocks-src/graph/helpers.js:289
+msgid "Group by"
+msgstr "グループ化"
+
+#: blocks-src/graph/helpers.js:294
+msgid "None"
+msgstr "なし"
+
+#: blocks-src/graph/helpers.js:298
+msgid "Month"
+msgstr "月"
+
+#: blocks-src/graph/helpers.js:302
+msgid "Quarter"
+msgstr "四半期"
+
+#: blocks-src/graph/helpers.js:306
+msgid "Year"
+msgstr "年"
+
+#: blocks-src/graph/helpers.js:309
+msgid "Group entries by month, quarter, or year."
+msgstr "月、四半期、年ごとにエントリーをグループ化します。"
+
+#: blocks-src/graph/helpers.js:313
+msgid "Is stacked"
+msgstr "積み上げ"
+
+#: blocks-src/graph/helpers.js:315
+msgid "Place related values atop one another. If there are any negative values, they are stacked in reverse order below the chart's axis baseline."
+msgstr "関連する値を重ねて配置します。負の値がある場合は、チャートの軸のベースラインの下に逆の順序に積み重ねられます。"
+
+#: blocks-src/graph/helpers.js:319
+#: blocks-src/graph/helpers.js:378
+msgid "Title size"
+msgstr "タイトルのサイズ"
+
+#: blocks-src/graph/helpers.js:321
+msgid "Set the font size of the x-axis title. This parameter will only apply if x_title is included."
+msgstr "x 軸タイトルのフォントサイズを設定します。このパラメータは x_title が含まれている場合にのみ適用されます。"
+
+#: blocks-src/graph/helpers.js:325
+#: blocks-src/graph/helpers.js:384
+msgid "Title color"
+msgstr "タイトルの色"
+
+#: blocks-src/graph/helpers.js:328
+msgid "Set the font color of the x-axis title. This parameter will only apply if x_title is included."
+msgstr "x 軸タイトルのフォントの色を設定します。このパラメータは x_title が含まれている場合にのみ適用されます。"
+
+#: blocks-src/graph/helpers.js:332
+#: blocks-src/graph/helpers.js:390
+msgid "Labels size"
+msgstr "ラベルのサイズ"
+
+#: blocks-src/graph/helpers.js:334
+msgid "Set the font size of the labels on the x-axis."
+msgstr "x 軸のラベルのフォントサイズを設定します。"
+
+#: blocks-src/graph/helpers.js:338
+msgid "Slanted text"
+msgstr "斜めテキスト"
+
+#: blocks-src/graph/helpers.js:341
+msgid "By default the labels on the x-axis are slanted. To remove the slant and make the labels horizontal, use x_slanted_text=0."
+msgstr "デフォルトでは x 軸のラベルは斜めになっています。傾きをなくしてラベルを水平にするには、x_slanted_text=0 を使用してください。"
+
+#: blocks-src/graph/helpers.js:345
+msgid "Text angle"
+msgstr "テキストの角度"
+
+#: blocks-src/graph/helpers.js:346
+msgid "Set the angle of the slanted text labels on the x axis."
+msgstr "x 軸の斜めのテキストラベルの角度を設定します。"
+
+#: blocks-src/graph/helpers.js:350
+msgid "Show text every"
+msgstr "テキストを表示する頻度"
+
+#: blocks-src/graph/helpers.js:351
+msgid "Determine how often an x-axis label should be displayed. If you would like to show the x-axis label for every bar or coordinate, use x_show_text_every=\"1\". If you would like to show the x-axis label for every three bars or coordinates, use x_show_text_every=\"3\"."
+msgstr "x 軸ラベルを表示する頻度を指定します。各棒または座標ごとに x 軸ラベルを表示する場合は x_show_text_every=\"1\" を使用し、x 軸ラベルを 3 つの棒または座標ごとに表示する場合は x_show_text_every=\"3\" を使用してください。"
+
+#: blocks-src/graph/helpers.js:355
+msgid "Order"
+msgstr "順序"
+
+#: blocks-src/graph/helpers.js:360
+msgid "Default"
+msgstr "デフォルト"
+
+#: blocks-src/graph/helpers.js:364
+msgid "Field options"
+msgstr "フィールドのオプション"
+
+#: blocks-src/graph/helpers.js:368
+msgid "Description"
+msgstr "概要"
+
+#: blocks-src/graph/helpers.js:371
+msgid "Determine the order for your x-axis labels. By default, a field's options will be graphed alphabetically. You may reverse this order with x_order=\"desc\". If you're graphing a checkbox, dropdown, or radio button field and you would like to remove alphabetical ordering, add x_order=\"field_opts\" to your graph shortcode. When you remove alphabetical ordering, the options will be graphed in the same order as your field options."
+msgstr "x 軸ラベルの順序を決めます。デフォルトでは、フィールドのオプションはアルファベット順にグラフ化されます。この順序は x_order=\"desc\" を使用すると逆にすることができます。チェックボックス、ドロップダウン、ラジオボタンのフィールドをグラフ化しており、アルファベット順を解除したい場合は、グラフのショートコードに x_order=\"field_opts\" を追加してください。アルファベット順を解除すると、オプションはフィールドのオプションと同じ順序でグラフ化されます。"
+
+#: blocks-src/graph/helpers.js:380
+msgid "Set the font size of the y-axis title. This parameter will only apply if y_title is included."
+msgstr "y 軸タイトルのフォントサイズを設定します。このパラメータは y_title が含まれている場合にのみ適用されます。"
+
+#: blocks-src/graph/helpers.js:386
+msgid "Set the font color of the y-axis title. This parameter will only apply if y_title is included."
+msgstr "y 軸タイトルのフォントの色を設定します。このパラメータは y_title が含まれている場合にのみ適用されます。"
+
+#: blocks-src/graph/helpers.js:392
+msgid "Set the font size of the labels on the y-axis."
+msgstr "y 軸のラベルのフォントサイズを設定します。"
+
+#: blocks-src/graph/helpers.js:399
+msgid "Background color"
+msgstr "背景色"
+
+#: blocks-src/graph/helpers.js:401
+msgid "Change the background color."
+msgstr "背景色を変更します。"
+
+#: blocks-src/graph/helpers.js:405
+msgid "Grid color"
+msgstr "グリッドの色"
+
+#: blocks-src/graph/helpers.js:407
+msgid "Change the color of the horizontal lines on the graph."
+msgstr "グラフの横線の色を変更します。"
+
+#: blocks-src/graph/helpers.js:411
+msgid "X grid color"
+msgstr "x グリッドの色"
+
+#: blocks-src/graph/helpers.js:413
+msgid "Change the color of the vertical lines on the graph."
+msgstr "グラフの縦線の色を変更します。"
+
+#: blocks-src/graph/helpers.js:417
+msgid "Chart width"
+msgstr "チャートの幅"
+
+#: blocks-src/graph/helpers.js:420
+msgid "Set the width of the chart area to pixels or a percent."
+msgstr "チャートエリアの幅をピクセルまたはパーセントの単位で設定します。"
+
+#: blocks-src/graph/helpers.js:424
+msgid "Chart height"
+msgstr "チャートの高さ"
+
+#: blocks-src/graph/helpers.js:427
+msgid "Set the height of the chart area to pixels or a percent."
+msgstr "チャートエリアの高さをピクセルまたはパーセントの単位で設定します。"
+
+#: blocks-src/graph/helpers.js:431
+msgid "Chart top"
+msgstr "チャート上部"
+
+#: blocks-src/graph/helpers.js:434
+msgid "Set the top placement of the chart area to pixels or a percent."
+msgstr "チャートエリアの上部の配置をピクセルまたはパーセントの単位で設定します。"
+
+#: blocks-src/graph/helpers.js:438
+msgid "Chart left"
+msgstr "チャートの左側"
+
+#: blocks-src/graph/helpers.js:441
+msgid "Set the left placement of the chart area to pixels or a percent."
+msgstr "チャートエリアの左の配置をピクセルまたはパーセントの単位で設定します。"
+
+#: blocks-src/graph/helpers.js:445
+msgid "3D graph"
+msgstr "3D グラフ"
+
+#: blocks-src/graph/helpers.js:448
+msgid "Turn your graph three-dimensional. This option is only available for pie graphs."
+msgstr "グラフを三次元化します。このオプションは円グラフでのみ利用可能です。"
+
+#: blocks-src/graph/helpers.js:452
+msgid "Pie hole"
+msgstr "円中心の穴"
+
+#: blocks-src/graph/helpers.js:458
+msgid "Turn your pie graph into a donut graph. This option accepts values between 0 and .9, corresponding to the ratio of the donut hole to the chart."
+msgstr "円グラフをドーナツグラフに変更します。このオプションには、チャートに対するドーナツ穴の比率に相当する0から0.9の値を指定できます。"
+
+#: blocks-src/graph/helpers.js:462
+msgid "Curve line"
+msgstr "曲線"
+
+#: blocks-src/graph/helpers.js:465
+msgid "Smooth the lines of a line graph."
+msgstr "折れ線グラフの線をなめらかにします。"
+
+#: blocks-src/graph/helpers.js:469
+msgid "No data"
+msgstr "データなし"
+
+#: blocks-src/graph/helpers.js:470
+msgid "Determine the message that will display when there is no data to be shown on the graph."
+msgstr "グラフに表示するデータがない場合に示されるメッセージを決定します。"
+
+#: blocks-src/graph/helpers.js:474
+msgid "Page size"
+msgstr "ページサイズ"
+
+#: blocks-src/graph/helpers.js:479
+msgid "The number of rows in each page, when using the table graph type."
+msgstr "表グラフタイプを使用する場合の各ページの行数。"
+
+#: blocks-src/graph/helpers.js:483
+msgid "Sort column"
+msgstr "ソート列"
+
+#: blocks-src/graph/helpers.js:485
+msgid "Change the column to sort by on page load when using the table graph type. 0 is the first column and 1 is column 2."
+msgstr "表グラフタイプを使用する場合の、ページを読み込む際にソートする列を変更します。0は1列目、1は2列目を指定します。"
+
+#: blocks-src/graph/helpers.js:489
+msgid "Sort ascending"
+msgstr "昇順ソート"
+
+#: blocks-src/graph/helpers.js:491
+msgid "Change the sorting order on page load when using the table graph type."
+msgstr "表グラフタイプを使用する場合の、ページ読み込み時のソート順を変更します。"
+
+#: blocks-src/graph/helpers.js:498
+msgid "Legend size"
+msgstr "凡例のサイズ"
+
+#: blocks-src/graph/helpers.js:500
+msgid "Change the size of the legend in pixels. This parameter will only apply if show_key is included."
+msgstr "凡例のサイズをピクセル単位で変更します。このパラメータは show_key が含まれている場合にのみ適用されます。"
+
+#: blocks-src/graph/helpers.js:504
+msgid "Tooltip label"
+msgstr "ツールチップラベル"
+
+#: blocks-src/graph/helpers.js:505
+msgid "Change the default tooltip label for a graph. The tooltip label defaults to the field title."
+msgstr "グラフのデフォルトのツールチップラベルを変更します。ツールチップラベルはデフォルトではフィールドタイトルに設定されています。"
+
+#: blocks-src/graph/helpers.js:536
+msgid "Right"
+msgstr "右"
+
+#: blocks-src/graph/helpers.js:540
+msgid "Left"
+msgstr "左"
+
+#: blocks-src/graph/helpers.js:544
+msgid "Top"
+msgstr "上"
+
+#: blocks-src/graph/helpers.js:548
+msgid "Bottom"
+msgstr "下部"
+
+#: blocks-src/graph/helpers.js:554
+msgid "Select a filter"
+msgstr "フィルターを選択"
+
+#: blocks-src/graph/helpers.js:558
+msgid "User ID"
+msgstr "ユーザー ID"
+
+#: blocks-src/graph/helpers.js:560
+msgid "Graph entries for a specific user or for the current logged-in user. Insert the ID of a specific user or use 'current' to only graph data from the current user."
+msgstr "特定のユーザーまたは現在ログインしているユーザーのエントリーをグラフ化します。特定のユーザーの ID を挿入するか、「current」を使用して現在のユーザーのデータのみをグラフ化します。"
+
+#: blocks-src/graph/helpers.js:563
+msgid "Entry"
+msgstr "投稿"
+
+#: blocks-src/graph/helpers.js:565
+msgid "Display a graph of a specific entry or entries. You may use entry IDs or keys."
+msgstr "特定のエントリーのグラフを表示します。エントリーの  ID またはキーを使用できます。"
+
+#: blocks-src/graph/helpers.js:568
+msgid "Entry status"
+msgstr "エントリーステータス"
+
+#: blocks-src/graph/helpers.js:570
+msgid "By default, the frm-graph shortcode does not include draft entries. You can choose to include only drafts using drafts=\"1\", or both drafts and entries using drafts=\"both\"."
+msgstr "frm-graph ショートコードにはデフォルトでは下書きのエントリーが含まれません。drafts=\"1\" で下書きのみ、drafts=\"both \"で下書きとエントリーの両方を含めることができます。"
+
+#: blocks-src/graph/helpers.js:575
+msgid "Only include entries created after a specific or dynamic date. For example, you may show entries created in the last month with created_at_greater_than=\"-1 month\" or use a specific date like created_at_greater_than=\"2016-07-31\". When using a specific date, it must be in the Y-m-d format."
+msgstr "特定の日付または動的な日付より後に作成されたエントリーのみを含めます。たとえば、created_at_greater_than=\"-1 month\" で過去1か月に作成されたエントリーを表示したり、created_at_greater_than=\"2016-07-31\" のように特定の日付を使用したりできます。特定の日付を使用する場合は、Y-m-d 形式で指定してください。"
+
+#: blocks-src/graph/helpers.js:580
+msgid "Only include entries created before a specific or dynamic date. For example, you may show entries created before today with created_at_less_than=\"-1 day\" or use a specific date like created_at_less_than=\"2016-05-31\". When using a specific date, it must be in the Y-m-d format."
+msgstr "特定の日付または動的な日付より前に作成されたエントリーのみを含めます。たとえば、created_at_less_than=\"-1 day\" で昨日以前に作成されたエントリーを表示したり、created_at_less_than=\"2016-05-31\" のように特定の日付を使用したりできます。特定の日付を使用する場合は、Y-m-d 形式で指定してください。"
+
+#: blocks-src/graph/helpers.js:583
+msgid "Limit"
+msgstr "制限"
+
+#: blocks-src/graph/helpers.js:585
+msgid "Limit the number of bars, coordinates, or pie slices displayed in the graph. This will limit the graph to the highest values."
+msgstr "グラフに表示される棒、座標、円グラフのスライスの数を制限します。これにより、グラフは最大値に限定されます。"
+
+#: blocks-src/graph/helpers.js:588
+msgid "Field is equal to"
+msgstr "フィールドが次と等しい"
+
+#: blocks-src/graph/helpers.js:590
+msgid "Only include entries where another field in the form has a specific value."
+msgstr "フォーム内の別のフィールドに特定の値が設定されているエントリーのみを含めます。"
+
+#: blocks-src/graph/helpers.js:593
+msgid "Field is NOT equal to"
+msgstr "フィールドが次と等しくない"
+
+#: blocks-src/graph/helpers.js:595
+msgid "Only include entries where another field in the form is NOT equal to a specific value."
+msgstr "フォーム内の別のフィールドが特定の値と等しくないエントリーのみを含めます。"
+
+#: blocks-src/graph/helpers.js:598
+msgid "Field is greater than"
+msgstr "フィールドが次より大きい"
+
+#: blocks-src/graph/helpers.js:600
+msgid "Only include entries where another field in the form is greater than a specific value."
+msgstr "フォーム内の別のフィールドが特定の値より大きいエントリーのみを含めます。"
+
+#: blocks-src/graph/helpers.js:603
+msgid "Field is greater than or equal to"
+msgstr "フィールドが次以上"
+
+#: blocks-src/graph/helpers.js:605
+msgid "Only include entries where another field in the form is greater than or equal to a specific value."
+msgstr "フォーム内の別のフィールドが特定の値以上であるエントリーのみを含めます。"
+
+#: blocks-src/graph/helpers.js:608
+msgid "Field is less than"
+msgstr "フィールドが次より小さい"
+
+#: blocks-src/graph/helpers.js:610
+msgid "Only include entries where another field in the form is less than a specific value."
+msgstr "フォーム内の別のフィールドが特定の値未満であるエントリーのみを含めます。"
+
+#: blocks-src/graph/helpers.js:613
+msgid "Field is less than or equal to"
+msgstr "フィールドが次以下"
+
+#: blocks-src/graph/helpers.js:615
+msgid "Only include entries where another field in the form is less than or equal to a specific value."
+msgstr "フォームの別のフィールドが特定の値以下であるエントリーのみを含めます。"
+
+#: blocks-src/graph/helpers.js:618
+msgid "Field contains"
+msgstr "フィールドに次が含まれる"
+
+#: blocks-src/graph/helpers.js:620
+msgid "Only include entries where another field in the form contains a specific value."
+msgstr "フォームの別のフィールドに特定の値が含まれているエントリーを含めます。"
+
+#: blocks-src/graph/sections/SectionChart.js:11
+msgid "Chart settings"
+msgstr "チャートの設定"
+
+#: blocks-src/graph/sections/SectionChart.js:12
+msgid "Type"
+msgstr "タイプ"
+
+#: blocks-src/graph/sections/SectionDataSource.js:9
+msgid "Primary data source"
+msgstr "主なデータソース"
+
+#: blocks-src/graph/sections/SectionLegend.js:13
+msgid "Legend"
+msgstr "凡例"
+
+#: blocks-src/graph/sections/SectionLegend.js:15
+msgid "Display a legend"
+msgstr "凡例を表示"
+
+#: blocks-src/graph/sections/SectionLegend.js:24
+msgid "Legend position"
+msgstr "凡例の位置"
+
+#: blocks-src/graph/sections/SectionShortcode.js:20
+msgid "Shortcode"
+msgstr "ショートコード"
+
+#: blocks-src/graph/sections/SectionShortcode.js:27
+msgid "Copy"
+msgstr "コピー"
+
+#: blocks-src/graph/sections/SectionStyle.js:18
+msgid "Appearance"
+msgstr "出典"
+
+#: blocks-src/graph/sections/SectionStyle.js:22
+msgid "Height"
+msgstr "高さ"
+
+#: blocks-src/graph/sections/SectionStyle.js:29
+msgid "Width"
+msgstr "幅"
+
+#: blocks-src/graph/sections/SectionStyle.js:39
+msgid "Graph colors"
+msgstr "グラフの色"
+
+#: blocks-src/graph/sections/SectionTitle.js:33
+msgid "Title"
+msgstr "タイトル"
+
+#: blocks-src/graph/sections/SectionTitle.js:43
+msgid "EDIT TEXT STYLE"
+msgstr "テキストスタイルを編集"
+
+#: blocks-src/graph/sections/SectionTitle.js:45
+msgid "Title font"
+msgstr "タイトルフォント"
+
+#: blocks-src/graph/sections/SectionTitle.js:63
+msgid "size"
+msgstr "サイズ"
+
+#: blocks-src/graph/sections/SectionXAxis.js:20
+msgid "Horizontal axis"
+msgstr "横軸"
+
+#: blocks-src/graph/sections/SectionXAxis.js:21
+msgid "Data source"
+msgstr "データソース"
+
+#: blocks-src/graph/sections/SectionXAxis.js:31
+msgid "Data over time graph"
+msgstr "時系列データグラフ"
+
+#: blocks-src/graph/sections/SectionXAxis.js:38
+msgid "Data type"
+msgstr "データタイプ"
+
+#: blocks-src/graph/sections/SectionXAxis.js:46
+msgid "X-axis title"
+msgstr "x 軸タイトル"
+
+#: blocks-src/graph/sections/SectionXAxis.js:54
+msgid "X-axis min value"
+msgstr "x 軸最小値"
+
+#: blocks-src/graph/sections/SectionXAxis.js:61
+msgid "X-axis max value"
+msgstr "x 軸最大値"
+
+#: blocks-src/graph/sections/SectionYAxis.js:17
+msgid "Vertical axis"
+msgstr "縦軸"
+
+#: blocks-src/graph/sections/SectionYAxis.js:19
+msgid "Y-axis title"
+msgstr "y 軸タイトル"
+
+#: blocks-src/graph/sections/SectionYAxis.js:27
+msgid "Y-axis min value"
+msgstr "y 軸最小値"
+
+#: blocks-src/graph/sections/SectionYAxis.js:34
+msgid "Y-axis max value"
+msgstr "y 軸最大値"
+
+#: blocks-src/graph/block.json
+#: blocks/graph/block.json
+msgctxt "block title"
+msgid "Formidable Chart"
+msgstr "Formidable Chart"
+
+#: blocks-src/graph/block.json
+#: blocks/graph/block.json
+msgctxt "block description"
+msgid "Create charts and graphs from form data"
+msgstr "フォームデータからチャートやグラフを作成"
+

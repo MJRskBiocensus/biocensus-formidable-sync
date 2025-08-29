@@ -1,0 +1,11 @@
+{
+    "id": "2",
+    "name": "Disable admin bar",
+    "code": "add_action( 'wp', function () {\n\tif ( ! current_user_can( 'manage_options' ) ) {\n\t\tshow_admin_bar( false );\n\t}\n} );",
+    "tags": "sample, admin-bar",
+    "description": "Turns off the WordPress admin bar for everyone except administrators.\n\nThis is a sample snippet. Feel free to use it, edit it, or remove it.",
+    "scope": "front-end",
+    "priority": "10",
+    "active": "1",
+    "type": ""
+}

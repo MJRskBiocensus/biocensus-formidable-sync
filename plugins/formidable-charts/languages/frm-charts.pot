@@ -1,0 +1,726 @@
+# Copyright (C) 2025 Strategy11
+# This file is distributed under the GPL-2.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: Formidable Charts 2.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/formidable-charts\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-07-09T13:46:52+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.8.1\n"
+"X-Domain: frm-charts\n"
+
+#. Plugin Name of the plugin
+msgid "Formidable Charts"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://formidableforms.com/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Build charts and graphs from your Formidable data."
+msgstr ""
+
+#. Author of the plugin
+msgid "Strategy11"
+msgstr ""
+
+#: classes/controllers/FrmChartsAppController.php:22
+msgid "Formidable Charts requires Formidable Forms Pro to be activated."
+msgstr ""
+
+#: classes/controllers/FrmChartsGraphController.php:236
+msgid "The number of entries"
+msgstr ""
+
+#: classes/controllers/FrmChartsGraphController.php:237
+msgid "Add the field values together"
+msgstr ""
+
+#: classes/controllers/FrmChartsGraphController.php:238
+msgid "Average the totaled field values"
+msgstr ""
+
+#. translators: %s: The plugin name.
+#: classes/controllers/FrmChartsGraphImageController.php:130
+msgid "%s: The graph \"image\" format requires the GD Image library for WordPress. Please contact your hosting provider to enable it."
+msgstr ""
+
+#: classes/controllers/FrmChartsRESTController.php:75
+msgid "No form ID"
+msgstr ""
+
+#: blocks-src/graph/components/AddPropertiesControl.js:55
+msgid "Clear"
+msgstr ""
+
+#: blocks-src/graph/components/AddPropertiesControl.js:263
+msgid "+ Add more properties"
+msgstr ""
+
+#: blocks-src/graph/components/ColorPaletteOrPicker.js:26
+msgid "Select a color"
+msgstr ""
+
+#: blocks-src/graph/components/ColorPaletteOrPicker.js:37
+msgid "Custom color"
+msgstr ""
+
+#: blocks-src/graph/components/ColorPaletteOrPicker.js:48
+msgid "Theme color"
+msgstr ""
+
+#: blocks-src/graph/components/ColorPickerButton.js:23
+msgid "color"
+msgstr ""
+
+#: blocks-src/graph/components/DataSourceControl.js:7
+#: blocks-src/graph/components/DataSourceControl.js:36
+msgid "Select data source"
+msgstr ""
+
+#: blocks-src/graph/components/DataSourceControl.js:11
+msgid "Created at"
+msgstr ""
+
+#: blocks-src/graph/components/DataSourceControl.js:15
+msgid "Updated at"
+msgstr ""
+
+#: blocks-src/graph/components/FieldsSelect.js:62
+msgid "Select fields"
+msgstr ""
+
+#: blocks-src/graph/components/FilterRow.js:11
+msgid "Select a field"
+msgstr ""
+
+#: blocks-src/graph/components/FilterRow.js:67
+msgid "Enter filtering value"
+msgstr ""
+
+#: blocks-src/graph/components/FiltersModal.js:49
+msgid "+ Add filters"
+msgstr ""
+
+#: blocks-src/graph/components/FiltersModal.js:54
+msgid "Add filters"
+msgstr ""
+
+#: blocks-src/graph/components/FiltersModal.js:71
+msgid "+ Add filter"
+msgstr ""
+
+#: blocks-src/graph/components/FiltersModal.js:80
+msgid "Cancel"
+msgstr ""
+
+#: blocks-src/graph/components/FiltersModal.js:81
+msgid "Save"
+msgstr ""
+
+#: blocks-src/graph/components/FormFieldsSelect.js:60
+msgid "Sort fields"
+msgstr ""
+
+#: blocks-src/graph/components/FormSelect.js:44
+msgid "(no title)"
+msgstr ""
+
+#: blocks-src/graph/components/FormSelect.js:48
+msgid "Select a form"
+msgstr ""
+
+#: blocks-src/graph/components/MultiSelectWithSearch.js:44
+msgid "%d selected"
+msgstr ""
+
+#: blocks-src/graph/components/MultiSelectWithSearch.js:71
+#: blocks-src/graph/components/SelectWithSearch.js:75
+msgid "No results"
+msgstr ""
+
+#: blocks-src/graph/edit.js:124
+msgid "Loading graph..."
+msgstr ""
+
+#: blocks-src/graph/helpers.js:247
+msgid "Column"
+msgstr ""
+
+#: blocks-src/graph/helpers.js:252
+msgid "Horizontal bar"
+msgstr ""
+
+#: blocks-src/graph/helpers.js:257
+msgid "Pie chart"
+msgstr ""
+
+#: blocks-src/graph/helpers.js:262
+msgid "Line"
+msgstr ""
+
+#: blocks-src/graph/helpers.js:267
+msgid "Area"
+msgstr ""
+
+#: blocks-src/graph/helpers.js:272
+msgid "Scatter"
+msgstr ""
+
+#: blocks-src/graph/helpers.js:277
+msgid "Stepped"
+msgstr ""
+
+#: blocks-src/graph/helpers.js:282
+msgid "Map"
+msgstr ""
+
+#: blocks-src/graph/helpers.js:287
+msgid "Table"
+msgstr ""
+
+#: blocks-src/graph/helpers.js:295
+msgid "Group by"
+msgstr ""
+
+#: blocks-src/graph/helpers.js:300
+msgid "None"
+msgstr ""
+
+#: blocks-src/graph/helpers.js:304
+msgid "Month"
+msgstr ""
+
+#: blocks-src/graph/helpers.js:308
+msgid "Quarter"
+msgstr ""
+
+#: blocks-src/graph/helpers.js:312
+msgid "Year"
+msgstr ""
+
+#: blocks-src/graph/helpers.js:315
+msgid "Group entries by month, quarter, or year."
+msgstr ""
+
+#: blocks-src/graph/helpers.js:319
+msgid "Is stacked"
+msgstr ""
+
+#: blocks-src/graph/helpers.js:321
+msgid "Place related values atop one another. If there are any negative values, they are stacked in reverse order below the chart's axis baseline."
+msgstr ""
+
+#: blocks-src/graph/helpers.js:325
+#: blocks-src/graph/helpers.js:384
+msgid "Title size"
+msgstr ""
+
+#: blocks-src/graph/helpers.js:327
+msgid "Set the font size of the x-axis title. This parameter will only apply if x_title is included."
+msgstr ""
+
+#: blocks-src/graph/helpers.js:331
+#: blocks-src/graph/helpers.js:390
+msgid "Title color"
+msgstr ""
+
+#: blocks-src/graph/helpers.js:334
+msgid "Set the font color of the x-axis title. This parameter will only apply if x_title is included."
+msgstr ""
+
+#: blocks-src/graph/helpers.js:338
+#: blocks-src/graph/helpers.js:396
+msgid "Labels size"
+msgstr ""
+
+#: blocks-src/graph/helpers.js:340
+msgid "Set the font size of the labels on the x-axis."
+msgstr ""
+
+#: blocks-src/graph/helpers.js:344
+msgid "Slanted text"
+msgstr ""
+
+#: blocks-src/graph/helpers.js:347
+msgid "By default the labels on the x-axis are slanted. To remove the slant and make the labels horizontal, use x_slanted_text=0."
+msgstr ""
+
+#: blocks-src/graph/helpers.js:351
+msgid "Text angle"
+msgstr ""
+
+#: blocks-src/graph/helpers.js:352
+msgid "Set the angle of the slanted text labels on the x axis."
+msgstr ""
+
+#: blocks-src/graph/helpers.js:356
+msgid "Show text every"
+msgstr ""
+
+#: blocks-src/graph/helpers.js:357
+msgid "Determine how often an x-axis label should be displayed. If you would like to show the x-axis label for every bar or coordinate, use x_show_text_every=\"1\". If you would like to show the x-axis label for every three bars or coordinates, use x_show_text_every=\"3\"."
+msgstr ""
+
+#: blocks-src/graph/helpers.js:361
+msgid "Order"
+msgstr ""
+
+#: blocks-src/graph/helpers.js:366
+msgid "Default"
+msgstr ""
+
+#: blocks-src/graph/helpers.js:370
+msgid "Field options"
+msgstr ""
+
+#: blocks-src/graph/helpers.js:374
+msgid "Description"
+msgstr ""
+
+#: blocks-src/graph/helpers.js:377
+msgid "Determine the order for your x-axis labels. By default, a field's options will be graphed alphabetically. You may reverse this order with x_order=\"desc\". If you're graphing a checkbox, dropdown, or radio button field and you would like to remove alphabetical ordering, add x_order=\"field_opts\" to your graph shortcode. When you remove alphabetical ordering, the options will be graphed in the same order as your field options."
+msgstr ""
+
+#: blocks-src/graph/helpers.js:386
+msgid "Set the font size of the y-axis title. This parameter will only apply if y_title is included."
+msgstr ""
+
+#: blocks-src/graph/helpers.js:392
+msgid "Set the font color of the y-axis title. This parameter will only apply if y_title is included."
+msgstr ""
+
+#: blocks-src/graph/helpers.js:398
+msgid "Set the font size of the labels on the y-axis."
+msgstr ""
+
+#: blocks-src/graph/helpers.js:405
+msgid "Background color"
+msgstr ""
+
+#: blocks-src/graph/helpers.js:407
+msgid "Change the background color."
+msgstr ""
+
+#: blocks-src/graph/helpers.js:411
+msgid "Grid color"
+msgstr ""
+
+#: blocks-src/graph/helpers.js:413
+msgid "Change the color of the horizontal lines on the graph."
+msgstr ""
+
+#: blocks-src/graph/helpers.js:417
+msgid "X grid color"
+msgstr ""
+
+#: blocks-src/graph/helpers.js:419
+msgid "Change the color of the vertical lines on the graph."
+msgstr ""
+
+#: blocks-src/graph/helpers.js:423
+msgid "Chart width"
+msgstr ""
+
+#: blocks-src/graph/helpers.js:426
+msgid "Set the width of the chart area to pixels or a percent."
+msgstr ""
+
+#: blocks-src/graph/helpers.js:430
+msgid "Chart height"
+msgstr ""
+
+#: blocks-src/graph/helpers.js:433
+msgid "Set the height of the chart area to pixels or a percent."
+msgstr ""
+
+#: blocks-src/graph/helpers.js:437
+msgid "Chart top"
+msgstr ""
+
+#: blocks-src/graph/helpers.js:440
+msgid "Set the top placement of the chart area to pixels or a percent."
+msgstr ""
+
+#: blocks-src/graph/helpers.js:444
+msgid "Chart left"
+msgstr ""
+
+#: blocks-src/graph/helpers.js:447
+msgid "Set the left placement of the chart area to pixels or a percent."
+msgstr ""
+
+#: blocks-src/graph/helpers.js:451
+msgid "3D graph"
+msgstr ""
+
+#: blocks-src/graph/helpers.js:454
+msgid "Turn your graph three-dimensional. This option is only available for pie graphs."
+msgstr ""
+
+#: blocks-src/graph/helpers.js:458
+msgid "Pie hole"
+msgstr ""
+
+#: blocks-src/graph/helpers.js:464
+msgid "Turn your pie graph into a donut graph. This option accepts values between 0 and .9, corresponding to the ratio of the donut hole to the chart."
+msgstr ""
+
+#: blocks-src/graph/helpers.js:468
+msgid "Curve line"
+msgstr ""
+
+#: blocks-src/graph/helpers.js:471
+msgid "Smooth the lines of a line graph."
+msgstr ""
+
+#: blocks-src/graph/helpers.js:475
+msgid "No data"
+msgstr ""
+
+#: blocks-src/graph/helpers.js:476
+msgid "Determine the message that will display when there is no data to be shown on the graph."
+msgstr ""
+
+#: blocks-src/graph/helpers.js:480
+msgid "Page size"
+msgstr ""
+
+#: blocks-src/graph/helpers.js:485
+msgid "The number of rows in each page, when using the table graph type."
+msgstr ""
+
+#: blocks-src/graph/helpers.js:489
+msgid "Sort column"
+msgstr ""
+
+#: blocks-src/graph/helpers.js:491
+msgid "Change the column to sort by on page load when using the table graph type. 0 is the first column and 1 is column 2."
+msgstr ""
+
+#: blocks-src/graph/helpers.js:495
+msgid "Sort ascending"
+msgstr ""
+
+#: blocks-src/graph/helpers.js:497
+msgid "Change the sorting order on page load when using the table graph type."
+msgstr ""
+
+#: blocks-src/graph/helpers.js:504
+msgid "Legend size"
+msgstr ""
+
+#: blocks-src/graph/helpers.js:506
+msgid "Change the size of the legend in pixels. This parameter will only apply if show_key is included."
+msgstr ""
+
+#: blocks-src/graph/helpers.js:510
+msgid "Tooltip label"
+msgstr ""
+
+#: blocks-src/graph/helpers.js:511
+msgid "Change the default tooltip label for a graph. The tooltip label defaults to the field title."
+msgstr ""
+
+#: blocks-src/graph/helpers.js:542
+msgid "Right"
+msgstr ""
+
+#: blocks-src/graph/helpers.js:546
+msgid "Left"
+msgstr ""
+
+#: blocks-src/graph/helpers.js:550
+msgid "Top"
+msgstr ""
+
+#: blocks-src/graph/helpers.js:554
+msgid "Bottom"
+msgstr ""
+
+#: blocks-src/graph/helpers.js:560
+msgid "Select a filter"
+msgstr ""
+
+#: blocks-src/graph/helpers.js:564
+msgid "User ID"
+msgstr ""
+
+#: blocks-src/graph/helpers.js:566
+msgid "Graph entries for a specific user or for the current logged-in user. Insert the ID of a specific user or use 'current' to only graph data from the current user."
+msgstr ""
+
+#: blocks-src/graph/helpers.js:569
+msgid "Entry"
+msgstr ""
+
+#: blocks-src/graph/helpers.js:571
+msgid "Display a graph of a specific entry or entries. You may use entry IDs or keys."
+msgstr ""
+
+#: blocks-src/graph/helpers.js:574
+msgid "Entry status"
+msgstr ""
+
+#: blocks-src/graph/helpers.js:576
+msgid "By default, the frm-graph shortcode does not include draft entries. You can choose to include only drafts using drafts=\"1\", or both drafts and entries using drafts=\"both\"."
+msgstr ""
+
+#: blocks-src/graph/helpers.js:581
+msgid "Only include entries created after a specific or dynamic date. For example, you may show entries created in the last month with created_at_greater_than=\"-1 month\" or use a specific date like created_at_greater_than=\"2016-07-31\". When using a specific date, it must be in the Y-m-d format."
+msgstr ""
+
+#: blocks-src/graph/helpers.js:586
+msgid "Only include entries created before a specific or dynamic date. For example, you may show entries created before today with created_at_less_than=\"-1 day\" or use a specific date like created_at_less_than=\"2016-05-31\". When using a specific date, it must be in the Y-m-d format."
+msgstr ""
+
+#: blocks-src/graph/helpers.js:589
+msgid "Limit"
+msgstr ""
+
+#: blocks-src/graph/helpers.js:591
+msgid "Limit the number of bars, coordinates, or pie slices displayed in the graph. This will limit the graph to the highest values."
+msgstr ""
+
+#: blocks-src/graph/helpers.js:594
+msgid "Field is equal to"
+msgstr ""
+
+#: blocks-src/graph/helpers.js:596
+msgid "Only include entries where another field in the form has a specific value."
+msgstr ""
+
+#: blocks-src/graph/helpers.js:599
+msgid "Field is NOT equal to"
+msgstr ""
+
+#: blocks-src/graph/helpers.js:601
+msgid "Only include entries where another field in the form is NOT equal to a specific value."
+msgstr ""
+
+#: blocks-src/graph/helpers.js:604
+msgid "Field is greater than"
+msgstr ""
+
+#: blocks-src/graph/helpers.js:606
+msgid "Only include entries where another field in the form is greater than a specific value."
+msgstr ""
+
+#: blocks-src/graph/helpers.js:609
+msgid "Field is greater than or equal to"
+msgstr ""
+
+#: blocks-src/graph/helpers.js:611
+msgid "Only include entries where another field in the form is greater than or equal to a specific value."
+msgstr ""
+
+#: blocks-src/graph/helpers.js:614
+msgid "Field is less than"
+msgstr ""
+
+#: blocks-src/graph/helpers.js:616
+msgid "Only include entries where another field in the form is less than a specific value."
+msgstr ""
+
+#: blocks-src/graph/helpers.js:619
+msgid "Field is less than or equal to"
+msgstr ""
+
+#: blocks-src/graph/helpers.js:621
+msgid "Only include entries where another field in the form is less than or equal to a specific value."
+msgstr ""
+
+#: blocks-src/graph/helpers.js:624
+msgid "Field contains"
+msgstr ""
+
+#: blocks-src/graph/helpers.js:626
+msgid "Only include entries where another field in the form contains a specific value."
+msgstr ""
+
+#: blocks-src/graph/sections/SectionChart.js:11
+msgid "Chart settings"
+msgstr ""
+
+#: blocks-src/graph/sections/SectionChart.js:12
+msgid "Type"
+msgstr ""
+
+#: blocks-src/graph/sections/SectionChart.js:28
+msgid "Format"
+msgstr ""
+
+#: blocks-src/graph/sections/SectionChart.js:32
+msgid "Javascript"
+msgstr ""
+
+#: blocks-src/graph/sections/SectionChart.js:36
+msgid "Image"
+msgstr ""
+
+#: blocks-src/graph/sections/SectionChart.js:47
+msgid "Note: The \"image\" format requires the GD Image library for WordPress. Please contact your hosting provider to enable it."
+msgstr ""
+
+#: blocks-src/graph/sections/SectionDataSource.js:9
+msgid "Primary data source"
+msgstr ""
+
+#: blocks-src/graph/sections/SectionLegend.js:17
+msgid "Number of columns"
+msgstr ""
+
+#: blocks-src/graph/sections/SectionLegend.js:19
+msgid "Change the number of columns in the legend. This parameter will only apply if graph type is set to image."
+msgstr ""
+
+#: blocks-src/graph/sections/SectionLegend.js:29
+msgid "Legend"
+msgstr ""
+
+#: blocks-src/graph/sections/SectionLegend.js:31
+msgid "Display a legend"
+msgstr ""
+
+#: blocks-src/graph/sections/SectionLegend.js:40
+msgid "Legend position"
+msgstr ""
+
+#: blocks-src/graph/sections/SectionShortcode.js:20
+msgid "Shortcode"
+msgstr ""
+
+#: blocks-src/graph/sections/SectionShortcode.js:27
+msgid "Copy"
+msgstr ""
+
+#: blocks-src/graph/sections/SectionStyle.js:20
+msgid "Appearance"
+msgstr ""
+
+#: blocks-src/graph/sections/SectionStyle.js:24
+msgid "Height"
+msgstr ""
+
+#: blocks-src/graph/sections/SectionStyle.js:31
+msgid "Width"
+msgstr ""
+
+#: blocks-src/graph/sections/SectionStyle.js:41
+msgid "Graph colors"
+msgstr ""
+
+#: blocks-src/graph/sections/SectionStyle.js:52
+msgid "Animate"
+msgstr ""
+
+#: blocks-src/graph/sections/SectionStyle.js:60
+msgid "Animation duration"
+msgstr ""
+
+#: blocks-src/graph/sections/SectionStyle.js:67
+msgid "Animation easing"
+msgstr ""
+
+#: blocks-src/graph/sections/SectionStyle.js:69
+msgid "Linear"
+msgstr ""
+
+#: blocks-src/graph/sections/SectionStyle.js:70
+msgid "In"
+msgstr ""
+
+#: blocks-src/graph/sections/SectionStyle.js:71
+msgid "Out"
+msgstr ""
+
+#: blocks-src/graph/sections/SectionStyle.js:72
+msgid "In-Out"
+msgstr ""
+
+#: blocks-src/graph/sections/SectionTitle.js:33
+msgid "Title"
+msgstr ""
+
+#: blocks-src/graph/sections/SectionTitle.js:43
+msgid "EDIT TEXT STYLE"
+msgstr ""
+
+#: blocks-src/graph/sections/SectionTitle.js:45
+msgid "Title font"
+msgstr ""
+
+#: blocks-src/graph/sections/SectionTitle.js:65
+msgid "size"
+msgstr ""
+
+#: blocks-src/graph/sections/SectionXAxis.js:22
+msgid "Horizontal axis"
+msgstr ""
+
+#: blocks-src/graph/sections/SectionXAxis.js:23
+msgid "Data source"
+msgstr ""
+
+#: blocks-src/graph/sections/SectionXAxis.js:33
+msgid "Data over time graph"
+msgstr ""
+
+#: blocks-src/graph/sections/SectionXAxis.js:40
+msgid "Data type"
+msgstr ""
+
+#: blocks-src/graph/sections/SectionXAxis.js:48
+msgid "X-axis title"
+msgstr ""
+
+#: blocks-src/graph/sections/SectionXAxis.js:55
+msgid "X-axis title margin"
+msgstr ""
+
+#: blocks-src/graph/sections/SectionXAxis.js:64
+msgid "X-axis min value"
+msgstr ""
+
+#: blocks-src/graph/sections/SectionXAxis.js:71
+msgid "X-axis max value"
+msgstr ""
+
+#: blocks-src/graph/sections/SectionYAxis.js:18
+msgid "Vertical axis"
+msgstr ""
+
+#: blocks-src/graph/sections/SectionYAxis.js:20
+msgid "Y-axis title"
+msgstr ""
+
+#: blocks-src/graph/sections/SectionYAxis.js:27
+msgid "Y-axis title margin"
+msgstr ""
+
+#: blocks-src/graph/sections/SectionYAxis.js:36
+msgid "Y-axis min value"
+msgstr ""
+
+#: blocks-src/graph/sections/SectionYAxis.js:43
+msgid "Y-axis max value"
+msgstr ""
+
+#: blocks-src/graph/block.json
+#: blocks/graph/block.json
+msgctxt "block title"
+msgid "Formidable Chart"
+msgstr ""
+
+#: blocks-src/graph/block.json
+#: blocks/graph/block.json
+msgctxt "block description"
+msgid "Create charts and graphs from form data"
+msgstr ""

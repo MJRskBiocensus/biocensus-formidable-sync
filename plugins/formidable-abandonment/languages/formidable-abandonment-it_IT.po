@@ -1,0 +1,268 @@
+# Copyright (C) 2024 Strategy11
+# This file is distributed under the GPL-2.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: a2d8bc55ffb2a23897925e74530a7308\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/formidable-abandonment\n"
+"Last-Translator: \n"
+"Language-Team: Italian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-04-16T12:54:19+00:00\n"
+"PO-Revision-Date: 2024-05-07 01:19\n"
+"X-Generator: WP-CLI 2.10.0\n"
+"X-Domain: formidable-abandonment\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: a2d8bc55ffb2a23897925e74530a7308\n"
+"X-Crowdin-Project-ID: 28\n"
+"X-Crowdin-Language: it\n"
+"X-Crowdin-File: /[Strategy11.formidable-abandonment] main/languages/formidable-abandonment.pot\n"
+"X-Crowdin-File-ID: 2306\n"
+"Language: it_IT\n"
+
+#. Plugin Name of the plugin
+#: formidable-abandonment.php
+msgid "Formidable Abandonment"
+msgstr "Formidable Abandonment"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: formidable-abandonment.php
+msgid "https://formidableforms.com/"
+msgstr "https://formidableforms.com/"
+
+#. Description of the plugin
+#: formidable-abandonment.php
+msgid "Capture form data before it's submitted to save more leads and learn to optimize forms."
+msgstr "Raccogli i dati dei moduli prima che vengano inviati per salvare più contatti e impara a ottimizzare i moduli."
+
+#. Author of the plugin
+#: formidable-abandonment.php
+msgid "Strategy11"
+msgstr "Strategy11"
+
+#: classes/controllers/FrmAbandonmentActionController.php:132
+msgid "Abandoned Form Recovery"
+msgstr "Recupero moduli abbandonati"
+
+#. translators: %1$s: Site name shortcode
+#: classes/controllers/FrmAbandonmentActionController.php:135
+msgid "Your submission on %1$s is incomplete!"
+msgstr "Il tuo messaggio su %1$s è incompleto!"
+
+#. translators: %1$s: Abandoned entry link shortcode
+#: classes/controllers/FrmAbandonmentActionController.php:140
+msgid "Hello there, It looks like you may have started a form that has not yet been completed. Here is a link for you to pick up right where you left off: %1$s"
+msgstr "Ciao! Sembra che tu abbia iniziato un modulo ma non l'hai ancora completato. Ecco un link che ti permetterà di riprendere il discorso da dove l'avevi interrotto: %1$s"
+
+#: classes/controllers/FrmAbandonmentActionController.php:145
+msgid "Send Edit Entry Link"
+msgstr "Invia il link per la modifica della voce"
+
+#. translators: %1$s: Site name shortcode
+#: classes/controllers/FrmAbandonmentActionController.php:148
+msgid "Edit your submission: %1$s access link"
+msgstr "Modifica il tuo messaggio: link di accesso a %1$s"
+
+#. translators: %1$s: Abandoned entry link shortcode, %2$s the edit link
+#: classes/controllers/FrmAbandonmentActionController.php:153
+msgid "Thank you for submitting your form on %1$s. We understand that you might need to update or revise your submission. To make this process easy and convenient, we have provided a direct link for you to return and edit your submission at any time. %2$sPlease note that the link above will take you directly to your form. You can edit and resubmit your information as needed."
+msgstr "Grazie per aver inviato il tuo modulo su %1$s. Sappiamo che potresti aver bisogno di aggiornare o rivedere il tuo modulo. Per rendere questo processo facile e conveniente, ti abbiamo fornito un link diretto con cui potrai tornare a modificare il tuo modulo in qualsiasi momento. %2$s Il link qui sopra ti porterà direttamente al tuo modulo. Potrai modificare e inviare nuovamente le tue informazioni se necessario."
+
+#: classes/controllers/FrmAbandonmentActionController.php:157
+msgid "If you have any questions, please contact us."
+msgstr "Per qualsiasi domanda, contattaci."
+
+#: classes/controllers/FrmAbandonmentActionController.php:158
+msgid "Best regards,"
+msgstr "Cordiali saluti,"
+
+#: classes/controllers/FrmAbandonmentActionController.php:163
+msgid "Save and Resume"
+msgstr "Save and Resume"
+
+#: classes/controllers/FrmAbandonmentActionController.php:181
+msgid "Entry is abandoned"
+msgstr "Voce abbandonata"
+
+#: classes/controllers/FrmAbandonmentAppController.php:33
+msgid "You are running an outdated version of Formidable Forms."
+msgstr "Stai usando una versione non aggiornata di Formidable Forms."
+
+#: classes/controllers/FrmAbandonmentAppController.php:103
+#: classes/controllers/FrmAbandonmentAppController.php:120
+msgid "In Progress"
+msgstr "In lavorazione"
+
+#: classes/controllers/FrmAbandonmentAppController.php:104
+#: classes/controllers/FrmAbandonmentAppController.php:122
+msgid "Abandoned"
+msgstr "Abbandonato"
+
+#: classes/controllers/FrmAbandonmentAppController.php:196
+msgid "Invalid request."
+msgstr "Richiesta non valida."
+
+#: classes/controllers/FrmAbandonmentAppController.php:201
+msgid "Invalid form id."
+msgstr "ID del modulo non valido."
+
+#: classes/controllers/FrmAbandonmentAppController.php:207
+msgid "Spam entry."
+msgstr "Voce di spam."
+
+#: classes/controllers/FrmAbandonmentAppController.php:260
+msgid "Error saving entry."
+msgstr "Errore nel salvataggio della voce."
+
+#: classes/controllers/FrmAbandonmentAppController.php:327
+msgid "Copy Continue Link"
+msgstr "Link Copia e continua"
+
+#: classes/controllers/FrmAbandonmentFormSettingsController.php:32
+msgid "Form Abandonment"
+msgstr "Abbandono del modulo"
+
+#: classes/controllers/FrmAbandonmentFormSettingsController.php:187
+msgid "Logged-out Users"
+msgstr "Utenti non connessi"
+
+#: classes/controllers/FrmAbandonmentObserverController.php:146
+msgid "Close"
+msgstr "Chiuso"
+
+#: classes/controllers/FrmAbandonmentObserverController.php:147
+msgid "Just one more step"
+msgstr "Solo un altro passo"
+
+#: classes/controllers/FrmAbandonmentObserverController.php:148
+msgid "Email address"
+msgstr "Indirizzo email"
+
+#: classes/controllers/FrmAbandonmentObserverController.php:149
+msgid "Enter your email address to save this form as a draft. Drafts cannot be saved without a valid email address."
+msgstr "Inserisci il tuo indirizzo email per salvare questo modulo come bozza. Le bozze non possono essere salvate senza un indirizzo email valido."
+
+#: classes/controllers/FrmAbandonmentObserverController.php:150
+msgid "Please enter correct email"
+msgstr "Inserisci l'email corretta"
+
+#: classes/controllers/FrmAbandonmentObserverController.php:151
+#: classes/controllers/FrmAbandonmentObserverController.php:274
+msgid "Save Draft"
+msgstr "Salva bozza"
+
+#: classes/controllers/FrmAbandonmentObserverController.php:152
+msgid "Auto saved at"
+msgstr "Salvataggio automatico su"
+
+#: classes/controllers/FrmAbandonmentObserverController.php:166
+msgid "Please return an array of strings."
+msgstr "Riporta un array di stringhe."
+
+#: classes/controllers/FrmAbdnCronController.php:79
+msgid "Every 5 minutes"
+msgstr "Ogni 5 minuti"
+
+#: classes/controllers/FrmAbdnCronController.php:103
+#: classes/helpers/FrmAbandonmentAppHelper.php:227
+msgid "Please return a positive integer."
+msgstr "Riporta un numero intero positivo."
+
+#: classes/controllers/FrmAbdnEntriesController.php:29
+msgid "Abandonment Edit Link"
+msgstr "Link di modifica abbandono"
+
+#: classes/controllers/FrmAbdnEntriesController.php:50
+msgid "Continue"
+msgstr "Continua"
+
+#: classes/controllers/FrmAbdnEntriesController.php:347
+#: classes/helpers/FrmAbandonmentEncryptionHelper.php:144
+#: classes/helpers/FrmAbandonmentEncryptionHelper.php:153
+#: classes/models/FrmAbdnEntry.php:203
+#: classes/models/FrmAbdnEntry.php:231
+#: classes/models/FrmAbdnEntry.php:269
+#: classes/models/FrmAbdnEntry.php:343
+#: classes/models/FrmAbdnEntry.php:360
+msgid "Not authorized."
+msgstr "Non autorizzato."
+
+#: classes/helpers/FrmAbandonmentEncryptionHelper.php:66
+msgid "Oops, Something is wrong with openssl."
+msgstr "Ops, c'è qualcosa che non va con openssl."
+
+#: classes/helpers/FrmAbandonmentEncryptionHelper.php:85
+msgid "That access key has a problem."
+msgstr "La chiave di accesso ha un problema."
+
+#: classes/helpers/FrmAbandonmentEncryptionHelper.php:102
+msgid "Oops, the salt key has changed or is unreadable."
+msgstr "Ops, la chiave salt è cambiata o è illeggibile."
+
+#: classes/helpers/FrmAbandonmentEncryptionHelper.php:134
+msgid "That link has expired or the entry has already been submitted."
+msgstr "Il link è scaduto o la voce è già stata inviata."
+
+#: classes/helpers/FrmAbandonmentEncryptionHelper.php:164
+msgid "Already submitted."
+msgstr "Già inviato."
+
+#: classes/helpers/FrmAbandonmentEncryptionHelper.php:179
+msgid "Oops, that link is invalid."
+msgstr "Ops, il link non è valido."
+
+#: classes/models/FrmAbdnEntry.php:727
+msgid "Please return an array of field types to exclude from saving."
+msgstr "Riporta un array di tipi di campo da escludere dal salvataggio."
+
+#: views/settings/front-end-edit.php:15
+msgid "Create an edit link email"
+msgstr "Crea un'email con un link di modifica"
+
+#: views/settings/front-end-edit.php:20
+#: views/settings/save-draft.php:27
+msgid "Create new email notification"
+msgstr "Crea una nuova notifica via email"
+
+#: views/settings/save-draft.php:16
+msgid "Save drafts automatically"
+msgstr "Salva le bozze automaticamente"
+
+#: views/settings/save-draft.php:22
+msgid "Create a save and resume email"
+msgstr "Crea un'email di \"salva e riprendi\""
+
+#: views/settings/settings.php:14
+msgid "Capture partial entries and optionally reclaim them."
+msgstr "Raccogli le voci parziali e, facoltativamente, recuperale."
+
+#: views/settings/settings.php:24
+msgid "Turn on form abandonment"
+msgstr "Attiva l'abbandono dei moduli"
+
+#: views/settings/settings.php:41
+msgid "Require an email address or phone number before saving"
+msgstr "Richiedi un indirizzo email o un numero di telefono prima di salvare"
+
+#: views/settings/settings.php:51
+msgid "Create a form recovery email"
+msgstr "Crea una email di recupero del modulo"
+
+#: views/settings/token-box.php:17
+msgid "Entry Edit Token"
+msgstr "Token di modifica della voce"
+
+#: views/settings/token-box.php:30
+msgid "Copy Edit Link"
+msgstr "Link Copia e modifica"
+
+#: views/settings/token-box.php:39
+msgid "When a token is reset, the previous token will no longer work. Would you like to continue?"
+msgstr "Quando un token viene ripristinato, il token precedente non funzionerà più. Vuoi continuare?"
+
+#: views/settings/token-box.php:42
+msgid "Reset Token"
+msgstr "Reimposta token"
+

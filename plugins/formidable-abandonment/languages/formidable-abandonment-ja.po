@@ -1,0 +1,268 @@
+# Copyright (C) 2024 Strategy11
+# This file is distributed under the GPL-2.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: a2d8bc55ffb2a23897925e74530a7308\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/formidable-abandonment\n"
+"Last-Translator: \n"
+"Language-Team: Japanese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-04-16T12:54:19+00:00\n"
+"PO-Revision-Date: 2024-05-06 13:19\n"
+"X-Generator: WP-CLI 2.10.0\n"
+"X-Domain: formidable-abandonment\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: a2d8bc55ffb2a23897925e74530a7308\n"
+"X-Crowdin-Project-ID: 28\n"
+"X-Crowdin-Language: ja\n"
+"X-Crowdin-File: /[Strategy11.formidable-abandonment] main/languages/formidable-abandonment.pot\n"
+"X-Crowdin-File-ID: 2306\n"
+"Language: ja_JP\n"
+
+#. Plugin Name of the plugin
+#: formidable-abandonment.php
+msgid "Formidable Abandonment"
+msgstr "Formidable 放棄"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: formidable-abandonment.php
+msgid "https://formidableforms.com/"
+msgstr "https://formidableforms.com/"
+
+#. Description of the plugin
+#: formidable-abandonment.php
+msgid "Capture form data before it's submitted to save more leads and learn to optimize forms."
+msgstr "送信前にフォームのデータをキャプチャしてより多くのリードを保存し、フォームを最適化する方法を学びましょう。"
+
+#. Author of the plugin
+#: formidable-abandonment.php
+msgid "Strategy11"
+msgstr "Strategy11"
+
+#: classes/controllers/FrmAbandonmentActionController.php:132
+msgid "Abandoned Form Recovery"
+msgstr "放棄されたフォームの回復"
+
+#. translators: %1$s: Site name shortcode
+#: classes/controllers/FrmAbandonmentActionController.php:135
+msgid "Your submission on %1$s is incomplete!"
+msgstr "%1$s での送信が完了していません !"
+
+#. translators: %1$s: Abandoned entry link shortcode
+#: classes/controllers/FrmAbandonmentActionController.php:140
+msgid "Hello there, It looks like you may have started a form that has not yet been completed. Here is a link for you to pick up right where you left off: %1$s"
+msgstr "ご利用いただきありがとうございます。入力を開始したものの、まだ入力を完了していないフォームがあるようです。中断したところから再開するには、こちらのリンクをクリックしてください: %1$s。"
+
+#: classes/controllers/FrmAbandonmentActionController.php:145
+msgid "Send Edit Entry Link"
+msgstr "エントリー編集リンクを送信"
+
+#. translators: %1$s: Site name shortcode
+#: classes/controllers/FrmAbandonmentActionController.php:148
+msgid "Edit your submission: %1$s access link"
+msgstr "送信を編集: %1$s アクセスリンク"
+
+#. translators: %1$s: Abandoned entry link shortcode, %2$s the edit link
+#: classes/controllers/FrmAbandonmentActionController.php:153
+msgid "Thank you for submitting your form on %1$s. We understand that you might need to update or revise your submission. To make this process easy and convenient, we have provided a direct link for you to return and edit your submission at any time. %2$sPlease note that the link above will take you directly to your form. You can edit and resubmit your information as needed."
+msgstr "%1$s でフォームをご送信いただき、ありがとうございます。必要な場合、ご送信内容を簡単かつ便利に更新または修正できるように、提出済みフォームをいつでも編集できる直接リンクをご用意しました: %2$s このリンクをクリックすると、フォームに直接アクセスし、必要に応じて情報を編集して再送信できます。"
+
+#: classes/controllers/FrmAbandonmentActionController.php:157
+msgid "If you have any questions, please contact us."
+msgstr "ご不明な点がございましたら、お問い合わせください。"
+
+#: classes/controllers/FrmAbandonmentActionController.php:158
+msgid "Best regards,"
+msgstr "どうぞよろしくお願いいたします。"
+
+#: classes/controllers/FrmAbandonmentActionController.php:163
+msgid "Save and Resume"
+msgstr "保存して再開"
+
+#: classes/controllers/FrmAbandonmentActionController.php:181
+msgid "Entry is abandoned"
+msgstr "エントリーを放棄"
+
+#: classes/controllers/FrmAbandonmentAppController.php:33
+msgid "You are running an outdated version of Formidable Forms."
+msgstr "Formidable Forms のバージョンが古いようです。"
+
+#: classes/controllers/FrmAbandonmentAppController.php:103
+#: classes/controllers/FrmAbandonmentAppController.php:120
+msgid "In Progress"
+msgstr "進行中"
+
+#: classes/controllers/FrmAbandonmentAppController.php:104
+#: classes/controllers/FrmAbandonmentAppController.php:122
+msgid "Abandoned"
+msgstr "放棄"
+
+#: classes/controllers/FrmAbandonmentAppController.php:196
+msgid "Invalid request."
+msgstr "無効なリクエスト。"
+
+#: classes/controllers/FrmAbandonmentAppController.php:201
+msgid "Invalid form id."
+msgstr "無効なフォーム ID です。"
+
+#: classes/controllers/FrmAbandonmentAppController.php:207
+msgid "Spam entry."
+msgstr "スパムのエントリーです。"
+
+#: classes/controllers/FrmAbandonmentAppController.php:260
+msgid "Error saving entry."
+msgstr "エントリーの保存中にエラーが発生しました。"
+
+#: classes/controllers/FrmAbandonmentAppController.php:327
+msgid "Copy Continue Link"
+msgstr "「次へ」のリンクをコピー"
+
+#: classes/controllers/FrmAbandonmentFormSettingsController.php:32
+msgid "Form Abandonment"
+msgstr "フォーム放棄"
+
+#: classes/controllers/FrmAbandonmentFormSettingsController.php:187
+msgid "Logged-out Users"
+msgstr "ログアウトしたユーザー"
+
+#: classes/controllers/FrmAbandonmentObserverController.php:146
+msgid "Close"
+msgstr "閉じる"
+
+#: classes/controllers/FrmAbandonmentObserverController.php:147
+msgid "Just one more step"
+msgstr "あと一歩です"
+
+#: classes/controllers/FrmAbandonmentObserverController.php:148
+msgid "Email address"
+msgstr "メールアドレス"
+
+#: classes/controllers/FrmAbandonmentObserverController.php:149
+msgid "Enter your email address to save this form as a draft. Drafts cannot be saved without a valid email address."
+msgstr "このフォームを下書きとして保存するには、メールアドレスを入力してください。有効なメールアドレスがない場合、下書きは保存できません。"
+
+#: classes/controllers/FrmAbandonmentObserverController.php:150
+msgid "Please enter correct email"
+msgstr "正しいメールを入力してください"
+
+#: classes/controllers/FrmAbandonmentObserverController.php:151
+#: classes/controllers/FrmAbandonmentObserverController.php:274
+msgid "Save Draft"
+msgstr "下書きとして保存"
+
+#: classes/controllers/FrmAbandonmentObserverController.php:152
+msgid "Auto saved at"
+msgstr "自動保存した時間:"
+
+#: classes/controllers/FrmAbandonmentObserverController.php:166
+msgid "Please return an array of strings."
+msgstr "文字列の配列を返してください。"
+
+#: classes/controllers/FrmAbdnCronController.php:79
+msgid "Every 5 minutes"
+msgstr "5分ごと"
+
+#: classes/controllers/FrmAbdnCronController.php:103
+#: classes/helpers/FrmAbandonmentAppHelper.php:227
+msgid "Please return a positive integer."
+msgstr "正の整数を返してください。"
+
+#: classes/controllers/FrmAbdnEntriesController.php:29
+msgid "Abandonment Edit Link"
+msgstr "放棄の編集リンク"
+
+#: classes/controllers/FrmAbdnEntriesController.php:50
+msgid "Continue"
+msgstr "次へ"
+
+#: classes/controllers/FrmAbdnEntriesController.php:347
+#: classes/helpers/FrmAbandonmentEncryptionHelper.php:144
+#: classes/helpers/FrmAbandonmentEncryptionHelper.php:153
+#: classes/models/FrmAbdnEntry.php:203
+#: classes/models/FrmAbdnEntry.php:231
+#: classes/models/FrmAbdnEntry.php:269
+#: classes/models/FrmAbdnEntry.php:343
+#: classes/models/FrmAbdnEntry.php:360
+msgid "Not authorized."
+msgstr "認可されていません。"
+
+#: classes/helpers/FrmAbandonmentEncryptionHelper.php:66
+msgid "Oops, Something is wrong with openssl."
+msgstr "Openssl に問題があるようです。"
+
+#: classes/helpers/FrmAbandonmentEncryptionHelper.php:85
+msgid "That access key has a problem."
+msgstr "そのアクセスキーには問題があります。"
+
+#: classes/helpers/FrmAbandonmentEncryptionHelper.php:102
+msgid "Oops, the salt key has changed or is unreadable."
+msgstr "ソルトキーが変更されたか、読み取りできません。"
+
+#: classes/helpers/FrmAbandonmentEncryptionHelper.php:134
+msgid "That link has expired or the entry has already been submitted."
+msgstr "そのリンクは有効期限が切れているか、そのエントリーは送信済みです。"
+
+#: classes/helpers/FrmAbandonmentEncryptionHelper.php:164
+msgid "Already submitted."
+msgstr "送信済みです。"
+
+#: classes/helpers/FrmAbandonmentEncryptionHelper.php:179
+msgid "Oops, that link is invalid."
+msgstr "そのリンクは無効です。"
+
+#: classes/models/FrmAbdnEntry.php:727
+msgid "Please return an array of field types to exclude from saving."
+msgstr "保存から除外するフィールドタイプの配列を返してください。"
+
+#: views/settings/front-end-edit.php:15
+msgid "Create an edit link email"
+msgstr "編集リンクメールを作成"
+
+#: views/settings/front-end-edit.php:20
+#: views/settings/save-draft.php:27
+msgid "Create new email notification"
+msgstr "新規メール通知を作成"
+
+#: views/settings/save-draft.php:16
+msgid "Save drafts automatically"
+msgstr "下書きを自動的に保存"
+
+#: views/settings/save-draft.php:22
+msgid "Create a save and resume email"
+msgstr "保存・再開メールを作成"
+
+#: views/settings/settings.php:14
+msgid "Capture partial entries and optionally reclaim them."
+msgstr "部分的なエントリーをキャプチャし、任意で再要求します。"
+
+#: views/settings/settings.php:24
+msgid "Turn on form abandonment"
+msgstr "フォームの放棄を有効化"
+
+#: views/settings/settings.php:41
+msgid "Require an email address or phone number before saving"
+msgstr "保存前にメールアドレスまたは電話番号の入力が必要"
+
+#: views/settings/settings.php:51
+msgid "Create a form recovery email"
+msgstr "フォーム回復メールを作成"
+
+#: views/settings/token-box.php:17
+msgid "Entry Edit Token"
+msgstr "エントリー編集トークン"
+
+#: views/settings/token-box.php:30
+msgid "Copy Edit Link"
+msgstr "編集リンクをコピー"
+
+#: views/settings/token-box.php:39
+msgid "When a token is reset, the previous token will no longer work. Would you like to continue?"
+msgstr "トークンをリセットすると、以前のトークンは使用できなくなります。続行しますか ?"
+
+#: views/settings/token-box.php:42
+msgid "Reset Token"
+msgstr "トークンをリセット"
+

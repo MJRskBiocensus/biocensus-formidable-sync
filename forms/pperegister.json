@@ -1,0 +1,689 @@
+{
+    "form": {
+        "id": "10",
+        "form_key": "pperegister",
+        "name": "PPE Register",
+        "description": "<p>Form to track who has what PPE<\/p>\n",
+        "parent_form_id": "0",
+        "logged_in": "0",
+        "editable": "1",
+        "is_template": "0",
+        "default_template": "0",
+        "status": "published",
+        "options": {
+            "success_page_id": "0",
+            "honeypot": "basic",
+            "antispam": "1",
+            "success_msg": "Your responses were successfully submitted. Thank you!",
+            "logged_in_role": [
+                "biocensus"
+            ],
+            "cookie_expiration": "8000",
+            "editable_role": [
+                "biocensus"
+            ],
+            "open_editable_role": [
+                "biocensus"
+            ],
+            "edit_action": "redirect",
+            "edit_url": "https:\/\/dev2.biocensus.co.uk\/ppe-register\/",
+            "edit_page_id": "0",
+            "protect_files": "0",
+            "noindex_files": "0",
+            "open_date": "2021-12-03 12:08",
+            "custom_style": 1,
+            "submit_conditions": {
+                "show_hide": "show",
+                "any_all": "all"
+            },
+            "before_html": "<legend class=\"frm_screen_reader\">[form_name]<\/legend>\r\n[if form_name]<h3 class=\"frm_form_title\">[form_name]<\/h3>[\/if form_name]\r\n[if form_description]<div class=\"frm_description\">[form_description]<\/div>[\/if form_description]",
+            "submit_html": "<div class=\"frm_submit\">\r\n[if back_button]<button type=\"submit\" name=\"frm_prev_page\" formnovalidate=\"formnovalidate\" class=\"frm_prev_page\" [back_hook]>[back_label]<\/button>[\/if back_button]\r\n<button class=\"frm_button_submit\" type=\"submit\"  [button_action]>[button_label]<\/button>\r\n[if save_draft]<a href=\"#\" tabindex=\"0\" class=\"frm_save_draft\" [draft_hook]>[draft_label]<\/a>[\/if save_draft]\r\n<\/div>",
+            "prev_value": "Previous",
+            "submit_value": "Submit",
+            "success_action": "message",
+            "show_form": 0,
+            "akismet": "",
+            "stopforumspam": 0,
+            "no_save": 0,
+            "ajax_load": 0,
+            "js_validate": 0,
+            "form_class": "",
+            "after_html": "",
+            "show_title": 0,
+            "show_description": 0,
+            "ajax_submit": 0,
+            "edit_value": "Update",
+            "edit_msg": "Your submission was successfully saved.",
+            "save_draft": 0,
+            "edit_draft_role": "",
+            "draft_msg": "Your draft has been saved.",
+            "copy": 0,
+            "single_entry": 0,
+            "single_entry_type": "user",
+            "unique_email_id": 0,
+            "success_url": "",
+            "draft_label": "Save Draft",
+            "transition": "",
+            "submit_align": "",
+            "open_status": "",
+            "closed_msg": "<p>This form is currently closed for submissions.<\/p>",
+            "close_date": "",
+            "max_entries": "",
+            "rootline": "",
+            "pagination_position": "",
+            "rootline_titles_on": 0,
+            "rootline_titles": [],
+            "rootline_lines_off": 0,
+            "rootline_numbers_off": 0,
+            "auto_save_draft": 0,
+            "on_submit_migrated": 1
+        },
+        "created_at": "2021-12-03 12:08:53"
+    },
+    "fields": [
+        {
+            "id": "233",
+            "field_key": "4rd65a71641b3f2",
+            "name": "User ID",
+            "description": "",
+            "type": "user_id",
+            "default_value": "[user_id]",
+            "options": "",
+            "field_order": "2",
+            "required": "0",
+            "field_options": {
+                "unique_msg": "This value must be unique.",
+                "in_section": "0",
+                "watch_lookup": [
+                    ""
+                ],
+                "blank": "",
+                "classes": "frm_hidden",
+                "btsp": ""
+            },
+            "form_id": "10",
+            "created_at": "2025-08-01 12:51:16",
+            "form_name": "PPE Register"
+        },
+        {
+            "id": "234",
+            "field_key": "c9sse",
+            "name": "Category",
+            "description": "",
+            "type": "lookup",
+            "default_value": "",
+            "options": "",
+            "field_order": "4",
+            "required": "0",
+            "field_options": {
+                "admin_only": [
+                    ""
+                ],
+                "unique_msg": "This value must be unique.",
+                "in_section": "0",
+                "blank": "",
+                "classes": "frm4 frm_first",
+                "custom_html": "<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\r\n    <label for=\"field_[key]\" id=\"field_[key]_label\" class=\"frm_primary_label\">[field_name]\r\n        <span class=\"frm_required\" aria-hidden=\"true\">[required_label]<\/span>\r\n    <\/label>\r\n    [input]\r\n    [if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\"frm_error\" id=\"frm_error_field_[key]\">[error]<\/div>[\/if error]\r\n<\/div>",
+                "get_values_form": "7",
+                "get_values_field": "11000",
+                "btsp": "",
+                "geocoder_id": "",
+                "frmgeo_output_location_field": ""
+            },
+            "form_id": "10",
+            "created_at": "2025-08-01 12:51:16",
+            "form_name": "PPE Register"
+        },
+        {
+            "id": "235",
+            "field_key": "4enm0",
+            "name": "Category Missing",
+            "description": "",
+            "type": "toggle",
+            "default_value": "",
+            "options": "",
+            "field_order": "5",
+            "required": "0",
+            "field_options": {
+                "admin_only": [
+                    ""
+                ],
+                "unique_msg": "This value must be unique.",
+                "in_section": "0",
+                "blank": "",
+                "classes": "frm2",
+                "custom_html": "<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\r\n    <label for=\"field_[key]\" id=\"field_[key]_label\" class=\"frm_primary_label\">[field_name]\r\n        <span class=\"frm_required\" aria-hidden=\"true\">[required_label]<\/span>\r\n    <\/label>\r\n    [input]\r\n    [if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\"frm_error\" id=\"frm_error_field_[key]\">[error]<\/div>[\/if error]\r\n<\/div>",
+                "btsp": ""
+            },
+            "form_id": "10",
+            "created_at": "2025-08-01 12:51:16",
+            "form_name": "PPE Register"
+        },
+        {
+            "id": "236",
+            "field_key": "k4bkz",
+            "name": "Item",
+            "description": "",
+            "type": "lookup",
+            "default_value": "",
+            "options": "",
+            "field_order": "6",
+            "required": "0",
+            "field_options": {
+                "admin_only": [
+                    ""
+                ],
+                "unique_msg": "This value must be unique.",
+                "in_section": "0",
+                "blank": "",
+                "classes": "frm4",
+                "custom_html": "<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\r\n    <label for=\"field_[key]\" id=\"field_[key]_label\" class=\"frm_primary_label\">[field_name]\r\n        <span class=\"frm_required\" aria-hidden=\"true\">[required_label]<\/span>\r\n    <\/label>\r\n    [input]\r\n    [if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\"frm_error\" id=\"frm_error_field_[key]\">[error]<\/div>[\/if error]\r\n<\/div>",
+                "watch_lookup": [
+                    "11868"
+                ],
+                "get_values_form": "7",
+                "get_values_field": "11001",
+                "btsp": "",
+                "geocoder_id": "",
+                "frmgeo_output_location_field": ""
+            },
+            "form_id": "10",
+            "created_at": "2025-08-01 12:51:16",
+            "form_name": "PPE Register"
+        },
+        {
+            "id": "237",
+            "field_key": "zd4ee",
+            "name": "Item Missing",
+            "description": "",
+            "type": "toggle",
+            "default_value": "",
+            "options": "",
+            "field_order": "7",
+            "required": "0",
+            "field_options": {
+                "admin_only": [
+                    ""
+                ],
+                "unique_msg": "This value must be unique.",
+                "in_section": "0",
+                "blank": "",
+                "classes": "frm2",
+                "custom_html": "<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\r\n    <label for=\"field_[key]\" id=\"field_[key]_label\" class=\"frm_primary_label\">[field_name]\r\n        <span class=\"frm_required\" aria-hidden=\"true\">[required_label]<\/span>\r\n    <\/label>\r\n    [input]\r\n    [if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\"frm_error\" id=\"frm_error_field_[key]\">[error]<\/div>[\/if error]\r\n<\/div>",
+                "btsp": ""
+            },
+            "form_id": "10",
+            "created_at": "2025-08-01 12:51:16",
+            "form_name": "PPE Register"
+        },
+        {
+            "id": "238",
+            "field_key": "2xwwb",
+            "name": "Add Category",
+            "description": "",
+            "type": "text",
+            "default_value": "",
+            "options": "",
+            "field_order": "9",
+            "required": "0",
+            "field_options": {
+                "hide_field": [
+                    "11873"
+                ],
+                "hide_opt": [
+                    "Yes"
+                ],
+                "admin_only": [
+                    ""
+                ],
+                "unique_msg": "This value must be unique.",
+                "in_section": "0",
+                "watch_lookup": [
+                    ""
+                ],
+                "blank": "",
+                "invalid": "Text is invalid",
+                "classes": "frm6 frm_first",
+                "custom_html": "<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\r\n    <label for=\"field_[key]\" id=\"field_[key]_label\" class=\"frm_primary_label\">[field_name]\r\n        <span class=\"frm_required\" aria-hidden=\"true\">[required_label]<\/span>\r\n    <\/label>\r\n    [input]\r\n    [if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\"frm_error\" id=\"frm_error_field_[key]\">[error]<\/div>[\/if error]\r\n<\/div>",
+                "btsp": "",
+                "geocoder_id": "",
+                "frmgeo_output_location_field": "",
+                "geo_avoid_autofill": 1
+            },
+            "form_id": "10",
+            "created_at": "2025-08-01 12:51:16",
+            "form_name": "PPE Register"
+        },
+        {
+            "id": "239",
+            "field_key": "b398w",
+            "name": "Add Item",
+            "description": "",
+            "type": "text",
+            "default_value": "",
+            "options": "",
+            "field_order": "10",
+            "required": "0",
+            "field_options": {
+                "hide_field": [
+                    "11874"
+                ],
+                "hide_opt": [
+                    "Yes"
+                ],
+                "admin_only": [
+                    ""
+                ],
+                "unique_msg": "This value must be unique.",
+                "in_section": "0",
+                "watch_lookup": [
+                    ""
+                ],
+                "blank": "",
+                "invalid": "Text is invalid",
+                "classes": "frm6",
+                "custom_html": "<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\r\n    <label for=\"field_[key]\" id=\"field_[key]_label\" class=\"frm_primary_label\">[field_name]\r\n        <span class=\"frm_required\" aria-hidden=\"true\">[required_label]<\/span>\r\n    <\/label>\r\n    [input]\r\n    [if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\"frm_error\" id=\"frm_error_field_[key]\">[error]<\/div>[\/if error]\r\n<\/div>",
+                "btsp": "",
+                "geocoder_id": "",
+                "frmgeo_output_location_field": "",
+                "geo_avoid_autofill": 1
+            },
+            "form_id": "10",
+            "created_at": "2025-08-01 12:51:16",
+            "form_name": "PPE Register"
+        },
+        {
+            "id": "240",
+            "field_key": "wjf5",
+            "name": "Assigned to",
+            "description": "",
+            "type": "data",
+            "default_value": "",
+            "options": "",
+            "field_order": "12",
+            "required": "0",
+            "field_options": {
+                "form_select": "816",
+                "admin_only": [
+                    ""
+                ],
+                "unique_msg": "This value must be unique.",
+                "in_section": "0",
+                "blank": "",
+                "classes": "frm9 frm_first",
+                "custom_html": "<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\r\n    <label for=\"field_[key]\" id=\"field_[key]_label\" class=\"frm_primary_label\">[field_name]\r\n        <span class=\"frm_required\" aria-hidden=\"true\">[required_label]<\/span>\r\n    <\/label>\r\n    <div class=\"frm_opt_container\" aria-labelledby=\"field_[key]_label\" role=\"group\">[input]<\/div>\r\n    [if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\"frm_error\" id=\"frm_error_field_[key]\">[error]<\/div>[\/if error]\r\n<\/div>",
+                "btsp": ""
+            },
+            "form_id": "10",
+            "created_at": "2025-08-01 12:51:16",
+            "form_name": "PPE Register"
+        },
+        {
+            "id": "241",
+            "field_key": "5qk8z",
+            "name": "Date Received",
+            "description": "Approx. if exact unknown",
+            "type": "date",
+            "default_value": "",
+            "options": "",
+            "field_order": "13",
+            "required": "0",
+            "field_options": {
+                "admin_only": [
+                    ""
+                ],
+                "unique_msg": "This value must be unique.",
+                "in_section": "0",
+                "watch_lookup": [
+                    ""
+                ],
+                "blank": "",
+                "invalid": "Date is invalid",
+                "classes": "frm3",
+                "custom_html": "<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\r\n    <label for=\"field_[key]\" id=\"field_[key]_label\" class=\"frm_primary_label\">[field_name]\r\n        <span class=\"frm_required\" aria-hidden=\"true\">[required_label]<\/span>\r\n    <\/label>\r\n    [input]\r\n    [if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\"frm_error\" id=\"frm_error_field_[key]\">[error]<\/div>[\/if error]\r\n<\/div>",
+                "days_of_the_week": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    0
+                ],
+                "btsp": "",
+                "excepted_dates": []
+            },
+            "form_id": "10",
+            "created_at": "2025-08-01 12:51:16",
+            "form_name": "PPE Register"
+        },
+        {
+            "id": "242",
+            "field_key": "zooxc",
+            "name": "Tracking",
+            "description": "",
+            "type": "divider",
+            "default_value": "",
+            "options": "",
+            "field_order": "15",
+            "required": "0",
+            "field_options": {
+                "admin_only": [
+                    ""
+                ],
+                "unique_msg": "This value must be unique.",
+                "in_section": "0",
+                "label": "",
+                "blank": "",
+                "custom_html": "<div id=\"frm_field_[id]_container\" class=\"frm_form_field frm_section_heading form-field[error_class]\">\r\n<h3 class=\"frm_pos_[label_position][collapse_class]\">[field_name]<\/h3>\r\n[if description]<div class=\"frm_description\">[description]<\/div>[\/if description]\r\n[collapse_this]\r\n<\/div>",
+                "repeat": "0",
+                "btsp": ""
+            },
+            "form_id": "10",
+            "created_at": "2025-08-01 12:51:16",
+            "form_name": "PPE Register"
+        },
+        {
+            "id": "243",
+            "field_key": "7ncve",
+            "name": "Expected Replacment Date",
+            "description": "",
+            "type": "date",
+            "default_value": "",
+            "options": "",
+            "field_order": "17",
+            "required": "0",
+            "field_options": {
+                "admin_only": [
+                    ""
+                ],
+                "unique_msg": "This value must be unique.",
+                "in_section": "11878",
+                "watch_lookup": [
+                    ""
+                ],
+                "blank": "",
+                "invalid": "Date is invalid",
+                "custom_html": "<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\r\n    <label for=\"field_[key]\" id=\"field_[key]_label\" class=\"frm_primary_label\">[field_name]\r\n        <span class=\"frm_required\" aria-hidden=\"true\">[required_label]<\/span>\r\n    <\/label>\r\n    [input]\r\n    [if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\"frm_error\" id=\"frm_error_field_[key]\">[error]<\/div>[\/if error]\r\n<\/div>",
+                "days_of_the_week": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    0
+                ],
+                "btsp": "",
+                "excepted_dates": []
+            },
+            "form_id": "10",
+            "created_at": "2025-08-01 12:51:16",
+            "form_name": "PPE Register"
+        },
+        {
+            "id": "244",
+            "field_key": "82tfk",
+            "name": "Test\/Review Frequency",
+            "description": "",
+            "type": "radio",
+            "default_value": "",
+            "options": {
+                "1": {
+                    "label": "Monthly",
+                    "value": "Monthly",
+                    "image": "Option 2",
+                    "src": false
+                },
+                "2": {
+                    "label": "Quarterly",
+                    "value": "Quarterly",
+                    "image": "0"
+                },
+                "3": {
+                    "label": "6 Monthly",
+                    "value": "6 Monthly",
+                    "image": "0"
+                },
+                "4": {
+                    "label": "Anually",
+                    "value": "Anually",
+                    "image": "0"
+                },
+                "5": {
+                    "label": "Bi-annually",
+                    "value": "Bi-annually",
+                    "image": "0"
+                },
+                "other_6": "Other"
+            },
+            "field_order": "19",
+            "required": "0",
+            "field_options": {
+                "align": "frm_three_col",
+                "admin_only": [
+                    ""
+                ],
+                "unique_msg": "This value must be unique.",
+                "other": "1",
+                "in_section": "11878",
+                "blank": "",
+                "classes": "frm12 frm_first",
+                "custom_html": "<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\r\n    <div  id=\"field_[key]_label\" class=\"frm_primary_label\">[field_name]\r\n        <span class=\"frm_required\" aria-hidden=\"true\">[required_label]<\/span>\r\n    <\/div>\r\n    <div class=\"frm_opt_container\" aria-labelledby=\"field_[key]_label\" role=\"group\">[input]<\/div>\r\n    [if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\"frm_error\" id=\"frm_error_field_[key]\">[error]<\/div>[\/if error]\r\n<\/div>",
+                "image_options": "0",
+                "image_size": "small",
+                "btsp": "",
+                "geocoder_id": "",
+                "frmgeo_output_location_field": ""
+            },
+            "form_id": "10",
+            "created_at": "2025-08-01 12:51:16",
+            "form_name": "PPE Register"
+        },
+        {
+            "id": "245",
+            "field_key": "az6cg",
+            "name": "Date of last test\/Review",
+            "description": "",
+            "type": "date",
+            "default_value": "",
+            "options": "",
+            "field_order": "21",
+            "required": "0",
+            "field_options": {
+                "admin_only": [
+                    ""
+                ],
+                "unique_msg": "This value must be unique.",
+                "in_section": "11878",
+                "watch_lookup": [
+                    ""
+                ],
+                "blank": "",
+                "invalid": "Date is invalid",
+                "classes": "frm3 frm_first",
+                "custom_html": "<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\r\n    <label for=\"field_[key]\" id=\"field_[key]_label\" class=\"frm_primary_label\">[field_name]\r\n        <span class=\"frm_required\" aria-hidden=\"true\">[required_label]<\/span>\r\n    <\/label>\r\n    [input]\r\n    [if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\"frm_error\" id=\"frm_error_field_[key]\">[error]<\/div>[\/if error]\r\n<\/div>",
+                "days_of_the_week": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    0
+                ],
+                "btsp": "",
+                "excepted_dates": []
+            },
+            "form_id": "10",
+            "created_at": "2025-08-01 12:51:16",
+            "form_name": "PPE Register"
+        },
+        {
+            "id": "246",
+            "field_key": "zw0g1",
+            "name": "Logged by",
+            "description": "",
+            "type": "data",
+            "default_value": "",
+            "options": "",
+            "field_order": "22",
+            "required": "0",
+            "field_options": {
+                "form_select": "816",
+                "admin_only": [
+                    ""
+                ],
+                "unique_msg": "This value must be unique.",
+                "in_section": "11878",
+                "blank": "",
+                "classes": "frm6",
+                "custom_html": "<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\r\n    <label for=\"field_[key]\" id=\"field_[key]_label\" class=\"frm_primary_label\">[field_name]\r\n        <span class=\"frm_required\" aria-hidden=\"true\">[required_label]<\/span>\r\n    <\/label>\r\n    <div class=\"frm_opt_container\" aria-labelledby=\"field_[key]_label\" role=\"group\">[input]<\/div>\r\n    [if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\"frm_error\" id=\"frm_error_field_[key]\">[error]<\/div>[\/if error]\r\n<\/div>",
+                "btsp": ""
+            },
+            "form_id": "10",
+            "created_at": "2025-08-01 12:51:16",
+            "form_name": "PPE Register"
+        },
+        {
+            "id": "247",
+            "field_key": "2hwhg",
+            "name": "Retired",
+            "description": "",
+            "type": "toggle",
+            "default_value": "",
+            "options": "",
+            "field_order": "23",
+            "required": "0",
+            "field_options": {
+                "admin_only": [
+                    ""
+                ],
+                "unique_msg": "This value must be unique.",
+                "in_section": "11878",
+                "blank": "",
+                "classes": "frm3",
+                "custom_html": "<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\r\n    <label for=\"field_[key]\" id=\"field_[key]_label\" class=\"frm_primary_label\">[field_name]\r\n        <span class=\"frm_required\" aria-hidden=\"true\">[required_label]<\/span>\r\n    <\/label>\r\n    [input]\r\n    [if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\"frm_error\" id=\"frm_error_field_[key]\">[error]<\/div>[\/if error]\r\n<\/div>",
+                "btsp": ""
+            },
+            "form_id": "10",
+            "created_at": "2025-08-01 12:51:16",
+            "form_name": "PPE Register"
+        },
+        {
+            "id": "248",
+            "field_key": "y2pgh",
+            "name": "Notes",
+            "description": "",
+            "type": "textarea",
+            "default_value": "",
+            "options": "",
+            "field_order": "25",
+            "required": "0",
+            "field_options": {
+                "admin_only": [
+                    ""
+                ],
+                "unique_msg": "This value must be unique.",
+                "in_section": "11878",
+                "watch_lookup": [
+                    ""
+                ],
+                "blank": "",
+                "custom_html": "<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\r\n    <label for=\"field_[key]\" id=\"field_[key]_label\" class=\"frm_primary_label\">[field_name]\r\n        <span class=\"frm_required\" aria-hidden=\"true\">[required_label]<\/span>\r\n    <\/label>\r\n    [input]\r\n    [if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\"frm_error\" id=\"frm_error_field_[key]\">[error]<\/div>[\/if error]\r\n<\/div>",
+                "btsp": ""
+            },
+            "form_id": "10",
+            "created_at": "2025-08-01 12:51:16",
+            "form_name": "PPE Register"
+        },
+        {
+            "id": "249",
+            "field_key": "nstud",
+            "name": "Section Buttons",
+            "description": "",
+            "type": "end_divider",
+            "default_value": "",
+            "options": "",
+            "field_order": "26",
+            "required": "0",
+            "field_options": {
+                "unique_msg": "This value must be unique.",
+                "in_section": "0",
+                "blank": "",
+                "btsp": ""
+            },
+            "form_id": "10",
+            "created_at": "2025-08-01 12:51:16",
+            "form_name": "PPE Register"
+        }
+    ],
+    "options": {
+        "success_page_id": "0",
+        "honeypot": "basic",
+        "antispam": "1",
+        "success_msg": "Your responses were successfully submitted. Thank you!",
+        "logged_in_role": [
+            "biocensus"
+        ],
+        "cookie_expiration": "8000",
+        "editable_role": [
+            "biocensus"
+        ],
+        "open_editable_role": [
+            "biocensus"
+        ],
+        "edit_action": "redirect",
+        "edit_url": "https:\/\/dev2.biocensus.co.uk\/ppe-register\/",
+        "edit_page_id": "0",
+        "protect_files": "0",
+        "noindex_files": "0",
+        "open_date": "2021-12-03 12:08",
+        "custom_style": 1,
+        "submit_conditions": {
+            "show_hide": "show",
+            "any_all": "all"
+        },
+        "before_html": "<legend class=\"frm_screen_reader\">[form_name]<\/legend>\r\n[if form_name]<h3 class=\"frm_form_title\">[form_name]<\/h3>[\/if form_name]\r\n[if form_description]<div class=\"frm_description\">[form_description]<\/div>[\/if form_description]",
+        "submit_html": "<div class=\"frm_submit\">\r\n[if back_button]<button type=\"submit\" name=\"frm_prev_page\" formnovalidate=\"formnovalidate\" class=\"frm_prev_page\" [back_hook]>[back_label]<\/button>[\/if back_button]\r\n<button class=\"frm_button_submit\" type=\"submit\"  [button_action]>[button_label]<\/button>\r\n[if save_draft]<a href=\"#\" tabindex=\"0\" class=\"frm_save_draft\" [draft_hook]>[draft_label]<\/a>[\/if save_draft]\r\n<\/div>",
+        "prev_value": "Previous",
+        "submit_value": "Submit",
+        "success_action": "message",
+        "show_form": 0,
+        "akismet": "",
+        "stopforumspam": 0,
+        "no_save": 0,
+        "ajax_load": 0,
+        "js_validate": 0,
+        "form_class": "",
+        "after_html": "",
+        "show_title": 0,
+        "show_description": 0,
+        "ajax_submit": 0,
+        "edit_value": "Update",
+        "edit_msg": "Your submission was successfully saved.",
+        "save_draft": 0,
+        "edit_draft_role": "",
+        "draft_msg": "Your draft has been saved.",
+        "copy": 0,
+        "single_entry": 0,
+        "single_entry_type": "user",
+        "unique_email_id": 0,
+        "success_url": "",
+        "draft_label": "Save Draft",
+        "transition": "",
+        "submit_align": "",
+        "open_status": "",
+        "closed_msg": "<p>This form is currently closed for submissions.<\/p>",
+        "close_date": "",
+        "max_entries": "",
+        "rootline": "",
+        "pagination_position": "",
+        "rootline_titles_on": 0,
+        "rootline_titles": [],
+        "rootline_lines_off": 0,
+        "rootline_numbers_off": 0,
+        "auto_save_draft": 0,
+        "on_submit_migrated": 1
+    }
+}

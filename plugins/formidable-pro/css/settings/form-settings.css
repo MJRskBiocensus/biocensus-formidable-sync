@@ -1,0 +1,39 @@
+.frm_multiselect.frm_invisible + .btn-group.frm-btn-group.dropdown {
+	visibility: hidden;
+}
+
+.frm_postmeta_row .frm_add_tag:before,
+.frm_postmeta_row .frm_remove_tag:before,
+.frm_posttax_row .frm_add_tag:before,
+.frm_posttax_row .frm_remove_tag:before,
+.frm_logic_row .frm_add_tag:before,
+.frm_logic_row .frm_remove_tag:before {
+	content: "";
+}
+
+/** 
+ * Bootstrap multiselect CSS
+ */
+ .frm-dropdown-menu > .frm_disabled_option > span {
+	opacity: 0.5;
+ }
+
+/**
+ * jQuery datepicker overrides.
+ */
+.frm-datepicker.ui-datepicker .ui-datepicker-prev:before, .frm-datepicker.ui-datepicker .ui-datepicker-next:before {content: '';}
+
+.frm-datepicker.ui-datepicker .ui-datepicker-next span, .frm-datepicker.ui-datepicker .ui-datepicker-prev span {
+	display: block;
+}
+
+.frm-datepicker.ui-datepicker .ui-icon-circle-triangle-e {
+	transform: rotate(180deg) !important;
+} 
+
+.frm-datepicker.ui-datepicker .ui-state-hover .ui-icon {
+	background-image: url(../../css/ui-lightness/images/ui-icons_ffffff_256x240.png);
+ }
+ /**
+ * End jQuery datepicker overrides.
+ */

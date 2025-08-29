@@ -1,0 +1,191 @@
+# Copyright (C) 2024 Strategy11
+# This file is distributed under the same license as the Formidable Datepicker Options plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: a2d8bc55ffb2a23897925e74530a7308\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/formidable-dates\n"
+"Last-Translator: \n"
+"Language-Team: Japanese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-08-16T19:25:02+00:00\n"
+"PO-Revision-Date: 2024-08-17 05:48\n"
+"X-Generator: WP-CLI 2.10.0\n"
+"X-Domain: frmdates\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: a2d8bc55ffb2a23897925e74530a7308\n"
+"X-Crowdin-Project-ID: 28\n"
+"X-Crowdin-Language: ja\n"
+"X-Crowdin-File: /[Strategy11.formidable-dates] master/languages/frmdates.pot\n"
+"X-Crowdin-File-ID: 2412\n"
+"Language: ja_JP\n"
+
+#. Plugin Name of the plugin
+#: formidable-dates.php
+msgid "Formidable Datepicker Options"
+msgstr "Formidable 日付選択ツールのオプション"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: formidable-dates.php
+msgid "https://formidableforms.com"
+msgstr "https://formidableforms.com/ja"
+
+#. Description of the plugin
+#: formidable-dates.php
+msgid "Set blackout dates, days of the week, dynamic minimum and maximum dates, and calculate dates."
+msgstr "除外日、曜日、動的な最低日数と最大日数、および日付の計算を設定します。"
+
+#. Author of the plugin
+#: formidable-dates.php
+msgid "Strategy11"
+msgstr "Strategy11"
+
+#: classes/controllers/FrmDatesAppController.php:7
+msgid "Formidable Dates requires Formidable Forms Pro to be installed."
+msgstr ""
+
+#: classes/controllers/FrmDatesAppController.php:113
+msgid "Minimum"
+msgstr "最小"
+
+#: classes/controllers/FrmDatesAppController.php:114
+msgid "Maximum"
+msgstr "最大"
+
+#: classes/controllers/FrmDatesCalculationController.php:25
+msgid "Default Value (Date Calculation)"
+msgstr "初期値 (日付計算)"
+
+#: classes/helpers/FrmDatesCalculationHelper.php:33
+msgid "Smart Tags"
+msgstr "スマートタグ"
+
+#: classes/models/FrmDatesField.php:141
+#: classes/models/FrmDatesField.php:161
+msgid "The date selected is not allowed. Please select another day."
+msgstr ""
+
+#. translators: %s: Minimum date
+#: classes/models/FrmDatesField.php:150
+msgid "Date cannot be before %s"
+msgstr ""
+
+#. translators: %s: Maximum date
+#: classes/models/FrmDatesField.php:156
+msgid "Date cannot be after %s"
+msgstr ""
+
+#: views/calc-settings-modal.php:17
+msgid "Start date"
+msgstr "開始日"
+
+#: views/calc-settings-modal.php:39
+msgid "Date Difference"
+msgstr "日付の違い"
+
+#: views/calc-settings-modal.php:40
+msgid "Difference between start date and desired date. Can be in days, weeks, months, or years."
+msgstr "開始日と希望日の差。日、週、月、年を使用できます。"
+
+#: views/calc-settings-modal.php:63
+msgid "Dynamically set the value of this field from another date."
+msgstr "このフィールドの値を別の日付から動的に設定します。"
+
+#: views/calc-settings.php:22
+msgid "Default Value"
+msgstr "初期値"
+
+#: views/calc-settings.php:24
+#: views/calc-settings.php:32
+msgid "Date calculation"
+msgstr "日付計算"
+
+#: views/calc-shortcodes-modal.php:18
+msgid "Search Smart Tags"
+msgstr "スマートタグを検索"
+
+#: views/calc-shortcodes-modal.php:27
+#: views/date-field-settings.php:19
+msgid "Current Date"
+msgstr "日付"
+
+#: views/calc-shortcodes-modal.php:29
+msgid "GET/POST"
+msgstr "GET/POST"
+
+#: views/calc-shortcodes-modal.php:30
+msgid "A variable from the URL or value posted from previous page."
+msgstr "URL の変数または前のページから投稿された値。"
+
+#: views/calc-shortcodes-modal.php:30
+msgid "Replace 'whatever' with the parameter name. In url.com?product=form, the variable is 'product'. You would use [get param=product] in your field."
+msgstr "'whatever' をパラメータ名に置き換えます。url.com?product=form では、変数は 'product' です。フィールドで [get param=product] を使うことになります。"
+
+#: views/calc-shortcodes-modal.php:59
+msgid "Click smart value to dynamically populate this field. Smart values are not used when editing entries."
+msgstr "スマート値をクリックすると、このフィールドに動的に値が入力されます。スマート値はエントリーの編集時には使用されません。"
+
+#: views/date-field-settings.php:7
+msgid "Set specific minimum and maximum dates"
+msgstr "特定の最低日数と最大日数を設定"
+
+#: views/date-field-settings.php:17
+msgid "Year set above"
+msgstr "上で設定した年"
+
+#: views/date-field-settings.php:18
+msgid "Specific Date"
+msgstr "特定の日付"
+
+#: views/date-field-settings.php:21
+msgid "Date Fields"
+msgstr "日付フィールド"
+
+#: views/date-field-settings.php:38
+msgid "Days of the week"
+msgstr "曜日"
+
+#: views/date-field-settings.php:39
+msgid "Check the boxes for the days of the week that should be selectable in the datepicker. Deselecting a week day will disable it in the datepicker."
+msgstr "日付選択ツールで選択可能な曜日のボックスにチェックマークを入れます。曜日の選択を解除すると、その曜日は日付選択ツールで無効になります。"
+
+#: views/date-field-settings.php:46
+msgid "All Days"
+msgstr "すべての日"
+
+#: views/date-field-settings.php:66
+msgid "Exceptions"
+msgstr "例外"
+
+#: views/date-field-settings.php:67
+msgid "When a weekday is disabled in the datepicker, you may select specific dates to enable."
+msgstr "日付選択ツールで平日が無効化されている場合、特定の日付を選択して有効化できます。"
+
+#: views/date-field-settings.php:75
+msgid "Add Exceptions"
+msgstr "例外を追加"
+
+#: views/date-field-settings.php:92
+msgid "Blackout Dates"
+msgstr "除外する日付"
+
+#: views/date-field-settings.php:93
+msgid "Disable specific dates in the datepicker. These dates are disabled in addition to any weekdays you uncheck."
+msgstr "日付選択ツールで特定の日付を無効化します。チェックマークを外した平日に加え、これらの日付も無効化されます。"
+
+#: views/date-field-settings.php:101
+msgid "Add Blackout Date"
+msgstr "除外する日付を追加"
+
+#: views/date-field-settings.php:119
+msgid "Display Inline Date Picker"
+msgstr "インライン日付選択ツールを表示"
+
+#. translators: %s - the number of dates initially hidden.
+#: views/dates-list.php:18
+msgid "... and %s more"
+msgid_plural "... and %s more"
+msgstr[0] "... 他 %s件"
+

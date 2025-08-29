@@ -1,0 +1,971 @@
+{
+    "form": {
+        "id": "9",
+        "form_key": "vehiclehireupdaterequest",
+        "name": "Vehicle Hire Cancellation\/Update Request",
+        "description": "",
+        "parent_form_id": "0",
+        "logged_in": "0",
+        "editable": "0",
+        "is_template": "0",
+        "default_template": "0",
+        "status": "published",
+        "options": {
+            "on_submit_migrated": "1",
+            "honeypot": "basic",
+            "logged_in_role": [
+                ""
+            ],
+            "single_entry_type": [
+                "user"
+            ],
+            "cookie_expiration": "8000",
+            "protect_files": "0",
+            "noindex_files": "0",
+            "editable_role": [
+                ""
+            ],
+            "edit_draft_role": [
+                ""
+            ],
+            "open_date": "2020-08-26 10:42",
+            "custom_style": 1,
+            "submit_conditions": {
+                "show_hide": "show",
+                "any_all": "all"
+            },
+            "start_over_label": "Start Over",
+            "landing_bg_image_id": "0",
+            "landing_opacity": "100",
+            "before_html": "<legend class=\"frm_screen_reader\">[form_name]<\/legend>\r\n[if form_name]<h3 class=\"frm_form_title\">[form_name]<\/h3>[\/if form_name]\r\n[if form_description]<div class=\"frm_description\">[form_description]<\/div>[\/if form_description]",
+            "submit_html": "<div class=\"frm_submit\">\r\n[if back_button]<button type=\"submit\" name=\"frm_prev_page\" formnovalidate=\"formnovalidate\" class=\"frm_prev_page\" [back_hook]>[back_label]<\/button>[\/if back_button]\r\n<button class=\"frm_button_submit\" type=\"submit\"  [button_action]>[button_label]<\/button>\r\n[if save_draft]<a href=\"#\" tabindex=\"0\" class=\"frm_save_draft\" [draft_hook]>[draft_label]<\/a>[\/if save_draft]\r\n<\/div>",
+            "success_msg": "Your responses were successfully submitted. Thank you!",
+            "show_form": false,
+            "prev_value": "Previous",
+            "submit_value": "Submit",
+            "success_action": "message",
+            "akismet": "",
+            "stopforumspam": 0,
+            "antispam": 0,
+            "no_save": 0,
+            "ajax_load": 0,
+            "js_validate": 0,
+            "form_class": "",
+            "after_html": "",
+            "show_title": 0,
+            "show_description": 0,
+            "ajax_submit": 0,
+            "edit_value": "Update",
+            "edit_msg": "Your submission was successfully saved.",
+            "edit_action": "message",
+            "edit_url": "",
+            "edit_page_id": 0,
+            "save_draft": 0,
+            "draft_msg": "Your draft has been saved.",
+            "open_editable_role": "-1",
+            "copy": 0,
+            "single_entry": 0,
+            "unique_email_id": 0,
+            "success_page_id": "",
+            "success_url": "",
+            "draft_label": "Save Draft",
+            "transition": "",
+            "submit_align": "",
+            "open_status": "",
+            "closed_msg": "<p>This form is currently closed for submissions.<\/p>",
+            "close_date": "",
+            "max_entries": "",
+            "rootline": "",
+            "pagination_position": "",
+            "rootline_titles_on": 0,
+            "rootline_titles": [],
+            "rootline_lines_off": 0,
+            "rootline_numbers_off": 0,
+            "auto_save_draft": 0
+        },
+        "created_at": "2021-10-01 08:07:57"
+    },
+    "fields": [
+        {
+            "id": "206",
+            "field_key": "byz69254bc2783",
+            "name": "Update ID",
+            "description": "",
+            "type": "hidden",
+            "default_value": "",
+            "options": "",
+            "field_order": "2",
+            "required": "0",
+            "field_options": {
+                "unique_msg": "This value must be unique.",
+                "in_section": "0",
+                "watch_lookup": [
+                    ""
+                ],
+                "blank": "",
+                "btsp": "",
+                "geocoder_id": "",
+                "frmgeo_output_location_field": ""
+            },
+            "form_id": "9",
+            "created_at": "2025-08-01 12:51:16",
+            "form_name": "Vehicle Hire Cancellation\/Update Request"
+        },
+        {
+            "id": "207",
+            "field_key": "hinpa",
+            "name": "Former staff filter",
+            "description": "",
+            "type": "lookup",
+            "default_value": "",
+            "options": "",
+            "field_order": "4",
+            "required": "0",
+            "field_options": {
+                "admin_only": [
+                    ""
+                ],
+                "unique_msg": "This value must be unique.",
+                "dyn_default_value": "No",
+                "in_section": "0",
+                "blank": "",
+                "classes": "frm_hidden",
+                "custom_html": "<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\r\n    <label for=\"field_[key]\" id=\"field_[key]_label\" class=\"frm_primary_label\">[field_name]\r\n        <span class=\"frm_required\" aria-hidden=\"true\">[required_label]<\/span>\r\n    <\/label>\r\n    [input]\r\n    [if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\"frm_error\" role=\"alert\" id=\"frm_error_field_[key]\">[error]<\/div>[\/if error]\r\n<\/div>",
+                "data_type": "text",
+                "get_values_form": "3",
+                "get_values_field": "15943",
+                "btsp": "",
+                "geocoder_id": "",
+                "frmgeo_output_location_field": ""
+            },
+            "form_id": "9",
+            "created_at": "2025-08-01 12:51:16",
+            "form_name": "Vehicle Hire Cancellation\/Update Request"
+        },
+        {
+            "id": "208",
+            "field_key": "igzw85e3c1c3831",
+            "name": "Original Booking",
+            "description": "",
+            "type": "divider",
+            "default_value": "",
+            "options": "",
+            "field_order": "6",
+            "required": "0",
+            "field_options": {
+                "admin_only": [
+                    ""
+                ],
+                "unique_msg": "This value must be unique.",
+                "in_section": "0",
+                "label": "",
+                "blank": "",
+                "custom_html": "<div id=\"frm_field_[id]_container\" class=\"frm_form_field frm_section_heading form-field[error_class]\">\r\n<h3 class=\"frm_pos_[label_position][collapse_class]\">[field_name]<\/h3>\r\n[if description]<div class=\"frm_description\">[description]<\/div>[\/if description]\r\n[collapse_this]\r\n<\/div>",
+                "repeat": "0",
+                "btsp": ""
+            },
+            "form_id": "9",
+            "created_at": "2025-08-01 12:51:16",
+            "form_name": "Vehicle Hire Cancellation\/Update Request"
+        },
+        {
+            "id": "209",
+            "field_key": "uc9pvecdf0ef2fb",
+            "name": "Booking ID",
+            "description": "",
+            "type": "data",
+            "default_value": "",
+            "options": "",
+            "field_order": "8",
+            "required": "0",
+            "field_options": {
+                "form_select": "11338",
+                "admin_only": [
+                    ""
+                ],
+                "unique_msg": "This value must be unique.",
+                "dyn_default_value": "[get param=booking]",
+                "in_section": "11313",
+                "blank": "",
+                "classes": "frm12 frm_first",
+                "custom_html": "<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\r\n    <label for=\"field_[key]\" id=\"field_[key]_label\" class=\"frm_primary_label\">[field_name]\r\n        <span class=\"frm_required\">[required_label]<\/span>\r\n    <\/label>\r\n    <div class=\"frm_opt_container\" aria-labelledby=\"field_[key]_label\" role=\"group\">[input]<\/div>\r\n    [if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\"frm_error\" id=\"frm_error_field_[key]\">[error]<\/div>[\/if error]\r\n<\/div>",
+                "btsp": ""
+            },
+            "form_id": "9",
+            "created_at": "2025-08-01 12:51:16",
+            "form_name": "Vehicle Hire Cancellation\/Update Request"
+        },
+        {
+            "id": "210",
+            "field_key": "y1dfaa7c0f56d4b",
+            "name": "Booking ID (check)",
+            "description": "",
+            "type": "data",
+            "default_value": "",
+            "options": "",
+            "field_order": "10",
+            "required": "0",
+            "field_options": {
+                "form_select": "11338",
+                "hide_field": [
+                    "11314"
+                ],
+                "hide_opt": [
+                    ""
+                ],
+                "admin_only": [
+                    ""
+                ],
+                "unique_msg": "This value must be unique.",
+                "in_section": "11313",
+                "blank": "",
+                "classes": "frm_first frm2",
+                "custom_html": "<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\r\n    <label for=\"field_[key]\" id=\"field_[key]_label\" class=\"frm_primary_label\">[field_name]\r\n        <span class=\"frm_required\">[required_label]<\/span>\r\n    <\/label>\r\n    <div class=\"frm_opt_container\" aria-labelledby=\"field_[key]_label\" role=\"group\">[input]<\/div>\r\n    [if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\"frm_error\" id=\"frm_error_field_[key]\">[error]<\/div>[\/if error]\r\n<\/div>",
+                "data_type": "data",
+                "btsp": ""
+            },
+            "form_id": "9",
+            "created_at": "2025-08-01 12:51:16",
+            "form_name": "Vehicle Hire Cancellation\/Update Request"
+        },
+        {
+            "id": "211",
+            "field_key": "i30rg7ab96e472e",
+            "name": "Driver Name",
+            "description": "",
+            "type": "data",
+            "default_value": "",
+            "options": "",
+            "field_order": "11",
+            "required": "0",
+            "field_options": {
+                "form_select": "11287",
+                "hide_field": [
+                    "11314"
+                ],
+                "hide_opt": [
+                    ""
+                ],
+                "admin_only": [
+                    ""
+                ],
+                "unique_msg": "This value must be unique.",
+                "in_section": "11313",
+                "blank": "",
+                "classes": "frm4",
+                "custom_html": "<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\r\n    <label for=\"field_[key]\" id=\"field_[key]_label\" class=\"frm_primary_label\">[field_name]\r\n        <span class=\"frm_required\">[required_label]<\/span>\r\n    <\/label>\r\n    <div class=\"frm_opt_container\" aria-labelledby=\"field_[key]_label\" role=\"group\">[input]<\/div>\r\n    [if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\"frm_error\" id=\"frm_error_field_[key]\">[error]<\/div>[\/if error]\r\n<\/div>",
+                "data_type": "data",
+                "btsp": ""
+            },
+            "form_id": "9",
+            "created_at": "2025-08-01 12:51:16",
+            "form_name": "Vehicle Hire Cancellation\/Update Request"
+        },
+        {
+            "id": "212",
+            "field_key": "q5o8l9e4701fffa",
+            "name": "Delivery Date",
+            "description": "",
+            "type": "data",
+            "default_value": "",
+            "options": "",
+            "field_order": "12",
+            "required": "0",
+            "field_options": {
+                "form_select": "11292",
+                "hide_field": [
+                    "11314"
+                ],
+                "hide_opt": [
+                    ""
+                ],
+                "admin_only": [
+                    ""
+                ],
+                "unique_msg": "This value must be unique.",
+                "in_section": "11313",
+                "blank": "",
+                "classes": "frm2",
+                "custom_html": "<div class=\"frm_half\"><div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\r\n    <label for=\"field_[key]\" id=\"field_[key]_label\" class=\"frm_primary_label\">[field_name]\r\n        <span class=\"frm_required\">[required_label]<\/span>\r\n    <\/label>\r\n    <div class=\"frm_opt_container\" aria-labelledby=\"field_[key]_label\" role=\"group\">[input]<\/div>\r\n    [if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\"frm_error\" id=\"frm_error_field_[key]\">[error]<\/div>[\/if error]\r\n<\/div>",
+                "data_type": "data",
+                "btsp": ""
+            },
+            "form_id": "9",
+            "created_at": "2025-08-01 12:51:16",
+            "form_name": "Vehicle Hire Cancellation\/Update Request"
+        },
+        {
+            "id": "213",
+            "field_key": "cls7idf301709a1",
+            "name": "Collection Date",
+            "description": "",
+            "type": "data",
+            "default_value": "",
+            "options": "",
+            "field_order": "13",
+            "required": "0",
+            "field_options": {
+                "form_select": "11294",
+                "hide_field": [
+                    "11314"
+                ],
+                "hide_opt": [
+                    ""
+                ],
+                "admin_only": [
+                    ""
+                ],
+                "unique_msg": "This value must be unique.",
+                "in_section": "11313",
+                "blank": "",
+                "classes": "frm2",
+                "custom_html": "<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\r\n    <label for=\"field_[key]\" id=\"field_[key]_label\" class=\"frm_primary_label\">[field_name]\r\n        <span class=\"frm_required\">[required_label]<\/span>\r\n    <\/label>\r\n    <div class=\"frm_opt_container\" aria-labelledby=\"field_[key]_label\" role=\"group\">[input]<\/div>\r\n    [if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\"frm_error\" id=\"frm_error_field_[key]\">[error]<\/div>[\/if error]\r\n<\/div><\/div>",
+                "data_type": "data",
+                "btsp": ""
+            },
+            "form_id": "9",
+            "created_at": "2025-08-01 12:51:16",
+            "form_name": "Vehicle Hire Cancellation\/Update Request"
+        },
+        {
+            "id": "214",
+            "field_key": "3mrslee64dfacd5",
+            "name": "Booked by",
+            "description": "",
+            "type": "data",
+            "default_value": "",
+            "options": "",
+            "field_order": "14",
+            "required": "0",
+            "field_options": {
+                "form_select": "11307",
+                "hide_field": [
+                    "11314"
+                ],
+                "hide_opt": [
+                    ""
+                ],
+                "admin_only": [
+                    ""
+                ],
+                "unique_msg": "This value must be unique.",
+                "in_section": "11313",
+                "blank": "",
+                "classes": "frm2",
+                "custom_html": "<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\r\n    <label for=\"field_[key]\" id=\"field_[key]_label\" class=\"frm_primary_label\">[field_name]\r\n        <span class=\"frm_required\">[required_label]<\/span>\r\n    <\/label>\r\n    <div class=\"frm_opt_container\" aria-labelledby=\"field_[key]_label\" role=\"group\">[input]<\/div>\r\n    [if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\"frm_error\" id=\"frm_error_field_[key]\">[error]<\/div>[\/if error]\r\n<\/div>",
+                "data_type": "data",
+                "btsp": ""
+            },
+            "form_id": "9",
+            "created_at": "2025-08-01 12:51:16",
+            "form_name": "Vehicle Hire Cancellation\/Update Request"
+        },
+        {
+            "id": "215",
+            "field_key": "j0a2ec8393abbca",
+            "name": "Booking Notes",
+            "description": "",
+            "type": "data",
+            "default_value": "",
+            "options": "",
+            "field_order": "16",
+            "required": "0",
+            "field_options": {
+                "form_select": "11308",
+                "hide_field": [
+                    "11314"
+                ],
+                "hide_opt": [
+                    ""
+                ],
+                "admin_only": [
+                    ""
+                ],
+                "unique_msg": "This value must be unique.",
+                "in_section": "11313",
+                "blank": "",
+                "classes": "frm12 frm_first",
+                "custom_html": "<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\r\n    <label for=\"field_[key]\" id=\"field_[key]_label\" class=\"frm_primary_label\">[field_name]\r\n        <span class=\"frm_required\">[required_label]<\/span>\r\n    <\/label>\r\n    <div class=\"frm_opt_container\" aria-labelledby=\"field_[key]_label\" role=\"group\">[input]<\/div>\r\n    [if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\"frm_error\" id=\"frm_error_field_[key]\">[error]<\/div>[\/if error]\r\n<\/div>",
+                "data_type": "data",
+                "btsp": ""
+            },
+            "form_id": "9",
+            "created_at": "2025-08-01 12:51:16",
+            "form_name": "Vehicle Hire Cancellation\/Update Request"
+        },
+        {
+            "id": "216",
+            "field_key": "9kozv6fbb1a3165",
+            "name": "Section Buttons",
+            "description": "",
+            "type": "end_divider",
+            "default_value": "",
+            "options": "",
+            "field_order": "17",
+            "required": "0",
+            "field_options": {
+                "unique_msg": "This value must be unique.",
+                "in_section": "0",
+                "blank": "",
+                "btsp": ""
+            },
+            "form_id": "9",
+            "created_at": "2025-08-01 12:51:16",
+            "form_name": "Vehicle Hire Cancellation\/Update Request"
+        },
+        {
+            "id": "217",
+            "field_key": "biflj29d94de24c30a3a96183",
+            "name": "Cancellation\/Amendment Request",
+            "description": "",
+            "type": "divider",
+            "default_value": "",
+            "options": "",
+            "field_order": "19",
+            "required": "0",
+            "field_options": {
+                "admin_only": [
+                    ""
+                ],
+                "unique_msg": "This value must be unique.",
+                "in_section": "0",
+                "label": "",
+                "blank": "",
+                "custom_html": "<div id=\"frm_field_[id]_container\" class=\"frm_form_field frm_section_heading form-field[error_class]\">\r\n<h3 class=\"frm_pos_[label_position][collapse_class]\">[field_name]<\/h3>\r\n[if description]<div class=\"frm_description\">[description]<\/div>[\/if description]\r\n[collapse_this]\r\n<\/div>",
+                "repeat": "0",
+                "btsp": ""
+            },
+            "form_id": "9",
+            "created_at": "2025-08-01 12:51:16",
+            "form_name": "Vehicle Hire Cancellation\/Update Request"
+        },
+        {
+            "id": "218",
+            "field_key": "7jzbq93a8abea2f59f5d85921",
+            "name": "Name of person making the request",
+            "description": "",
+            "type": "lookup",
+            "default_value": "",
+            "options": "",
+            "field_order": "21",
+            "required": "0",
+            "field_options": {
+                "admin_only": [
+                    ""
+                ],
+                "unique_msg": "This value must be unique.",
+                "dyn_default_value": "[frm-field-value field_id=8830 entry=booking]",
+                "autocom": "1",
+                "in_section": "11323",
+                "blank": "",
+                "classes": "frm_fourth",
+                "custom_html": "<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\r\n    <label for=\"field_[key]\" id=\"field_[key]_label\" class=\"frm_primary_label\">[field_name]\r\n        <span class=\"frm_required\">[required_label]<\/span>\r\n    <\/label>\r\n    [input]\r\n    [if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\"frm_error\" id=\"frm_error_field_[key]\">[error]<\/div>[\/if error]\r\n<\/div>",
+                "watch_lookup": [
+                    "15954"
+                ],
+                "get_values_form": "3",
+                "get_values_field": "816",
+                "btsp": "",
+                "geocoder_id": "",
+                "frmgeo_output_location_field": ""
+            },
+            "form_id": "9",
+            "created_at": "2025-08-01 12:51:16",
+            "form_name": "Vehicle Hire Cancellation\/Update Request"
+        },
+        {
+            "id": "219",
+            "field_key": "9hpmfcabf63fc2839fdc1972b",
+            "name": "Email",
+            "description": "",
+            "type": "text",
+            "default_value": "",
+            "options": "",
+            "field_order": "22",
+            "required": "0",
+            "field_options": {
+                "admin_only": [
+                    ""
+                ],
+                "unique_msg": "This value must be unique.",
+                "in_section": "11323",
+                "get_values_form": "3",
+                "get_values_field": "814",
+                "watch_lookup": [
+                    "11324"
+                ],
+                "blank": "",
+                "invalid": "Text is invalid",
+                "classes": "frm_fourth",
+                "custom_html": "<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\r\n    <label for=\"field_[key]\" id=\"field_[key]_label\" class=\"frm_primary_label\">[field_name]\r\n        <span class=\"frm_required\">[required_label]<\/span>\r\n    <\/label>\r\n    [input]\r\n    [if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\"frm_error\" id=\"frm_error_field_[key]\">[error]<\/div>[\/if error]\r\n<\/div>",
+                "btsp": "",
+                "geocoder_id": "",
+                "frmgeo_output_location_field": "",
+                "geo_avoid_autofill": 1
+            },
+            "form_id": "9",
+            "created_at": "2025-08-01 12:51:16",
+            "form_name": "Vehicle Hire Cancellation\/Update Request"
+        },
+        {
+            "id": "220",
+            "field_key": "m0p23c58c8ecbbffa5c08b79d",
+            "name": "Phone Number",
+            "description": "",
+            "type": "text",
+            "default_value": "",
+            "options": "",
+            "field_order": "23",
+            "required": "0",
+            "field_options": {
+                "admin_only": [
+                    ""
+                ],
+                "unique_msg": "This value must be unique.",
+                "in_section": "11323",
+                "get_values_form": "3",
+                "get_values_field": "5757",
+                "watch_lookup": [
+                    "11324"
+                ],
+                "blank": "",
+                "invalid": "Text is invalid",
+                "classes": "frm_fourth",
+                "custom_html": "<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\r\n    <label for=\"field_[key]\" id=\"field_[key]_label\" class=\"frm_primary_label\">[field_name]\r\n        <span class=\"frm_required\">[required_label]<\/span>\r\n    <\/label>\r\n    [input]\r\n    [if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\"frm_error\" id=\"frm_error_field_[key]\">[error]<\/div>[\/if error]\r\n<\/div>",
+                "btsp": "",
+                "geocoder_id": "",
+                "frmgeo_output_location_field": "",
+                "geo_avoid_autofill": 1
+            },
+            "form_id": "9",
+            "created_at": "2025-08-01 12:51:16",
+            "form_name": "Vehicle Hire Cancellation\/Update Request"
+        },
+        {
+            "id": "221",
+            "field_key": "prjua8256b7115d815582b5b2",
+            "name": "Mobile Number",
+            "description": "",
+            "type": "text",
+            "default_value": "",
+            "options": "",
+            "field_order": "24",
+            "required": "0",
+            "field_options": {
+                "admin_only": [
+                    ""
+                ],
+                "unique_msg": "This value must be unique.",
+                "in_section": "11323",
+                "get_values_form": "3",
+                "get_values_field": "5758",
+                "watch_lookup": [
+                    "11324"
+                ],
+                "blank": "",
+                "invalid": "Text is invalid",
+                "classes": "frm_fourth",
+                "custom_html": "<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\r\n    <label for=\"field_[key]\" id=\"field_[key]_label\" class=\"frm_primary_label\">[field_name]\r\n        <span class=\"frm_required\">[required_label]<\/span>\r\n    <\/label>\r\n    [input]\r\n    [if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\"frm_error\" id=\"frm_error_field_[key]\">[error]<\/div>[\/if error]\r\n<\/div>",
+                "btsp": "",
+                "geocoder_id": "",
+                "frmgeo_output_location_field": "",
+                "geo_avoid_autofill": 1
+            },
+            "form_id": "9",
+            "created_at": "2025-08-01 12:51:16",
+            "form_name": "Vehicle Hire Cancellation\/Update Request"
+        },
+        {
+            "id": "222",
+            "field_key": "ji2on458a1843fe",
+            "name": "Is this a cancellation or change to booking request?",
+            "description": "",
+            "type": "radio",
+            "default_value": "",
+            "options": [
+                {
+                    "label": "Cancellation",
+                    "value": "Cancelled",
+                    "image": "0"
+                },
+                {
+                    "label": "Change to Booking",
+                    "value": "Amended",
+                    "image": "0"
+                }
+            ],
+            "field_order": "26",
+            "required": "1",
+            "field_options": {
+                "admin_only": [
+                    ""
+                ],
+                "unique_msg": "This value must be unique.",
+                "other": "0",
+                "in_section": "11323",
+                "blank": "This field cannot be blank.",
+                "separate_value": "1",
+                "classes": "frm_half",
+                "custom_html": "<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\r\n    <div  id=\"field_[key]_label\" class=\"frm_primary_label\">[field_name]\r\n        <span class=\"frm_required\">[required_label]<\/span>\r\n    <\/div>\r\n    <div class=\"frm_opt_container\" aria-labelledby=\"field_[key]_label\" role=\"group\">[input]<\/div>\r\n    [if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\"frm_error\" id=\"frm_error_field_[key]\">[error]<\/div>[\/if error]\r\n<\/div>",
+                "image_options": "0",
+                "image_size": "small",
+                "btsp": "",
+                "geocoder_id": "",
+                "frmgeo_output_location_field": "",
+                "required_indicator": "*"
+            },
+            "form_id": "9",
+            "created_at": "2025-08-01 12:51:16",
+            "form_name": "Vehicle Hire Cancellation\/Update Request"
+        },
+        {
+            "id": "223",
+            "field_key": "p1td992a619df48",
+            "name": "Change vs cancellation note",
+            "description": "<blockquote>Please note: If you need to make significant changes e.g. vehicle type or change of dates for a hire booked on a fixed rate please choose cancellation and then submit a new vehicle hire request.<\/blockquote>",
+            "type": "html",
+            "default_value": "",
+            "options": "",
+            "field_order": "27",
+            "required": "0",
+            "field_options": {
+                "admin_only": [
+                    ""
+                ],
+                "unique_msg": "This value must be unique.",
+                "in_section": "11323",
+                "blank": "",
+                "classes": "frm_half",
+                "custom_html": "<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field\">[description]<\/div>",
+                "btsp": ""
+            },
+            "form_id": "9",
+            "created_at": "2025-08-01 12:51:16",
+            "form_name": "Vehicle Hire Cancellation\/Update Request"
+        },
+        {
+            "id": "224",
+            "field_key": "ej0qk3e8e201bde",
+            "name": "Summary of changes required",
+            "description": "Please provide as much information as possible",
+            "type": "textarea",
+            "default_value": "",
+            "options": "",
+            "field_order": "29",
+            "required": "1",
+            "field_options": {
+                "hide_field": [
+                    "11328"
+                ],
+                "hide_opt": [
+                    "Amended"
+                ],
+                "admin_only": [
+                    ""
+                ],
+                "unique_msg": "This value must be unique.",
+                "in_section": "11323",
+                "watch_lookup": [
+                    ""
+                ],
+                "blank": "This field cannot be blank.",
+                "custom_html": "<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\r\n    <label for=\"field_[key]\" id=\"field_[key]_label\" class=\"frm_primary_label\">[field_name]\r\n        <span class=\"frm_required\">[required_label]<\/span>\r\n    <\/label>\r\n    [input]\r\n    [if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\"frm_error\" id=\"frm_error_field_[key]\">[error]<\/div>[\/if error]\r\n<\/div>",
+                "btsp": "",
+                "max_limit": "0",
+                "use_global_currency": "0",
+                "required_indicator": "*"
+            },
+            "form_id": "9",
+            "created_at": "2025-08-01 12:51:16",
+            "form_name": "Vehicle Hire Cancellation\/Update Request"
+        },
+        {
+            "id": "225",
+            "field_key": "xqp95d9e6d9ea64",
+            "name": "Reason for cancellation",
+            "description": "",
+            "type": "text",
+            "default_value": "",
+            "options": "",
+            "field_order": "31",
+            "required": "1",
+            "field_options": {
+                "hide_field": [
+                    "11328"
+                ],
+                "hide_opt": [
+                    "Cancelled"
+                ],
+                "admin_only": [
+                    ""
+                ],
+                "unique_msg": "This value must be unique.",
+                "in_section": "11323",
+                "watch_lookup": [
+                    ""
+                ],
+                "blank": "This field cannot be blank.",
+                "invalid": "Text is invalid",
+                "custom_html": "<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\r\n    <label for=\"field_[key]\" id=\"field_[key]_label\" class=\"frm_primary_label\">[field_name]\r\n        <span class=\"frm_required\">[required_label]<\/span>\r\n    <\/label>\r\n    [input]\r\n    [if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\"frm_error\" id=\"frm_error_field_[key]\">[error]<\/div>[\/if error]\r\n<\/div>",
+                "btsp": "",
+                "geocoder_id": "",
+                "frmgeo_output_location_field": "",
+                "use_global_currency": "0",
+                "required_indicator": "*",
+                "geo_avoid_autofill": 1
+            },
+            "form_id": "9",
+            "created_at": "2025-08-01 12:51:16",
+            "form_name": "Vehicle Hire Cancellation\/Update Request"
+        },
+        {
+            "id": "226",
+            "field_key": "l9sxd61ea8ad7130f71b794e4",
+            "name": "Section Buttons",
+            "description": "",
+            "type": "end_divider",
+            "default_value": "",
+            "options": "",
+            "field_order": "32",
+            "required": "0",
+            "field_options": {
+                "unique_msg": "This value must be unique.",
+                "in_section": "0",
+                "blank": "",
+                "btsp": ""
+            },
+            "form_id": "9",
+            "created_at": "2025-08-01 12:51:16",
+            "form_name": "Vehicle Hire Cancellation\/Update Request"
+        },
+        {
+            "id": "227",
+            "field_key": "u9fwgbefd39939fa662a20b91",
+            "name": "Cancellation\/Amendment",
+            "description": "",
+            "type": "divider",
+            "default_value": "",
+            "options": "",
+            "field_order": "34",
+            "required": "0",
+            "field_options": {
+                "admin_only": [
+                    "administrator",
+                    "accommodation"
+                ],
+                "unique_msg": "This value must be unique.",
+                "in_section": "0",
+                "label": "",
+                "blank": "",
+                "custom_html": "<div id=\"frm_field_[id]_container\" class=\"frm_form_field frm_section_heading form-field[error_class]\">\r\n<h3 class=\"frm_pos_[label_position][collapse_class]\">[field_name]<\/h3>\r\n[if description]<div class=\"frm_description\">[description]<\/div>[\/if description]\r\n[collapse_this]\r\n<\/div>",
+                "repeat": "0",
+                "btsp": ""
+            },
+            "form_id": "9",
+            "created_at": "2025-08-01 12:51:16",
+            "form_name": "Vehicle Hire Cancellation\/Update Request"
+        },
+        {
+            "id": "228",
+            "field_key": "7apz026beaf272984902adc9c",
+            "name": "Date Amended\/Cancelled",
+            "description": "",
+            "type": "text",
+            "default_value": "",
+            "options": "",
+            "field_order": "36",
+            "required": "0",
+            "field_options": {
+                "admin_only": [
+                    ""
+                ],
+                "unique_msg": "This value must be unique.",
+                "in_section": "11333",
+                "watch_lookup": [
+                    ""
+                ],
+                "blank": "",
+                "invalid": "Text is invalid",
+                "classes": "frm_fourth",
+                "custom_html": "<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\r\n    <label for=\"field_[key]\" id=\"field_[key]_label\" class=\"frm_primary_label\">[field_name]\r\n        <span class=\"frm_required\">[required_label]<\/span>\r\n    <\/label>\r\n    [input]\r\n    [if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\"frm_error\" id=\"frm_error_field_[key]\">[error]<\/div>[\/if error]\r\n<\/div>",
+                "btsp": "",
+                "geocoder_id": "",
+                "frmgeo_output_location_field": "",
+                "geo_avoid_autofill": 1
+            },
+            "form_id": "9",
+            "created_at": "2025-08-01 12:51:16",
+            "form_name": "Vehicle Hire Cancellation\/Update Request"
+        },
+        {
+            "id": "229",
+            "field_key": "aohn51bde1cccaa6cba774fb1",
+            "name": "Processed By",
+            "description": "",
+            "type": "text",
+            "default_value": "",
+            "options": "",
+            "field_order": "37",
+            "required": "0",
+            "field_options": {
+                "admin_only": [
+                    ""
+                ],
+                "unique_msg": "This value must be unique.",
+                "in_section": "11333",
+                "watch_lookup": [
+                    ""
+                ],
+                "blank": "",
+                "invalid": "Text is invalid",
+                "classes": "frm_fourth",
+                "custom_html": "<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\r\n    <label for=\"field_[key]\" id=\"field_[key]_label\" class=\"frm_primary_label\">[field_name]\r\n        <span class=\"frm_required\">[required_label]<\/span>\r\n    <\/label>\r\n    [input]\r\n    [if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\"frm_error\" id=\"frm_error_field_[key]\">[error]<\/div>[\/if error]\r\n<\/div>",
+                "btsp": "",
+                "geocoder_id": "",
+                "frmgeo_output_location_field": "",
+                "geo_avoid_autofill": 1
+            },
+            "form_id": "9",
+            "created_at": "2025-08-01 12:51:16",
+            "form_name": "Vehicle Hire Cancellation\/Update Request"
+        },
+        {
+            "id": "230",
+            "field_key": "ssb4j3dc203453dbcb924e1f4",
+            "name": "Notes",
+            "description": "",
+            "type": "textarea",
+            "default_value": "",
+            "options": "",
+            "field_order": "39",
+            "required": "0",
+            "field_options": {
+                "admin_only": [
+                    ""
+                ],
+                "unique_msg": "This value must be unique.",
+                "in_section": "11333",
+                "watch_lookup": [
+                    ""
+                ],
+                "blank": "",
+                "custom_html": "<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\r\n    <label for=\"field_[key]\" id=\"field_[key]_label\" class=\"frm_primary_label\">[field_name]\r\n        <span class=\"frm_required\">[required_label]<\/span>\r\n    <\/label>\r\n    [input]\r\n    [if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\"frm_error\" id=\"frm_error_field_[key]\">[error]<\/div>[\/if error]\r\n<\/div>",
+                "btsp": "",
+                "max_limit": "0"
+            },
+            "form_id": "9",
+            "created_at": "2025-08-01 12:51:16",
+            "form_name": "Vehicle Hire Cancellation\/Update Request"
+        },
+        {
+            "id": "231",
+            "field_key": "rrlub83e4076a3062e97f0b54",
+            "name": "Section Buttons",
+            "description": "",
+            "type": "end_divider",
+            "default_value": "",
+            "options": "",
+            "field_order": "40",
+            "required": "0",
+            "field_options": {
+                "unique_msg": "This value must be unique.",
+                "in_section": "0",
+                "blank": "",
+                "btsp": ""
+            },
+            "form_id": "9",
+            "created_at": "2025-08-01 12:51:16",
+            "form_name": "Vehicle Hire Cancellation\/Update Request"
+        },
+        {
+            "id": "232",
+            "field_key": "wuhha",
+            "name": "Submit",
+            "description": "",
+            "type": "submit",
+            "default_value": "",
+            "options": "",
+            "field_order": "41",
+            "required": "0",
+            "field_options": {
+                "in_section": 0
+            },
+            "form_id": "9",
+            "created_at": "2025-08-01 12:51:16",
+            "form_name": "Vehicle Hire Cancellation\/Update Request"
+        }
+    ],
+    "options": {
+        "on_submit_migrated": "1",
+        "honeypot": "basic",
+        "logged_in_role": [
+            ""
+        ],
+        "single_entry_type": [
+            "user"
+        ],
+        "cookie_expiration": "8000",
+        "protect_files": "0",
+        "noindex_files": "0",
+        "editable_role": [
+            ""
+        ],
+        "edit_draft_role": [
+            ""
+        ],
+        "open_date": "2020-08-26 10:42",
+        "custom_style": 1,
+        "submit_conditions": {
+            "show_hide": "show",
+            "any_all": "all"
+        },
+        "start_over_label": "Start Over",
+        "landing_bg_image_id": "0",
+        "landing_opacity": "100",
+        "before_html": "<legend class=\"frm_screen_reader\">[form_name]<\/legend>\r\n[if form_name]<h3 class=\"frm_form_title\">[form_name]<\/h3>[\/if form_name]\r\n[if form_description]<div class=\"frm_description\">[form_description]<\/div>[\/if form_description]",
+        "submit_html": "<div class=\"frm_submit\">\r\n[if back_button]<button type=\"submit\" name=\"frm_prev_page\" formnovalidate=\"formnovalidate\" class=\"frm_prev_page\" [back_hook]>[back_label]<\/button>[\/if back_button]\r\n<button class=\"frm_button_submit\" type=\"submit\"  [button_action]>[button_label]<\/button>\r\n[if save_draft]<a href=\"#\" tabindex=\"0\" class=\"frm_save_draft\" [draft_hook]>[draft_label]<\/a>[\/if save_draft]\r\n<\/div>",
+        "success_msg": "Your responses were successfully submitted. Thank you!",
+        "show_form": false,
+        "prev_value": "Previous",
+        "submit_value": "Submit",
+        "success_action": "message",
+        "akismet": "",
+        "stopforumspam": 0,
+        "antispam": 0,
+        "no_save": 0,
+        "ajax_load": 0,
+        "js_validate": 0,
+        "form_class": "",
+        "after_html": "",
+        "show_title": 0,
+        "show_description": 0,
+        "ajax_submit": 0,
+        "edit_value": "Update",
+        "edit_msg": "Your submission was successfully saved.",
+        "edit_action": "message",
+        "edit_url": "",
+        "edit_page_id": 0,
+        "save_draft": 0,
+        "draft_msg": "Your draft has been saved.",
+        "open_editable_role": "-1",
+        "copy": 0,
+        "single_entry": 0,
+        "unique_email_id": 0,
+        "success_page_id": "",
+        "success_url": "",
+        "draft_label": "Save Draft",
+        "transition": "",
+        "submit_align": "",
+        "open_status": "",
+        "closed_msg": "<p>This form is currently closed for submissions.<\/p>",
+        "close_date": "",
+        "max_entries": "",
+        "rootline": "",
+        "pagination_position": "",
+        "rootline_titles_on": 0,
+        "rootline_titles": [],
+        "rootline_lines_off": 0,
+        "rootline_numbers_off": 0,
+        "auto_save_draft": 0
+    }
+}

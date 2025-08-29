@@ -1,0 +1,222 @@
+# Copyright (C) 2024 Strategy11
+# This file is distributed under the same license as the Formidable Form Action Automation plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: a2d8bc55ffb2a23897925e74530a7308\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/formidable-autoresponder\n"
+"Last-Translator: \n"
+"Language-Team: German\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-04-29T15:48:23+00:00\n"
+"PO-Revision-Date: 2024-05-06 13:18\n"
+"X-Generator: WP-CLI 2.10.0\n"
+"X-Domain: formidable-autoresponder\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: a2d8bc55ffb2a23897925e74530a7308\n"
+"X-Crowdin-Project-ID: 28\n"
+"X-Crowdin-Language: de\n"
+"X-Crowdin-File: /[Strategy11.formidable-autoresponder] master/languages/formidable-autoresponder.pot\n"
+"X-Crowdin-File-ID: 2420\n"
+"Language: de_DE\n"
+
+#. Plugin Name of the plugin
+#: formidable-autoresponder.php
+msgid "Formidable Form Action Automation"
+msgstr "Formidable Form Aktions-Automatisierung"
+
+#. Description of the plugin
+#: formidable-autoresponder.php
+msgid "Allows you to set future notifications on form entries"
+msgstr "Ermöglicht es dir, zukünftige Benachrichtigungen über Formulareinträge festzulegen"
+
+#. Author of the plugin
+#: formidable-autoresponder.php
+msgid "Strategy11"
+msgstr "Strategie11"
+
+#. Author URI of the plugin
+#: formidable-autoresponder.php
+msgid "https://formidableforms.com"
+msgstr "https://formidableforms.com/de"
+
+#. translators: %1$s: Action name, %2$d: Entry ID, %3$s: the settings
+#: classes/controllers/FrmAutoresponderAppController.php:424
+msgid "Not scheduling \"%1$s\" action for entry #%2$d because the settings are invalid: %3$s."
+msgstr "Die Aktion „%1$s“ für den Eintrag %2$d kann nicht geplant werden, da die Einstellungen ungültig sind: %3$s."
+
+#. translators: %1$s: Action name, %2$d: Entry ID, %3$s: Date
+#: classes/controllers/FrmAutoresponderAppController.php:427
+msgid "Not scheduling \"%1$s\" action for entry #%2$d for %3$s because the time has already passed."
+msgstr "Die Aktion „%1$s“ für den Eintrag %2$d kann nicht für %3$s geplant werden, da die Zeit bereits abgelaufen ist."
+
+#. translators: %s: Timestamp
+#: classes/controllers/FrmAutoresponderAppController.php:439
+msgid "Reference TS: %s"
+msgstr "Referenz TS: %s"
+
+#: classes/controllers/FrmAutoresponderAppController.php:552
+msgid "Only a string should be passed as the autoresponder trigger time."
+msgstr "Als Autoresponder-Auslösezeit sollte nur ein String übergeben werden."
+
+#. translators: %1$s: Action name, %2$d: Entry ID
+#: classes/controllers/FrmAutoresponderAppController.php:668
+msgid "Conditions for \"%1$s\" action for entry #%2$d not met. Halting."
+msgstr "Bedingungen für Aktion „%1$s“ Aktion für den Eintrag %2$d nicht erfüllt. Wird gestoppt."
+
+#. translators: %1$s: Action name, %2$d: Entry ID
+#: classes/controllers/FrmAutoresponderAppController.php:673
+msgid "Conditions for \"%1$s\" action for entry #%2$d met. Proceeding."
+msgstr "Bedingungen für die Aktion „%1$s“ für Eintrag %2$d erfüllt. Wird fortgesetzt."
+
+#. translators: %1$s: Action name, %2$d: number
+#: classes/controllers/FrmAutoresponderAppController.php:684
+msgid "Not triggering %1$s because there we have already sent out the limit of %2$d."
+msgstr "%1$s wird nicht ausgelöst, weil wir dort bereits das Limit von %2$d gesendet haben."
+
+#. translators: %1$s: Action type, %2$s: Action name
+#: classes/controllers/FrmAutoresponderAppController.php:700
+msgid "Triggering %1$s action for \"%2$s\""
+msgstr "Auslösen der Aktion %1$s für „%2$s“"
+
+#. translators: %1$s: Action name, %2$d: entry id, %3$s: timestamp
+#: classes/controllers/FrmAutoresponderAppController.php:818
+msgid "Scheduling \"%1$s\" action for entry #%2$d for %3$s"
+msgstr "Aktion „%1$s“ für Eintrag %2$d für %3$s wird geplant"
+
+#: classes/controllers/FrmAutoresponderAppController.php:882
+msgid "Formidable Autoresponder requires that Formidable Pro version 2.0 or greater be installed.  Until then, keep Formidable Autoresponder activated only to continue enjoying this insightful message."
+msgstr "Formidable Autoresponder erfordert, dass Formidable Pro Version 2.0 oder höher installiert ist. Bis dahin solltest du Formidable Autoresponder nur aktiviert lassen, um weiterhin in den Genuss dieser aufschlussreichen Mitteilung zu kommen."
+
+#: classes/controllers/FrmAutoresponderSettingsController.php:48
+msgid "Days"
+msgstr "Tage"
+
+#: classes/controllers/FrmAutoresponderSettingsController.php:49
+msgid "Years"
+msgstr "Jahre"
+
+#: classes/controllers/FrmAutoresponderSettingsController.php:50
+msgid "Months"
+msgstr "Monate"
+
+#: classes/controllers/FrmAutoresponderSettingsController.php:51
+msgid "Hours"
+msgstr "Stunden"
+
+#: classes/controllers/FrmAutoresponderSettingsController.php:52
+msgid "Minutes"
+msgstr "Protokoll"
+
+#: classes/models/FrmAutoresponderLog.php:41
+msgid "Nothing to see here"
+msgstr "Hier gibt es nichts zu sehen"
+
+#: classes/views/settings.php:3
+msgid "Setup Automation"
+msgstr "Automatisierung einrichten"
+
+#: classes/views/settings.php:9
+msgid "Automation"
+msgstr "Automatisierung"
+
+#: classes/views/settings.php:12
+msgid "Ignore"
+msgstr "Ignorieren"
+
+#: classes/views/settings.php:13
+msgid "Respect"
+msgstr "Berücksichtige"
+
+#. translators: %s: Setting name
+#: classes/views/settings.php:18
+msgid "the \"%s\" setting above"
+msgstr "die Einstellung „%s“ oben"
+
+#. translators: %s: Setting name
+#: classes/views/settings.php:18
+msgid "Trigger this action after"
+msgstr "Löse diese Aktion aus, nachdem"
+
+#: classes/views/settings.php:22
+msgid "Send this notification"
+msgstr "Diese Benachrichtigung senden"
+
+#: classes/views/settings.php:34
+msgid "After"
+msgstr "Nach"
+
+#: classes/views/settings.php:35
+msgid "Before"
+msgstr "Davor"
+
+#: classes/views/settings.php:44
+#: classes/views/settings.php:71
+msgid "Select Field"
+msgstr "Feld auswählen"
+
+#: classes/views/settings.php:45
+msgid "Create Date"
+msgstr "Erstellungsdatum"
+
+#: classes/views/settings.php:46
+msgid "Update Date"
+msgstr "Aktualisierungsdatum"
+
+#: classes/views/settings.php:62
+msgid "...and then every"
+msgstr "… und dann alle"
+
+#: classes/views/settings.php:68
+msgid "or"
+msgstr "oder"
+
+#: classes/views/settings.php:93
+msgid "after that"
+msgstr "danach"
+
+#: classes/views/settings.php:99
+msgid "...a maximum of"
+msgstr "… höchstens"
+
+#: classes/views/settings.php:103
+msgid "times"
+msgstr "mal"
+
+#: classes/views/settings.php:107
+msgid "Will write some debug messages out to a log file specific to this action.  Refreshing this page will load a list of whatever log files have been created for this action. The log files start fresh every day.  Note, the times in the log files are in UTC +0 timezone."
+msgstr "Schreibt einige Debug-Meldungen in eine spezielle Protokolldatei für diese Aktion. Wenn du diese Seite aktualisierst, wird eine Liste der Protokolldateien geladen, die für diese Aktion erstellt wurden. Die Protokolldateien werden jeden Tag neu erstellt. Beachte, dass die Zeiten in den Protokolldateien in der Zeitzone UTC +0 angegeben sind."
+
+#: classes/views/settings.php:109
+msgid "Turn debug on"
+msgstr "Debuggen einschalten"
+
+#: classes/views/settings.php:113
+msgid "No log files to show yet.  Go fill out the form!"
+msgstr "Es können noch keine Protokolldateien angezeigt werden. Fülle jetzt das Formular aus!"
+
+#: classes/views/settings.php:115
+msgid "Latest log files for this action:"
+msgstr "Aktuelle Protokolldateien für diese Aktion:"
+
+#: classes/views/settings.php:143
+msgid "Current Queue"
+msgstr "Aktuelle Warteschlange"
+
+#: classes/views/settings.php:146
+msgid "Clear and then refresh this queue.  Please note, this will start by removing all items from the queue and then it will go through all entries for this form and recalculate any form action automation.  This is a good action to take if you have made changes to your automation and wish to have those changes take effect for existing entries."
+msgstr "Lösche diese Warteschlange und aktualisiere sie dann. Bitte beachte, dass dabei zunächst alle Einträge aus der Warteschlange entfernt werden und dann alle Einträge für dieses Formular durchlaufen werden, um die Automatisierung der Formularaktionen neu zu berechnen.  Diese Vorgehensweise eignet sich gut, wenn du Änderungen an deiner Automatisierung vorgenommen hast und diese Änderungen für die bestehenden Einträge wirksam werden sollen."
+
+#: classes/views/settings.php:150
+msgid "Empty"
+msgstr "Leer"
+
+#: classes/views/settings.php:155
+msgid "Entry"
+msgstr "Eintrag"
+
+#: classes/views/settings.php:156
+msgid "When"
+msgstr "Wann"
+

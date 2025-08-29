@@ -1,0 +1,1265 @@
+{
+    "form": {
+        "id": "6",
+        "form_key": "pperequestform",
+        "name": "PPE Request Form",
+        "description": "",
+        "parent_form_id": "0",
+        "logged_in": "0",
+        "editable": "1",
+        "is_template": "0",
+        "default_template": "0",
+        "status": "published",
+        "options": {
+            "success_page_id": "0",
+            "honeypot": "basic",
+            "success_msg": "Your responses were successfully submitted. Thank you!",
+            "logged_in_role": [
+                ""
+            ],
+            "cookie_expiration": "8000",
+            "editable_role": [
+                "administrator",
+                "business_admin"
+            ],
+            "open_editable_role": [
+                "administrator",
+                "business_admin"
+            ],
+            "edit_action": "redirect",
+            "edit_url": "https:\/\/dev2.biocensus.co.uk\/ppe-request-log\/",
+            "edit_page_id": "0",
+            "protect_files": "0",
+            "open_date": "2021-07-16 14:22",
+            "custom_style": 1,
+            "submit_conditions": {
+                "show_hide": "show",
+                "any_all": "all",
+                "hide_field": [],
+                "hide_field_cond": [
+                    "=="
+                ],
+                "hide_opt": []
+            },
+            "before_html": "<link href=\"https:\/\/fonts.googleapis.com\/icon?family=Material+Icons\" rel=\"stylesheet\">\r\n<script src=\"https:\/\/code.jquery.com\/ui\/1.12.1\/jquery-ui.js\"><\/script>\r\n<script src=\"\/wp-includes\/js\/jquery\/jquery.ui.touch-punch.js\"><\/script>\r\n<script type=\"text\/javascript\">\r\n   document.addEventListener(\"DOMContentLoaded\", updateRepeatCountFields );\r\n   jQuery(document).on('frmAfterAddRow', updateRepeatCountFields );\r\n   jQuery(document).on('frmAfterRemoveRow', updateRepeatCountFields );\r\n   \r\n   function updateRepeatCountFields(){\r\n   var countFields = document.querySelectorAll( '.frm_field_11088_container input');\r\n       for ( var i = 0, len=countFields.length; i<len; i++ ) {\r\n           countFields[i].value = i+1;\r\n       }\r\n   }\r\n   \r\n   jQuery(document).ready(function($){\r\n     jQuery(\".frm_add_form_row\").click(function(){\r\n       $( '#frm_field_11014_container' ).sortable({\r\n           cursor: \"grabbing\",\r\n           stop: function () {\r\n               var countFields = document.querySelectorAll( '.frm_field_11088_container input');\r\n               for ( var i = 0, len=countFields.length; i<len; i++ ) {\r\n                   countFields[i].value = i+1;\r\n               }\r\n           }\r\n       });\r\n     });\r\n   });\r\n<\/script>\r\n<legend class=\"frm_screen_reader\">[form_name]<\/legend>\r\n[if form_name]<h3 class=\"frm_form_title\">[form_name]<\/h3>[\/if form_name]\r\n[if form_description]<div class=\"frm_description\">[form_description]<\/div>[\/if form_description]",
+            "submit_html": "<div class=\"frm_submit\">\r\n[if back_button]<button type=\"submit\" name=\"frm_prev_page\" formnovalidate=\"formnovalidate\" class=\"frm_prev_page\" [back_hook]>[back_label]<\/button>[\/if back_button]\r\n<button class=\"frm_button_submit\" type=\"submit\"  [button_action]>[button_label]<\/button>\r\n[if save_draft]<a href=\"#\" tabindex=\"0\" class=\"frm_save_draft\" [draft_hook]>[draft_label]<\/a>[\/if save_draft]\r\n<\/div>",
+            "prev_value": "Previous",
+            "submit_value": "Submit",
+            "success_action": "message",
+            "show_form": 0,
+            "akismet": "",
+            "stopforumspam": 0,
+            "antispam": 0,
+            "no_save": 0,
+            "ajax_load": 0,
+            "js_validate": 0,
+            "form_class": "",
+            "after_html": "",
+            "show_title": 0,
+            "show_description": 0,
+            "ajax_submit": 0,
+            "edit_value": "Update",
+            "edit_msg": "Your submission was successfully saved.",
+            "save_draft": 0,
+            "edit_draft_role": "",
+            "draft_msg": "Your draft has been saved.",
+            "copy": 0,
+            "single_entry": 0,
+            "single_entry_type": "user",
+            "unique_email_id": 0,
+            "success_url": "",
+            "draft_label": "Save Draft",
+            "transition": "",
+            "submit_align": "",
+            "open_status": "",
+            "closed_msg": "<p>This form is currently closed for submissions.<\/p>",
+            "close_date": "",
+            "max_entries": "",
+            "noindex_files": 0,
+            "rootline": "",
+            "pagination_position": "",
+            "rootline_titles_on": 0,
+            "rootline_titles": [],
+            "rootline_lines_off": 0,
+            "rootline_numbers_off": 0,
+            "auto_save_draft": 0,
+            "on_submit_migrated": 1
+        },
+        "created_at": "2021-07-16 13:22:16"
+    },
+    "fields": [
+        {
+            "id": "139",
+            "field_key": "3v90g",
+            "name": "Person completing the request",
+            "description": "",
+            "type": "user_id",
+            "default_value": "[user_id]",
+            "options": "",
+            "field_order": "2",
+            "required": "0",
+            "field_options": {
+                "in_section": "0",
+                "classes": "frm_hidden",
+                "btsp": ""
+            },
+            "form_id": "6",
+            "created_at": "2025-08-01 12:51:16",
+            "form_name": "PPE Request Form"
+        },
+        {
+            "id": "140",
+            "field_key": "xfjw4",
+            "name": "HTML",
+            "description": "<hr class=\"sca-gen-hr\" style=\"margin: 10px 0 10px 0;\">",
+            "type": "html",
+            "default_value": "",
+            "options": "",
+            "field_order": "4",
+            "required": "0",
+            "field_options": {
+                "admin_only": [
+                    ""
+                ],
+                "in_section": "0",
+                "btsp": ""
+            },
+            "form_id": "6",
+            "created_at": "2025-08-01 12:51:16",
+            "form_name": "PPE Request Form"
+        },
+        {
+            "id": "141",
+            "field_key": "mwkx3",
+            "name": "Delivery Details",
+            "description": "<span style=\"color:red;\">Please make sure this populates correctly. If Google hasn't found your correct address please type it into the 'Other' box below.<\/span>",
+            "type": "divider",
+            "default_value": "",
+            "options": "",
+            "field_order": "6",
+            "required": "0",
+            "field_options": {
+                "admin_only": [
+                    ""
+                ],
+                "in_section": "0",
+                "label": "",
+                "repeat": "0",
+                "btsp": ""
+            },
+            "form_id": "6",
+            "created_at": "2025-08-01 12:51:16",
+            "form_name": "PPE Request Form"
+        },
+        {
+            "id": "142",
+            "field_key": "eram3",
+            "name": "Recipient name",
+            "description": "",
+            "type": "data",
+            "default_value": "",
+            "options": "",
+            "field_order": "8",
+            "required": "0",
+            "field_options": {
+                "form_select": "816",
+                "admin_only": [
+                    ""
+                ],
+                "unique_msg": "This value must be unique.",
+                "dyn_default_value": "[display_name]",
+                "in_section": "10994",
+                "blank": "",
+                "classes": "frm_half",
+                "custom_html": "<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\r\n    <label for=\"field_[key]\" id=\"field_[key]_label\" class=\"frm_primary_label\">[field_name]\r\n        <span class=\"frm_required\" aria-hidden=\"true\">[required_label]<\/span>\r\n    <\/label>\r\n    <div class=\"frm_opt_container\" aria-labelledby=\"field_[key]_label\" role=\"group\">[input]<\/div>\r\n    [if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\"frm_error\" id=\"frm_error_field_[key]\">[error]<\/div>[\/if error]\r\n<\/div>",
+                "btsp": "",
+                "get_values_form": "3"
+            },
+            "form_id": "6",
+            "created_at": "2025-08-01 12:51:16",
+            "form_name": "PPE Request Form"
+        },
+        {
+            "id": "143",
+            "field_key": "px9av",
+            "name": "Date items are needed by",
+            "description": "",
+            "type": "date",
+            "default_value": "",
+            "options": "",
+            "field_order": "9",
+            "required": "1",
+            "field_options": {
+                "admin_only": [
+                    ""
+                ],
+                "unique_msg": "This value must be unique.",
+                "in_section": "10994",
+                "blank": "This field cannot be blank.",
+                "invalid": "Date is invalid",
+                "classes": "frm_half",
+                "custom_html": "<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\r\n    <label for=\"field_[key]\" id=\"field_[key]_label\" class=\"frm_primary_label\">[field_name]\r\n        <span class=\"frm_required\" aria-hidden=\"true\">[required_label]<\/span>\r\n    <\/label>\r\n    [input]\r\n    [if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\"frm_error\" id=\"frm_error_field_[key]\">[error]<\/div>[\/if error]\r\n<\/div>",
+                "days_of_the_week": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    0
+                ],
+                "btsp": "",
+                "required_indicator": "*",
+                "excepted_dates": []
+            },
+            "form_id": "6",
+            "created_at": "2025-08-01 12:51:16",
+            "form_name": "PPE Request Form"
+        },
+        {
+            "id": "144",
+            "field_key": "81trl",
+            "name": "Delivery address",
+            "description": "",
+            "type": "address",
+            "default_value": {
+                "line1": "",
+                "line2": "",
+                "city": "",
+                "state": "",
+                "zip": "",
+                "country": "United Kingdom"
+            },
+            "options": "",
+            "field_order": "11",
+            "required": "1",
+            "field_options": {
+                "admin_only": [
+                    ""
+                ],
+                "in_section": "10994",
+                "blank": "This field cannot be blank.",
+                "custom_html": "<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\r\n    <div  id=\"field_[key]_label\" class=\"frm_primary_label\">[field_name]\r\n        <span class=\"frm_required\" aria-hidden=\"true\">[required_label]<\/span>\r\n    <\/div>\r\n    [input]\r\n    [if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\"frm_error\" id=\"frm_error_field_[key]\">[error]<\/div>[\/if error]\r\n<\/div>",
+                "placeholder": {
+                    "line1": "",
+                    "line2": "",
+                    "city": "",
+                    "state": "",
+                    "zip": "",
+                    "country": ""
+                },
+                "address_type": "europe",
+                "line1_desc": "1st Line of Address",
+                "line2_desc": "2nd Line of Address",
+                "city_desc": "Town\/City",
+                "state_desc": "County",
+                "zip_desc": "Post Code",
+                "btsp": "",
+                "geocoder_id": "",
+                "enable_address_autocomplete": "on",
+                "address_autocomplete_country": [
+                    ""
+                ],
+                "address_autocomplete_types": "",
+                "address_autocomplete_bounds": "",
+                "enable_locator_button": "on",
+                "locator_found_message": "Location found!",
+                "autocomplete_placeholder": "",
+                "autocomplete_description": "",
+                "required_indicator": "*",
+                "geo_avoid_autofill": 1
+            },
+            "form_id": "6",
+            "created_at": "2025-08-01 12:51:16",
+            "form_name": "PPE Request Form"
+        },
+        {
+            "id": "145",
+            "field_key": "6vqco",
+            "name": "Section Buttons",
+            "description": "",
+            "type": "end_divider",
+            "default_value": "",
+            "options": "",
+            "field_order": "12",
+            "required": "0",
+            "field_options": {
+                "in_section": "0",
+                "btsp": ""
+            },
+            "form_id": "6",
+            "created_at": "2025-08-01 12:51:16",
+            "form_name": "PPE Request Form"
+        },
+        {
+            "id": "146",
+            "field_key": "tqws7",
+            "name": "HTML",
+            "description": "<hr class=\"sca-gen-hr\" style=\"margin: 10px 0 10px 0;\">",
+            "type": "html",
+            "default_value": "",
+            "options": "",
+            "field_order": "14",
+            "required": "0",
+            "field_options": {
+                "admin_only": [
+                    ""
+                ],
+                "in_section": "0",
+                "btsp": ""
+            },
+            "form_id": "6",
+            "created_at": "2025-08-01 12:51:16",
+            "form_name": "PPE Request Form"
+        },
+        {
+            "id": "147",
+            "field_key": "ndow",
+            "name": "Order",
+            "description": "Use the 'Add' button to display a new row to add additional items to your order.\nWhere there is a size in addition to waist or chest size S = Short, R = Regular, T = Tall<br \/><span style=\"color:red;\">If the size drop down is empty the form may have got a bit flustered &#128521; If you change the category on that row to something else and then change it back and move through the fields the sizes should appear. If that doesn't work pelase use the 'Other' box to provide the info.<\/span>",
+            "type": "divider",
+            "default_value": "",
+            "options": "",
+            "field_order": "16",
+            "required": "0",
+            "field_options": {
+                "form_select": "2",
+                "admin_only": [
+                    ""
+                ],
+                "in_section": "0",
+                "label": "",
+                "custom_html": "<h3 class=\"frm_pos_[label_position][collapse_class]\">[field_name]<\/h3>  \r\n [if description]\r\n   <div class=\"frm_description\">[description]<\/div>\r\n   [\/if description]\r\n<div class=\"ListContainer\">   \r\n\r\n   <div id=\"frm_field_[id]_container\" class=\"frm_form_field frm_section_heading form-field[error_class]\">\r\n      [collapse_this]\r\n   <\/div>\r\n<\/div>",
+                "repeat": "1",
+                "btsp": ""
+            },
+            "form_id": "6",
+            "created_at": "2025-08-01 12:51:16",
+            "form_name": "PPE Request Form"
+        },
+        {
+            "id": "6",
+            "field_key": "4ggy6",
+            "name": "Row",
+            "description": "",
+            "type": "text",
+            "default_value": "",
+            "options": "",
+            "field_order": "18",
+            "required": "0",
+            "field_options": {
+                "admin_only": [
+                    ""
+                ],
+                "unique_msg": "This value must be unique.",
+                "in_section": "11014",
+                "watch_lookup": [
+                    ""
+                ],
+                "blank": "",
+                "classes": "frm1",
+                "custom_html": "<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\r\n    <label for=\"field_[key]\" id=\"field_[key]_label\" class=\"frm_primary_label\">[field_name]\r\n        <span class=\"frm_required\" aria-hidden=\"true\">[required_label]<\/span>\r\n    <\/label>\r\n    [input]\r\n    [if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\"frm_error\" id=\"frm_error_field_[key]\">[error]<\/div>[\/if error]\r\n<\/div>",
+                "btsp": "",
+                "geocoder_id": "",
+                "frmgeo_output_location_field": "",
+                "geo_avoid_autofill": 1
+            },
+            "form_id": "2",
+            "created_at": "2025-08-01 12:51:15",
+            "form_name": "Order"
+        },
+        {
+            "id": "7",
+            "field_key": "i0ulh",
+            "name": "Category",
+            "description": "",
+            "type": "lookup",
+            "default_value": "",
+            "options": "",
+            "field_order": "19",
+            "required": "1",
+            "field_options": {
+                "admin_only": [
+                    ""
+                ],
+                "unique_msg": "This value must be unique.",
+                "in_section": "11014",
+                "blank": "This field cannot be blank.",
+                "required_indicator": "",
+                "classes": "frm_sixth",
+                "custom_html": "<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\r\n    <label for=\"field_[key]\" id=\"field_[key]_label\" class=\"frm_primary_label\">[field_name]\r\n        <span class=\"frm_required\" aria-hidden=\"true\">[required_label]<\/span>\r\n    <\/label>\r\n    [input]\r\n    [if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\"frm_error\" id=\"frm_error_field_[key]\">[error]<\/div>[\/if error]\r\n<\/div>",
+                "get_values_form": "435",
+                "get_values_field": "11000",
+                "btsp": "",
+                "geocoder_id": "",
+                "frmgeo_output_location_field": ""
+            },
+            "form_id": "2",
+            "created_at": "2025-08-01 12:51:15",
+            "form_name": "Order"
+        },
+        {
+            "id": "8",
+            "field_key": "2kfeq",
+            "name": "Item",
+            "description": "",
+            "type": "lookup",
+            "default_value": "",
+            "options": "",
+            "field_order": "20",
+            "required": "1",
+            "field_options": {
+                "admin_only": [
+                    ""
+                ],
+                "unique_msg": "This value must be unique.",
+                "in_section": "11014",
+                "blank": "This field cannot be blank.",
+                "required_indicator": "",
+                "classes": "frm_fourth",
+                "custom_html": "<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\r\n    <label for=\"field_[key]\" id=\"field_[key]_label\" class=\"frm_primary_label\">[field_name]\r\n        <span class=\"frm_required\" aria-hidden=\"true\">[required_label]<\/span>\r\n    <\/label>\r\n    [input]\r\n    [if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\"frm_error\" id=\"frm_error_field_[key]\">[error]<\/div>[\/if error]\r\n<\/div>",
+                "watch_lookup": [
+                    "11008"
+                ],
+                "get_values_form": "435",
+                "get_values_field": "11001",
+                "btsp": "",
+                "geocoder_id": "",
+                "frmgeo_output_location_field": ""
+            },
+            "form_id": "2",
+            "created_at": "2025-08-01 12:51:15",
+            "form_name": "Order"
+        },
+        {
+            "id": "9",
+            "field_key": "eprjc",
+            "name": "Product Code",
+            "description": "",
+            "type": "lookup",
+            "default_value": "",
+            "options": "",
+            "field_order": "21",
+            "required": "1",
+            "field_options": {
+                "admin_only": [
+                    ""
+                ],
+                "unique_msg": "This value must be unique.",
+                "in_section": "11014",
+                "blank": "This field cannot be blank.",
+                "required_indicator": "",
+                "classes": "frm_sixth",
+                "custom_html": "<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\r\n    <label for=\"field_[key]\" id=\"field_[key]_label\" class=\"frm_primary_label\">[field_name]\r\n        <span class=\"frm_required\" aria-hidden=\"true\">[required_label]<\/span>\r\n    <\/label>\r\n    [input]\r\n    [if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\"frm_error\" id=\"frm_error_field_[key]\">[error]<\/div>[\/if error]\r\n<\/div>",
+                "watch_lookup": [
+                    "11008",
+                    "11009"
+                ],
+                "get_values_form": "435",
+                "get_values_field": "11002",
+                "btsp": "",
+                "geocoder_id": "",
+                "frmgeo_output_location_field": ""
+            },
+            "form_id": "2",
+            "created_at": "2025-08-01 12:51:15",
+            "form_name": "Order"
+        },
+        {
+            "id": "10",
+            "field_key": "d9h3k",
+            "name": "Waist check",
+            "description": "",
+            "type": "hidden",
+            "default_value": "",
+            "options": "",
+            "field_order": "23",
+            "required": "0",
+            "field_options": {
+                "unique_msg": "This value must be unique.",
+                "in_section": "11014",
+                "get_values_form": "435",
+                "get_values_field": "11003",
+                "watch_lookup": [
+                    "11010"
+                ],
+                "btsp": "",
+                "geocoder_id": "",
+                "frmgeo_output_location_field": ""
+            },
+            "form_id": "2",
+            "created_at": "2025-08-01 12:51:15",
+            "form_name": "Order"
+        },
+        {
+            "id": "11",
+            "field_key": "p5n2j",
+            "name": "Waist",
+            "description": "",
+            "type": "lookup",
+            "default_value": "",
+            "options": "",
+            "field_order": "25",
+            "required": "1",
+            "field_options": {
+                "hide_field": [
+                    "11024"
+                ],
+                "hide_field_cond": [
+                    "not LIKE"
+                ],
+                "hide_opt": [
+                    "N\/A"
+                ],
+                "admin_only": [
+                    ""
+                ],
+                "unique_msg": "This value must be unique.",
+                "dyn_default_value": "N\/A",
+                "in_section": "11014",
+                "blank": "This field cannot be blank.",
+                "required_indicator": "",
+                "classes": "frm1",
+                "custom_html": "<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\r\n    <label for=\"field_[key]\" id=\"field_[key]_label\" class=\"frm_primary_label\">[field_name]\r\n        <span class=\"frm_required\" aria-hidden=\"true\">[required_label]<\/span>\r\n    <\/label>\r\n    [input]\r\n    [if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\"frm_error\" id=\"frm_error_field_[key]\">[error]<\/div>[\/if error]\r\n<\/div>",
+                "watch_lookup": [
+                    "11008",
+                    "11009",
+                    "11010"
+                ],
+                "get_values_form": "435",
+                "get_values_field": "11003",
+                "btsp": "",
+                "geocoder_id": "",
+                "frmgeo_output_location_field": ""
+            },
+            "form_id": "2",
+            "created_at": "2025-08-01 12:51:15",
+            "form_name": "Order"
+        },
+        {
+            "id": "12",
+            "field_key": "c60at",
+            "name": "Chest check",
+            "description": "",
+            "type": "hidden",
+            "default_value": "",
+            "options": "",
+            "field_order": "27",
+            "required": "0",
+            "field_options": {
+                "unique_msg": "This value must be unique.",
+                "in_section": "11014",
+                "get_values_form": "435",
+                "get_values_field": "11004",
+                "watch_lookup": [
+                    "11010"
+                ],
+                "btsp": "",
+                "geocoder_id": "",
+                "frmgeo_output_location_field": ""
+            },
+            "form_id": "2",
+            "created_at": "2025-08-01 12:51:15",
+            "form_name": "Order"
+        },
+        {
+            "id": "13",
+            "field_key": "pqyck",
+            "name": "Chest",
+            "description": "",
+            "type": "lookup",
+            "default_value": "",
+            "options": "",
+            "field_order": "29",
+            "required": "1",
+            "field_options": {
+                "hide_field": [
+                    "11025"
+                ],
+                "hide_field_cond": [
+                    "not LIKE"
+                ],
+                "hide_opt": [
+                    "N\/A"
+                ],
+                "admin_only": [
+                    ""
+                ],
+                "unique_msg": "This value must be unique.",
+                "dyn_default_value": "N\/A",
+                "in_section": "11014",
+                "blank": "This field cannot be blank.",
+                "required_indicator": "",
+                "classes": "frm1",
+                "custom_html": "<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\r\n    <label for=\"field_[key]\" id=\"field_[key]_label\" class=\"frm_primary_label\">[field_name]\r\n        <span class=\"frm_required\" aria-hidden=\"true\">[required_label]<\/span>\r\n    <\/label>\r\n    [input]\r\n    [if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\"frm_error\" id=\"frm_error_field_[key]\">[error]<\/div>[\/if error]\r\n<\/div>",
+                "watch_lookup": [
+                    "11008",
+                    "11009",
+                    "11010"
+                ],
+                "get_values_form": "435",
+                "get_values_field": "11004",
+                "btsp": "",
+                "geocoder_id": "",
+                "frmgeo_output_location_field": ""
+            },
+            "form_id": "2",
+            "created_at": "2025-08-01 12:51:15",
+            "form_name": "Order"
+        },
+        {
+            "id": "14",
+            "field_key": "xjjxk",
+            "name": "Size check",
+            "description": "",
+            "type": "hidden",
+            "default_value": "",
+            "options": "",
+            "field_order": "31",
+            "required": "0",
+            "field_options": {
+                "unique_msg": "This value must be unique.",
+                "in_section": "11014",
+                "get_values_form": "435",
+                "get_values_field": "11005",
+                "watch_lookup": [
+                    "11010"
+                ],
+                "btsp": "",
+                "geocoder_id": "",
+                "frmgeo_output_location_field": ""
+            },
+            "form_id": "2",
+            "created_at": "2025-08-01 12:51:15",
+            "form_name": "Order"
+        },
+        {
+            "id": "15",
+            "field_key": "6ua3r",
+            "name": "Size",
+            "description": "",
+            "type": "lookup",
+            "default_value": "",
+            "options": "",
+            "field_order": "33",
+            "required": "1",
+            "field_options": {
+                "hide_field": [
+                    "11026"
+                ],
+                "hide_field_cond": [
+                    "not LIKE"
+                ],
+                "hide_opt": [
+                    "N\/A"
+                ],
+                "admin_only": [
+                    ""
+                ],
+                "unique_msg": "This value must be unique.",
+                "dyn_default_value": "N\/A",
+                "in_section": "11014",
+                "blank": "This field cannot be blank.",
+                "required_indicator": "",
+                "classes": "frm1",
+                "custom_html": "<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\r\n    <label for=\"field_[key]\" id=\"field_[key]_label\" class=\"frm_primary_label\">[field_name]\r\n        <span class=\"frm_required\" aria-hidden=\"true\">[required_label]<\/span>\r\n    <\/label>\r\n    [input]\r\n    [if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\"frm_error\" id=\"frm_error_field_[key]\">[error]<\/div>[\/if error]\r\n<\/div>",
+                "watch_lookup": [
+                    "11008",
+                    "11009",
+                    "11010",
+                    "11011",
+                    "11012"
+                ],
+                "get_values_form": "435",
+                "get_values_field": "11005",
+                "btsp": "",
+                "geocoder_id": "",
+                "frmgeo_output_location_field": ""
+            },
+            "form_id": "2",
+            "created_at": "2025-08-01 12:51:15",
+            "form_name": "Order"
+        },
+        {
+            "id": "16",
+            "field_key": "nev8o",
+            "name": "Branding check",
+            "description": "",
+            "type": "hidden",
+            "default_value": "",
+            "options": "",
+            "field_order": "35",
+            "required": "0",
+            "field_options": {
+                "unique_msg": "This value must be unique.",
+                "in_section": "11014",
+                "get_values_form": "435",
+                "get_values_field": "11020",
+                "watch_lookup": [
+                    "11010"
+                ],
+                "get_most_recent_value": "1",
+                "btsp": "",
+                "geocoder_id": "",
+                "frmgeo_output_location_field": ""
+            },
+            "form_id": "2",
+            "created_at": "2025-08-01 12:51:15",
+            "form_name": "Order"
+        },
+        {
+            "id": "17",
+            "field_key": "irnr9",
+            "name": "Branding?",
+            "description": "",
+            "type": "radio",
+            "default_value": "",
+            "options": [
+                {
+                    "label": "Yes",
+                    "value": "Yes",
+                    "image": "0"
+                },
+                {
+                    "label": "No",
+                    "value": "No",
+                    "image": "0"
+                }
+            ],
+            "field_order": "37",
+            "required": "1",
+            "field_options": {
+                "hide_field": [
+                    "11023"
+                ],
+                "hide_opt": [
+                    "On request"
+                ],
+                "admin_only": [
+                    ""
+                ],
+                "other": "0",
+                "in_section": "11014",
+                "blank": "This field cannot be blank.",
+                "required_indicator": "",
+                "classes": "frm1",
+                "custom_html": "<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\r\n    <div  id=\"field_[key]_label\" class=\"frm_primary_label\">[field_name]\r\n        <span class=\"frm_required\" aria-hidden=\"true\">[required_label]<\/span>\r\n    <\/div>\r\n    <div class=\"frm_opt_container\" aria-labelledby=\"field_[key]_label\" role=\"group\">[input]<\/div>\r\n    [if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\"frm_error\" id=\"frm_error_field_[key]\">[error]<\/div>[\/if error]\r\n<\/div>",
+                "image_options": "0",
+                "image_size": "small",
+                "btsp": "",
+                "geocoder_id": "",
+                "frmgeo_output_location_field": ""
+            },
+            "form_id": "2",
+            "created_at": "2025-08-01 12:51:15",
+            "form_name": "Order"
+        },
+        {
+            "id": "18",
+            "field_key": "moe5t",
+            "name": "Quantity",
+            "description": "",
+            "type": "number",
+            "default_value": "",
+            "options": "",
+            "field_order": "38",
+            "required": "1",
+            "field_options": {
+                "admin_only": [
+                    ""
+                ],
+                "unique_msg": "This value must be unique.",
+                "in_section": "11014",
+                "watch_lookup": [
+                    ""
+                ],
+                "blank": "This field cannot be blank.",
+                "required_indicator": "",
+                "invalid": "Number is invalid",
+                "classes": "frm1",
+                "custom_html": "<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\r\n    <label for=\"field_[key]\" id=\"field_[key]_label\" class=\"frm_primary_label\">[field_name]\r\n        <span class=\"frm_required\" aria-hidden=\"true\">[required_label]<\/span>\r\n    <\/label>\r\n    [input]\r\n    [if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\"frm_error\" id=\"frm_error_field_[key]\">[error]<\/div>[\/if error]\r\n<\/div>",
+                "minnum": "0",
+                "maxnum": "9999999",
+                "btsp": "",
+                "geocoder_id": "",
+                "frmgeo_output_location_field": ""
+            },
+            "form_id": "2",
+            "created_at": "2025-08-01 12:51:15",
+            "form_name": "Order"
+        },
+        {
+            "id": "19",
+            "field_key": "qij19",
+            "name": "Hidden size sheck",
+            "description": "",
+            "type": "hidden",
+            "default_value": "",
+            "options": "",
+            "field_order": "40",
+            "required": "0",
+            "field_options": {
+                "calc": "[11011][11012][11013]",
+                "calc_type": "text",
+                "in_section": "11014",
+                "watch_lookup": [
+                    ""
+                ],
+                "btsp": "",
+                "geocoder_id": "",
+                "frmgeo_output_location_field": ""
+            },
+            "form_id": "2",
+            "created_at": "2025-08-01 12:51:15",
+            "form_name": "Order"
+        },
+        {
+            "id": "148",
+            "field_key": "twjq2",
+            "name": "Section Buttons",
+            "description": "",
+            "type": "end_divider",
+            "default_value": "",
+            "options": "",
+            "field_order": "41",
+            "required": "0",
+            "field_options": {
+                "in_section": "0",
+                "classes": "frm12",
+                "btsp": ""
+            },
+            "form_id": "6",
+            "created_at": "2025-08-01 12:51:16",
+            "form_name": "PPE Request Form"
+        },
+        {
+            "id": "149",
+            "field_key": "abhsb",
+            "name": "Other",
+            "description": "",
+            "type": "textarea",
+            "default_value": "",
+            "options": "",
+            "field_order": "43",
+            "required": "0",
+            "field_options": {
+                "admin_only": [
+                    ""
+                ],
+                "unique_msg": "This value must be unique.",
+                "in_section": "0",
+                "blank": "",
+                "invalid": "[field_name] is invalid",
+                "custom_html": "<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\r\n    <label for=\"field_[key]\" id=\"field_[key]_label\" class=\"frm_primary_label\">[field_name]\r\n        <span class=\"frm_required\" aria-hidden=\"true\">[required_label]<\/span>\r\n    <\/label>\r\n    [input]\r\n    [if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\"frm_error\" id=\"frm_error_field_[key]\">[error]<\/div>[\/if error]\r\n<\/div>",
+                "placeholder": "If you require anything not listed above (such as mask filters) please outline the details (size, branding required etc) of your request here.",
+                "btsp": "",
+                "max_limit": "0"
+            },
+            "form_id": "6",
+            "created_at": "2025-08-01 12:51:16",
+            "form_name": "PPE Request Form"
+        },
+        {
+            "id": "150",
+            "field_key": "9k719",
+            "name": "HTML",
+            "description": "<hr class=\"sca-gen-hr\" style=\"margin: 10px 0 10px 0;\">",
+            "type": "html",
+            "default_value": "",
+            "options": "",
+            "field_order": "45",
+            "required": "0",
+            "field_options": {
+                "admin_only": [
+                    ""
+                ],
+                "in_section": "0",
+                "btsp": ""
+            },
+            "form_id": "6",
+            "created_at": "2025-08-01 12:51:16",
+            "form_name": "PPE Request Form"
+        },
+        {
+            "id": "151",
+            "field_key": "wxdua",
+            "name": "Once I have received this PPE, I confirm that:",
+            "description": "",
+            "type": "checkbox",
+            "default_value": "",
+            "options": [
+                {
+                    "label": "I will look after the PPE and ensure it remains clean, in an efficient state, in efficient working order and in good repair",
+                    "value": "I will look after the PPE and ensure it remains clean, in an efficient state, in efficient working order and in good repair",
+                    "image": "0"
+                },
+                {
+                    "label": "I will examine the PPE when issued and each time before it is used",
+                    "value": "I will examine the PPE when issued and each time before it is used",
+                    "image": "0"
+                },
+                {
+                    "label": "I will not use the PPE if on examination it is discovered to be defective",
+                    "value": "I will not use the PPE if on examination it is discovered to be defective",
+                    "image": "0"
+                },
+                {
+                    "label": "I will ask for a replacement when it is defective, worn out or it expires",
+                    "value": "I will ask for a replacement when it is defective, worn out or it expires",
+                    "image": "0"
+                },
+                {
+                    "label": "I understand how to properly use, store and maintain the PPE.",
+                    "value": "I understand how to properly use, store and maintain the PPE.",
+                    "image": "0"
+                }
+            ],
+            "field_order": "47",
+            "required": "1",
+            "field_options": {
+                "admin_only": [
+                    ""
+                ],
+                "other": "0",
+                "in_section": "0",
+                "blank": "This field cannot be blank.",
+                "classes": "frm_half",
+                "custom_html": "<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\r\n    <div  id=\"field_[key]_label\" class=\"frm_primary_label\">[field_name]\r\n        <span class=\"frm_required\" aria-hidden=\"true\">[required_label]<\/span>\r\n    <\/div>\r\n    <div class=\"frm_opt_container\" aria-labelledby=\"field_[key]_label\" role=\"group\">[input]<\/div>\r\n    [if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\"frm_error\" id=\"frm_error_field_[key]\">[error]<\/div>[\/if error]\r\n<\/div>",
+                "image_options": "0",
+                "image_size": "small",
+                "btsp": "",
+                "geocoder_id": "",
+                "frmgeo_output_location_field": "",
+                "required_indicator": "*"
+            },
+            "form_id": "6",
+            "created_at": "2025-08-01 12:51:16",
+            "form_name": "PPE Request Form"
+        },
+        {
+            "id": "152",
+            "field_key": "196fd",
+            "name": "Declaration",
+            "description": "",
+            "type": "checkbox",
+            "default_value": "",
+            "options": [
+                {
+                    "label": "I understand that it is my responsibility to keep the PPE Issue Record up to date and that it may be audited from time to time.",
+                    "value": "Confirmed",
+                    "image": "0"
+                }
+            ],
+            "field_order": "48",
+            "required": "0",
+            "field_options": {
+                "admin_only": [
+                    ""
+                ],
+                "other": "0",
+                "in_section": "0",
+                "blank": "",
+                "separate_value": "1",
+                "classes": "frm_half",
+                "custom_html": "<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\r\n    <div  id=\"field_[key]_label\" class=\"frm_primary_label\">[field_name]\r\n        <span class=\"frm_required\" aria-hidden=\"true\">[required_label]<\/span>\r\n    <\/div>\r\n    <div class=\"frm_opt_container\" aria-labelledby=\"field_[key]_label\" role=\"group\">[input]<\/div>\r\n    [if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\"frm_error\" id=\"frm_error_field_[key]\">[error]<\/div>[\/if error]\r\n<\/div>",
+                "image_options": "0",
+                "image_size": "small",
+                "btsp": "",
+                "geocoder_id": "",
+                "frmgeo_output_location_field": ""
+            },
+            "form_id": "6",
+            "created_at": "2025-08-01 12:51:16",
+            "form_name": "PPE Request Form"
+        },
+        {
+            "id": "153",
+            "field_key": "9y9hm",
+            "name": "HTML",
+            "description": "<hr class=\"sca-gen-hr\" style=\"margin: 10px 0 10px 0;\">",
+            "type": "html",
+            "default_value": "",
+            "options": "",
+            "field_order": "50",
+            "required": "0",
+            "field_options": {
+                "admin_only": [
+                    ""
+                ],
+                "in_section": "0",
+                "btsp": ""
+            },
+            "form_id": "6",
+            "created_at": "2025-08-01 12:51:16",
+            "form_name": "PPE Request Form"
+        },
+        {
+            "id": "154",
+            "field_key": "6iiig",
+            "name": "Order Processing",
+            "description": "",
+            "type": "divider",
+            "default_value": "",
+            "options": "",
+            "field_order": "52",
+            "required": "0",
+            "field_options": {
+                "admin_only": [
+                    "administrator",
+                    "business_admin"
+                ],
+                "in_section": "0",
+                "label": "",
+                "custom_html": "<hr><div id=\"frm_field_[id]_container\" class=\"frm_form_field frm_section_heading form-field[error_class]\">\r\n<h3 class=\"frm_pos_[label_position][collapse_class]\">[field_name]<\/h3>\r\n[if description]<div class=\"frm_description\">[description]<\/div>[\/if description]\r\n[collapse_this]\r\n<\/div>",
+                "repeat": "0",
+                "btsp": ""
+            },
+            "form_id": "6",
+            "created_at": "2025-08-01 12:51:16",
+            "form_name": "PPE Request Form"
+        },
+        {
+            "id": "155",
+            "field_key": "xasac",
+            "name": "Complete?",
+            "description": "",
+            "type": "checkbox",
+            "default_value": "",
+            "options": [
+                {
+                    "label": "Yes",
+                    "value": "Yes",
+                    "image": "0"
+                },
+                {
+                    "label": "No",
+                    "value": "No",
+                    "image": "0"
+                }
+            ],
+            "field_order": "54",
+            "required": "0",
+            "field_options": {
+                "align": "frm_two_col",
+                "admin_only": [
+                    ""
+                ],
+                "other": "0",
+                "in_section": "11032",
+                "blank": "",
+                "classes": "frm_fourth",
+                "custom_html": "<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\r\n    <div  id=\"field_[key]_label\" class=\"frm_primary_label\">[field_name]\r\n        <span class=\"frm_required\" aria-hidden=\"true\">[required_label]<\/span>\r\n    <\/div>\r\n    <div class=\"frm_opt_container\" aria-labelledby=\"field_[key]_label\" role=\"group\">[input]<\/div>\r\n    [if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\"frm_error\" id=\"frm_error_field_[key]\">[error]<\/div>[\/if error]\r\n<\/div>",
+                "image_options": "0",
+                "image_size": "small",
+                "btsp": "",
+                "geocoder_id": "",
+                "frmgeo_output_location_field": ""
+            },
+            "form_id": "6",
+            "created_at": "2025-08-01 12:51:16",
+            "form_name": "PPE Request Form"
+        },
+        {
+            "id": "156",
+            "field_key": "8w2vp",
+            "name": "Date Completed",
+            "description": "",
+            "type": "date",
+            "default_value": "",
+            "options": "",
+            "field_order": "55",
+            "required": "0",
+            "field_options": {
+                "admin_only": [
+                    ""
+                ],
+                "unique_msg": "This value must be unique.",
+                "in_section": "11032",
+                "blank": "This field cannot be blank.",
+                "invalid": "Date is invalid",
+                "classes": "frm_fourth",
+                "custom_html": "<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\r\n    <label for=\"field_[key]\" id=\"field_[key]_label\" class=\"frm_primary_label\">[field_name]\r\n        <span class=\"frm_required\" aria-hidden=\"true\">[required_label]<\/span>\r\n    <\/label>\r\n    [input]\r\n    [if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\"frm_error\" id=\"frm_error_field_[key]\">[error]<\/div>[\/if error]\r\n<\/div>",
+                "days_of_the_week": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    0
+                ],
+                "btsp": "",
+                "excepted_dates": []
+            },
+            "form_id": "6",
+            "created_at": "2025-08-01 12:51:16",
+            "form_name": "PPE Request Form"
+        },
+        {
+            "id": "157",
+            "field_key": "hqffk",
+            "name": "Processed by",
+            "description": "",
+            "type": "data",
+            "default_value": "",
+            "options": "",
+            "field_order": "56",
+            "required": "0",
+            "field_options": {
+                "form_select": "816",
+                "admin_only": [
+                    ""
+                ],
+                "unique_msg": "This value must be unique.",
+                "in_section": "11032",
+                "blank": "",
+                "classes": "frm_fourth",
+                "custom_html": "<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\r\n    <label for=\"field_[key]\" id=\"field_[key]_label\" class=\"frm_primary_label\">[field_name]\r\n        <span class=\"frm_required\" aria-hidden=\"true\">[required_label]<\/span>\r\n    <\/label>\r\n    <div class=\"frm_opt_container\" aria-labelledby=\"field_[key]_label\" role=\"group\">[input]<\/div>\r\n    [if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\"frm_error\" id=\"frm_error_field_[key]\">[error]<\/div>[\/if error]\r\n<\/div>",
+                "btsp": "",
+                "get_values_form": "3"
+            },
+            "form_id": "6",
+            "created_at": "2025-08-01 12:51:16",
+            "form_name": "PPE Request Form"
+        },
+        {
+            "id": "158",
+            "field_key": "ozsvd",
+            "name": "Notes",
+            "description": "",
+            "type": "textarea",
+            "default_value": "",
+            "options": "",
+            "field_order": "58",
+            "required": "0",
+            "field_options": {
+                "admin_only": [
+                    ""
+                ],
+                "unique_msg": "This value must be unique.",
+                "in_section": "11032",
+                "blank": "",
+                "invalid": "[field_name] is invalid",
+                "custom_html": "<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\r\n    <label for=\"field_[key]\" id=\"field_[key]_label\" class=\"frm_primary_label\">[field_name]\r\n        <span class=\"frm_required\" aria-hidden=\"true\">[required_label]<\/span>\r\n    <\/label>\r\n    [input]\r\n    [if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\"frm_error\" id=\"frm_error_field_[key]\">[error]<\/div>[\/if error]\r\n<\/div>",
+                "placeholder": "Please use this box to summarise any changes, extra details, delivery info etc. This will be emailed to the person whop submitted the request (and the recipient of the order if different).",
+                "btsp": "",
+                "max_limit": "0"
+            },
+            "form_id": "6",
+            "created_at": "2025-08-01 12:51:16",
+            "form_name": "PPE Request Form"
+        },
+        {
+            "id": "159",
+            "field_key": "av5rf",
+            "name": "Section Buttons",
+            "description": "",
+            "type": "end_divider",
+            "default_value": "",
+            "options": "",
+            "field_order": "59",
+            "required": "0",
+            "field_options": {
+                "in_section": "0",
+                "btsp": ""
+            },
+            "form_id": "6",
+            "created_at": "2025-08-01 12:51:16",
+            "form_name": "PPE Request Form"
+        },
+        {
+            "id": "160",
+            "field_key": "i6y3n",
+            "name": "Submit",
+            "description": "",
+            "type": "submit",
+            "default_value": "",
+            "options": "",
+            "field_order": "61",
+            "required": "0",
+            "field_options": {
+                "start_over_label": "",
+                "in_section": "0",
+                "btsp": ""
+            },
+            "form_id": "6",
+            "created_at": "2025-08-01 12:51:16",
+            "form_name": "PPE Request Form"
+        }
+    ],
+    "options": {
+        "success_page_id": "0",
+        "honeypot": "basic",
+        "success_msg": "Your responses were successfully submitted. Thank you!",
+        "logged_in_role": [
+            ""
+        ],
+        "cookie_expiration": "8000",
+        "editable_role": [
+            "administrator",
+            "business_admin"
+        ],
+        "open_editable_role": [
+            "administrator",
+            "business_admin"
+        ],
+        "edit_action": "redirect",
+        "edit_url": "https:\/\/dev2.biocensus.co.uk\/ppe-request-log\/",
+        "edit_page_id": "0",
+        "protect_files": "0",
+        "open_date": "2021-07-16 14:22",
+        "custom_style": 1,
+        "submit_conditions": {
+            "show_hide": "show",
+            "any_all": "all",
+            "hide_field": [],
+            "hide_field_cond": [
+                "=="
+            ],
+            "hide_opt": []
+        },
+        "before_html": "<link href=\"https:\/\/fonts.googleapis.com\/icon?family=Material+Icons\" rel=\"stylesheet\">\r\n<script src=\"https:\/\/code.jquery.com\/ui\/1.12.1\/jquery-ui.js\"><\/script>\r\n<script src=\"\/wp-includes\/js\/jquery\/jquery.ui.touch-punch.js\"><\/script>\r\n<script type=\"text\/javascript\">\r\n   document.addEventListener(\"DOMContentLoaded\", updateRepeatCountFields );\r\n   jQuery(document).on('frmAfterAddRow', updateRepeatCountFields );\r\n   jQuery(document).on('frmAfterRemoveRow', updateRepeatCountFields );\r\n   \r\n   function updateRepeatCountFields(){\r\n   var countFields = document.querySelectorAll( '.frm_field_11088_container input');\r\n       for ( var i = 0, len=countFields.length; i<len; i++ ) {\r\n           countFields[i].value = i+1;\r\n       }\r\n   }\r\n   \r\n   jQuery(document).ready(function($){\r\n     jQuery(\".frm_add_form_row\").click(function(){\r\n       $( '#frm_field_11014_container' ).sortable({\r\n           cursor: \"grabbing\",\r\n           stop: function () {\r\n               var countFields = document.querySelectorAll( '.frm_field_11088_container input');\r\n               for ( var i = 0, len=countFields.length; i<len; i++ ) {\r\n                   countFields[i].value = i+1;\r\n               }\r\n           }\r\n       });\r\n     });\r\n   });\r\n<\/script>\r\n<legend class=\"frm_screen_reader\">[form_name]<\/legend>\r\n[if form_name]<h3 class=\"frm_form_title\">[form_name]<\/h3>[\/if form_name]\r\n[if form_description]<div class=\"frm_description\">[form_description]<\/div>[\/if form_description]",
+        "submit_html": "<div class=\"frm_submit\">\r\n[if back_button]<button type=\"submit\" name=\"frm_prev_page\" formnovalidate=\"formnovalidate\" class=\"frm_prev_page\" [back_hook]>[back_label]<\/button>[\/if back_button]\r\n<button class=\"frm_button_submit\" type=\"submit\"  [button_action]>[button_label]<\/button>\r\n[if save_draft]<a href=\"#\" tabindex=\"0\" class=\"frm_save_draft\" [draft_hook]>[draft_label]<\/a>[\/if save_draft]\r\n<\/div>",
+        "prev_value": "Previous",
+        "submit_value": "Submit",
+        "success_action": "message",
+        "show_form": 0,
+        "akismet": "",
+        "stopforumspam": 0,
+        "antispam": 0,
+        "no_save": 0,
+        "ajax_load": 0,
+        "js_validate": 0,
+        "form_class": "",
+        "after_html": "",
+        "show_title": 0,
+        "show_description": 0,
+        "ajax_submit": 0,
+        "edit_value": "Update",
+        "edit_msg": "Your submission was successfully saved.",
+        "save_draft": 0,
+        "edit_draft_role": "",
+        "draft_msg": "Your draft has been saved.",
+        "copy": 0,
+        "single_entry": 0,
+        "single_entry_type": "user",
+        "unique_email_id": 0,
+        "success_url": "",
+        "draft_label": "Save Draft",
+        "transition": "",
+        "submit_align": "",
+        "open_status": "",
+        "closed_msg": "<p>This form is currently closed for submissions.<\/p>",
+        "close_date": "",
+        "max_entries": "",
+        "noindex_files": 0,
+        "rootline": "",
+        "pagination_position": "",
+        "rootline_titles_on": 0,
+        "rootline_titles": [],
+        "rootline_lines_off": 0,
+        "rootline_numbers_off": 0,
+        "auto_save_draft": 0,
+        "on_submit_migrated": 1
+    }
+}

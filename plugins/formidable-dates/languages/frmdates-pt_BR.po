@@ -1,0 +1,192 @@
+# Copyright (C) 2024 Strategy11
+# This file is distributed under the same license as the Formidable Datepicker Options plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: a2d8bc55ffb2a23897925e74530a7308\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/formidable-dates\n"
+"Last-Translator: \n"
+"Language-Team: Portuguese, Brazilian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-08-16T19:25:02+00:00\n"
+"PO-Revision-Date: 2024-08-17 05:48\n"
+"X-Generator: WP-CLI 2.10.0\n"
+"X-Domain: frmdates\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: a2d8bc55ffb2a23897925e74530a7308\n"
+"X-Crowdin-Project-ID: 28\n"
+"X-Crowdin-Language: pt-BR\n"
+"X-Crowdin-File: /[Strategy11.formidable-dates] master/languages/frmdates.pot\n"
+"X-Crowdin-File-ID: 2412\n"
+"Language: pt_BR\n"
+
+#. Plugin Name of the plugin
+#: formidable-dates.php
+msgid "Formidable Datepicker Options"
+msgstr "Opções de selecionador de data do Formidable"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: formidable-dates.php
+msgid "https://formidableforms.com"
+msgstr "https://formidableforms.com"
+
+#. Description of the plugin
+#: formidable-dates.php
+msgid "Set blackout dates, days of the week, dynamic minimum and maximum dates, and calculate dates."
+msgstr "Defina datas de indisponibilidade, dias da semana, datas mínimas e máximas dinâmicas e calcule datas."
+
+#. Author of the plugin
+#: formidable-dates.php
+msgid "Strategy11"
+msgstr "Strategy11"
+
+#: classes/controllers/FrmDatesAppController.php:7
+msgid "Formidable Dates requires Formidable Forms Pro to be installed."
+msgstr ""
+
+#: classes/controllers/FrmDatesAppController.php:113
+msgid "Minimum"
+msgstr "Mínimo"
+
+#: classes/controllers/FrmDatesAppController.php:114
+msgid "Maximum"
+msgstr "Máximo"
+
+#: classes/controllers/FrmDatesCalculationController.php:25
+msgid "Default Value (Date Calculation)"
+msgstr "Valor padrão (cálculo de data)"
+
+#: classes/helpers/FrmDatesCalculationHelper.php:33
+msgid "Smart Tags"
+msgstr "Tags inteligentes"
+
+#: classes/models/FrmDatesField.php:141
+#: classes/models/FrmDatesField.php:161
+msgid "The date selected is not allowed. Please select another day."
+msgstr ""
+
+#. translators: %s: Minimum date
+#: classes/models/FrmDatesField.php:150
+msgid "Date cannot be before %s"
+msgstr ""
+
+#. translators: %s: Maximum date
+#: classes/models/FrmDatesField.php:156
+msgid "Date cannot be after %s"
+msgstr ""
+
+#: views/calc-settings-modal.php:17
+msgid "Start date"
+msgstr "Data de início"
+
+#: views/calc-settings-modal.php:39
+msgid "Date Difference"
+msgstr "Diferença de data"
+
+#: views/calc-settings-modal.php:40
+msgid "Difference between start date and desired date. Can be in days, weeks, months, or years."
+msgstr "Diferença entre a data de início e a data desejada. Pode ser em dias, semanas, meses ou anos."
+
+#: views/calc-settings-modal.php:63
+msgid "Dynamically set the value of this field from another date."
+msgstr "Defina dinamicamente o valor desse campo a partir de outra data."
+
+#: views/calc-settings.php:22
+msgid "Default Value"
+msgstr "Valor padrão"
+
+#: views/calc-settings.php:24
+#: views/calc-settings.php:32
+msgid "Date calculation"
+msgstr "Cálculo de data"
+
+#: views/calc-shortcodes-modal.php:18
+msgid "Search Smart Tags"
+msgstr "Pesquisa tags inteligentes"
+
+#: views/calc-shortcodes-modal.php:27
+#: views/date-field-settings.php:19
+msgid "Current Date"
+msgstr "Data atual"
+
+#: views/calc-shortcodes-modal.php:29
+msgid "GET/POST"
+msgstr "GET / POST"
+
+#: views/calc-shortcodes-modal.php:30
+msgid "A variable from the URL or value posted from previous page."
+msgstr "Uma variável da URL ou valor recebido da página anterior."
+
+#: views/calc-shortcodes-modal.php:30
+msgid "Replace 'whatever' with the parameter name. In url.com?product=form, the variable is 'product'. You would use [get param=product] in your field."
+msgstr "Troque 'qualquer coisa' com o parâmetro nome. Na url.com?product=form, a variável é 'product'. Você poderia usar [get param=product] no seu campo."
+
+#: views/calc-shortcodes-modal.php:59
+msgid "Click smart value to dynamically populate this field. Smart values are not used when editing entries."
+msgstr "Clique no valor inteligente para preencher dinamicamente esse campo. Os valores inteligentes não são usados ao editar entradas."
+
+#: views/date-field-settings.php:7
+msgid "Set specific minimum and maximum dates"
+msgstr "Defina datas mínimas e máximas específicas"
+
+#: views/date-field-settings.php:17
+msgid "Year set above"
+msgstr "Ano definido acima"
+
+#: views/date-field-settings.php:18
+msgid "Specific Date"
+msgstr "Data específica"
+
+#: views/date-field-settings.php:21
+msgid "Date Fields"
+msgstr "Campos de data"
+
+#: views/date-field-settings.php:38
+msgid "Days of the week"
+msgstr "Dias da semana"
+
+#: views/date-field-settings.php:39
+msgid "Check the boxes for the days of the week that should be selectable in the datepicker. Deselecting a week day will disable it in the datepicker."
+msgstr "Marque as caixas dos dias da semana que devem ser selecionáveis no selecionador de data. A não seleção de um dia da semana o desabilitará no selecionador de data."
+
+#: views/date-field-settings.php:46
+msgid "All Days"
+msgstr "Todos os dias"
+
+#: views/date-field-settings.php:66
+msgid "Exceptions"
+msgstr "Exceções"
+
+#: views/date-field-settings.php:67
+msgid "When a weekday is disabled in the datepicker, you may select specific dates to enable."
+msgstr "Quando um dia da semana está desativado no selecionador de data, você pode selecionar datas específicas e ativá-las."
+
+#: views/date-field-settings.php:75
+msgid "Add Exceptions"
+msgstr "Adicionar exceções"
+
+#: views/date-field-settings.php:92
+msgid "Blackout Dates"
+msgstr "Datas de indisponibilidade"
+
+#: views/date-field-settings.php:93
+msgid "Disable specific dates in the datepicker. These dates are disabled in addition to any weekdays you uncheck."
+msgstr "Desativar datas específicas no selecionador de datas. Elas são desativadas, além de todos os dias da semana que você desmarcar."
+
+#: views/date-field-settings.php:101
+msgid "Add Blackout Date"
+msgstr "Adicionar data de indisponibilidade"
+
+#: views/date-field-settings.php:119
+msgid "Display Inline Date Picker"
+msgstr "Exibir seletor de data embutido"
+
+#. translators: %s - the number of dates initially hidden.
+#: views/dates-list.php:18
+msgid "... and %s more"
+msgid_plural "... and %s more"
+msgstr[0] "... e mais %s"
+msgstr[1] "... e mais %s"
+

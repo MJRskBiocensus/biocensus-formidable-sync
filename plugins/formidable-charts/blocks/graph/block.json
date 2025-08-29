@@ -1,0 +1,125 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "frm-charts/graph",
+  "version": "1.0.0",
+  "title": "Formidable Chart",
+  "category": "design",
+  "icon": "chart-bar",
+  "description": "Create charts and graphs from form data",
+  "example": {},
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "title_font": {
+      "type": "string"
+    },
+    "title_color": {
+      "type": "string"
+    },
+    "title_size": {
+      "type": "string"
+    },
+    "title_bold": {
+      "type": "boolean"
+    },
+    "title_italic": {
+      "type": "boolean"
+    },
+    "form": {
+      "type": "string"
+    },
+    "fields": {
+      "type": "array"
+    },
+    "filters": {
+      "type": "array"
+    },
+    "type": {
+      "type": "string",
+      "default": "column"
+    },
+    "format": {
+      "type": "string"
+    },
+    "dataOverTime": {
+      "type": "boolean"
+    },
+    "data_type": {
+      "type": "string"
+    },
+    "x_axis": {
+      "type": "string"
+    },
+    "x_title": {
+      "type": "string"
+    },
+    "x_title_margin": {
+      "type": "string"
+    },
+    "x_min": {
+      "type": "string"
+    },
+    "x_max": {
+      "type": "string"
+    },
+    "xAxisProps": {
+      "type": "array"
+    },
+    "y_title": {
+      "type": "string"
+    },
+    "y_title_margin": {
+      "type": "string"
+    },
+    "y_min": {
+      "type": "string"
+    },
+    "y_max": {
+      "type": "string"
+    },
+    "yAxisProps": {
+      "type": "array"
+    },
+    "height": {
+      "type": "string"
+    },
+    "width": {
+      "type": "string"
+    },
+    "colors": {
+      "type": "array"
+    },
+    "displayProps": {
+      "type": "array"
+    },
+    "show_key": {
+      "type": "boolean"
+    },
+    "legend_position": {
+      "type": "string"
+    },
+    "legendProps": {
+      "type": "array"
+    },
+    "legend_columns": {
+      "type": "number"
+    }
+  },
+  "animate": {
+    "type": "boolean"
+  },
+  "animation_duration": {
+    "type": "string"
+  },
+  "animation_easing": {
+    "type": "string"
+  },
+  "textdomain": "frm-charts",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css"
+}

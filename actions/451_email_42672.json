@@ -1,0 +1,31 @@
+{
+    "ID": 54,
+    "post_author": "0",
+    "post_date": "2020-08-26 10:42:22",
+    "post_date_gmt": "2020-08-26 09:42:22",
+    "post_content": "{\"event\":[\"create\"],\"email_to\":\"EcologyBusinessSupport@rskbiocensus.com\",\"cc\":\"\",\"bcc\":\"\",\"from\":\"[sitename] <[admin_email]>\",\"reply_to\":\"\",\"email_subject\":\"A vehicle hire cancellation\\\/amendment request has been submitted for booking [11314]\",\"email_message\":\"[if 11328 equals=\\\"Cancellation\\\"]The booking for [11314 show=11287] being delivered on [11314 show=11292] now needs to be cancelled. The reason provided is: [11331][\\\/if 11328][if 11328 not_equal=\\\"Cancellation\\\"]<p>The booking for [11314 show=11287] being delivered on [11314 show=11292] now needs to be amended. The following information has been provided: <\\\/p><p>[11330]<\\\/p>[\\\/if 11328]\\r\\n<p>To update this booking pelase go to <a href=\\\"https:\\\/\\\/dev2.biocensus.co.uk\\\/vehicle-hire-request\\\/?frm_action=edit&entry=[id]\\\">https:\\\/\\\/dev2.biocensus.co.uk\\\/vehicle-hire-request\\\/?frm_action=edit&entry=[id]<\\\/a><\\\/p>\",\"email_attachment_id\":\"\",\"conditions\":{\"send_stop\":\"send\",\"any_all\":\"any\"},\"autoresponder\":{\"is_active\":\"\",\"do_default_trigger\":\"no\",\"send_interval\":\"30\",\"send_unit\":\"days\",\"send_before_after\":\"after\",\"send_date\":\"update\",\"send_after_interval_type\":\"number\",\"send_after_interval\":\"0\",\"send_after_unit\":\"days\",\"send_after_count\":\"1\"}}",
+    "post_title": "Send Email",
+    "post_excerpt": "email",
+    "post_status": "publish",
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "post_password": "",
+    "post_name": "451_email_42672",
+    "to_ping": "",
+    "pinged": "",
+    "post_modified": "2025-08-01 12:51:47",
+    "post_modified_gmt": "2025-08-01 12:51:47",
+    "post_content_filtered": "",
+    "post_parent": 0,
+    "guid": "https:\/\/test1.biocensus.co.uk\/frm_form_actions\/451_email_42672\/",
+    "menu_order": 9,
+    "post_type": "frm_form_actions",
+    "post_mime_type": "",
+    "comment_count": "0",
+    "filter": "raw",
+    "meta": {
+        "_wp_old_slug": [
+            "357_email_27729-2"
+        ]
+    }
+}

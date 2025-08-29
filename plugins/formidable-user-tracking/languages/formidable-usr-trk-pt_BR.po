@@ -1,0 +1,93 @@
+# Copyright (C) 2024 Strategy11
+# This file is distributed under the same license as the Formidable User Flow plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: a2d8bc55ffb2a23897925e74530a7308\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/formidable-user-tracking\n"
+"Last-Translator: \n"
+"Language-Team: Portuguese, Brazilian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-06-18T19:01:15+00:00\n"
+"PO-Revision-Date: 2024-06-19 19:00\n"
+"X-Generator: WP-CLI 2.10.0\n"
+"X-Domain: formidable-usr-trk\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: a2d8bc55ffb2a23897925e74530a7308\n"
+"X-Crowdin-Project-ID: 28\n"
+"X-Crowdin-Language: pt-BR\n"
+"X-Crowdin-File: /[Strategy11.formidable-user-tracking] master/languages/formidable-usr-trk.pot\n"
+"X-Crowdin-File-ID: 2428\n"
+"Language: pt_BR\n"
+
+#. Plugin Name of the plugin
+#: formidable-user-tracking.php
+msgid "Formidable User Flow"
+msgstr "Formidable User Flow"
+
+#. Plugin URI of the plugin
+#: formidable-user-tracking.php
+msgid "https://formidableforms.com/"
+msgstr "https://formidableforms.com/"
+
+#. Description of the plugin
+#: formidable-user-tracking.php
+msgid "Track the steps a user takes before submitting a form"
+msgstr "Monitore as etapas que um usuário realiza antes de enviar um formulário"
+
+#. Author of the plugin
+#: formidable-user-tracking.php
+msgid "Strategy11"
+msgstr "Strategy11"
+
+#. Author URI of the plugin
+#: formidable-user-tracking.php
+msgid "https://strategy11.com"
+msgstr "https://strategy11.com"
+
+#. translators: %1$s: Number of steps, %2$s: Total time spent
+#: classes/helpers/FrmUsrTrkAppHelper.php:95
+msgid "User took %1$s steps over %2$s"
+msgstr "O usuário realizou %1$s etapas de %2$s"
+
+#. translators: %1$s: Number of steps
+#: classes/helpers/FrmUsrTrkAppHelper.php:98
+msgid "User took %1$s steps"
+msgstr "O usuário realizou %1$s etapas"
+
+#: classes/models/FrmUsrTrkSession.php:203
+msgid "Untitled"
+msgstr "Sem título"
+
+#: classes/models/FrmUsrTrkSession.php:215
+msgid "Type-in or bookmark"
+msgstr "Digite ou marque como favorito"
+
+#. translators: %s: The form name
+#: classes/models/FrmUsrTrkSession.php:331
+msgid "%s form submitted"
+msgstr "%s formulário enviado"
+
+#: classes/views/user-tracking.php:17
+msgid "User Flow"
+msgstr "Fluxo do usuário"
+
+#: classes/views/user-tracking.php:40
+msgid "Open"
+msgstr "Abrir"
+
+#: classes/views/user-tracking.php:40
+#: classes/views/user-tracking.php:46
+msgid "Close"
+msgstr "fechado"
+
+#: classes/views/user-tracking.php:68
+msgid "Keywords"
+msgstr "Palavras-chave"
+
+#: classes/views/user-tracking.php:71
+#: classes/views/user-tracking.php:96
+msgid "Referrer"
+msgstr "Referência"
+

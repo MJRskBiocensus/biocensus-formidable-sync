@@ -1,0 +1,11 @@
+{
+    "id": "4",
+    "name": "Current year",
+    "code": "<?php echo date('Y'); ?>\n",
+    "tags": "sample, dates",
+    "description": "Shortcode for inserting the current year into a post or page..\n\nThis is a sample snippet. Feel free to use it, edit it, or remove it.",
+    "scope": "content",
+    "priority": "10",
+    "active": "1",
+    "type": ""
+}
