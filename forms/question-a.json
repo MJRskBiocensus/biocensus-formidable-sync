@@ -275,7 +275,7 @@
             "name": "Question-3",
             "description": "Adding a description",
             "type": "number",
-            "default_value": "default",
+            "default_value": "default value",
             "options": "",
             "field_order": "5",
             "required": "1",
