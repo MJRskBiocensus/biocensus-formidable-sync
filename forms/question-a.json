@@ -363,7 +363,7 @@
             "name": "Summary-updated",
             "description": "",
             "type": "textarea",
-            "default_value": "Amended default text",
+            "default_value": "Amended default text again",
             "options": "",
             "field_order": "10",
             "required": "1",
