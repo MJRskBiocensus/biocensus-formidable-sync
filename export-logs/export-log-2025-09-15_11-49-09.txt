@@ -1,0 +1,15 @@
+Export Time: 2025-09-15 11:49:09
+LT test 2 15.9.25\n checking if default field value changing is picked up and checking formatting in log
+
+FORMS CHANGES:
+
+VIEWS CHANGES:
+
+ACTIONS CHANGES:
+
+STYLES CHANGES:
+
+SNIPPETS CHANGES:
+
+PLUGINS CHANGES:
+
