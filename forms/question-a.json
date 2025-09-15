@@ -600,7 +600,7 @@
                 "maxnum": 10,
                 "step": 1,
                 "format": "",
-                "placeholder": "",
+                "placeholder": "Don't forget to fill in this field!",
                 "draft": 0,
                 "auto_address": 0,
                 "geo_show_map": 0,
