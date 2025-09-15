@@ -273,7 +273,7 @@
             "id": "4",
             "field_key": "77tqt",
             "name": "Question-3",
-            "description": "",
+            "description": "Adding a description",
             "type": "number",
             "default_value": "",
             "options": "",
