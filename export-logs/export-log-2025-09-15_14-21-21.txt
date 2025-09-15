@@ -1,0 +1,24 @@
+Export Time: 2025-09-15 14:21:21
+default inclusion and after html check
+
+FORMS CHANGES:
+- Question-A
+  • Updated fields:
+  •   • Field "Summary-updated":
+  •       default_value changed from "Some default text" to "Amended default text"
+  •   • Field "mustafa_field":
+  •       field_options.custom_html changed from "<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\n\t<label for=\"field_[key]\" id=\"field_[key]_label\" class=\"frm_primary_label\">[field_name]\n\t\t<span class=\"frm_required\" aria-hidden=\"true\">[required_label]<\/span>\n\t<\/label>\n\t[input]\n\t[if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\n\t[if error]<div class=\"frm_error\" role=\"alert\" id=\"frm_error_field_[key]\">[error]<\/div>[\/if error]\n<\/div>" to "<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\r\n\t<label for=\"field_[key]\" id=\"field_[key]_label\" class=\"frm_primary_label\">[field_name]\r\n\t\t<span class=\"frm_required\" aria-hidden=\"true\">[required_label]<\/span>\r\n\t<\/label>\r\n\t[input]\r\n\t[if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\r\n\t[if error]<div class=\"frm_error\" role=\"alert\" id=\"frm_error_field_[key]\">[error]<\/div>[\/if error]\r\n<\/div>"
+  •   • Field "Lisa test field amended":
+  •       field_options.custom_html changed from "<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\n\t<label for=\"field_[key]\" id=\"field_[key]_label\" class=\"frm_primary_label\">[field_name]\n\t\t<span class=\"frm_required\" aria-hidden=\"true\">[required_label]<\/span>\n\t<\/label>\n\t[input]\n\t[if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\n\t[if error]<div class=\"frm_error\" role=\"alert\" id=\"frm_error_field_[key]\">[error]<\/div>[\/if error]\n<\/div>" to "<div id=\"frm_field_[id]_container\" class=\"frm_form_field form-field [required_class][error_class]\">\r\n\t<label for=\"field_[key]\" id=\"field_[key]_label\" class=\"frm_primary_label\">[field_name]\r\n\t\t<span class=\"frm_required\" aria-hidden=\"true\">[required_label]<\/span>\r\n\t<\/label>\r\n\t[input]\r\n\t[if description]<div class=\"frm_description\" id=\"frm_desc_field_[key]\">[description]<\/div>[\/if description]\r\n\t[if error]<div class=\"frm_error\" role=\"alert\" id=\"frm_error_field_[key]\">[error]<\/div>[\/if error]\r\n<\/div>"
+  • options.after_html changed from "" to "<script type=\"text\/javascript\">\r\njQuery(document).ready(function($){\r\n$('#field_77tqt, #field_qugu7').change(function(){\r\n  var val1 = $(\"#field_77tqt\").val();\r\n  var val2 = $(\"#field_qugu7\").val();\r\n  $(\"#field_ag7xj\").val(val1+' '+val2);\r\n  $(\"#field_ag7xj\").change();\r\n});\r\n});\r\n<\/script>"
+
+VIEWS CHANGES:
+
+ACTIONS CHANGES:
+
+STYLES CHANGES:
+
+SNIPPETS CHANGES:
+
+PLUGINS CHANGES:
+
