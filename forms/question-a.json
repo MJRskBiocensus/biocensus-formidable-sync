@@ -184,7 +184,7 @@
             "name": "Question-2",
             "description": "",
             "type": "text",
-            "default_value": "",
+            "default_value": "A value",
             "options": "",
             "field_order": "4",
             "required": "0",
