@@ -1,0 +1,20 @@
+Export Time: 2025-09-15 14:37:44
+testing normalising of line endings in json diff
+
+FORMS CHANGES:
+- Question-A
+  • Updated fields:
+  •   • Field "Lisa test field amended":
+  •       description changed from "" to "New descr"
+  • options.after_html changed from "<script type=\"text\/javascript\">\njQuery(document).ready(function($){\n$('#field_77tqt, #field_qugu7').change(function(){\n  var val1 = $(\"#field_77tqt\").val();\n  var val2 = $(\"#field_qugu7\").val();\n  $(\"#field_ag7xj\").val(val1+' '+val2);\n  $(\"#field_ag7xj\").change();\n});\n});\n<\/script>" to "<script type=\"text\/javascript\">\n\/\/ description of script function\njQuery(document).ready(function($){\n$('#field_77tqt, #field_qugu7').change(function(){\n  var val1 = $(\"#field_77tqt\").val();\n  var val2 = $(\"#field_qugu7\").val();\n  $(\"#field_ag7xj\").val(val1+' '+val2);\n  $(\"#field_ag7xj\").change();\n});\n});\n<\/script>"
+
+VIEWS CHANGES:
+
+ACTIONS CHANGES:
+
+STYLES CHANGES:
+
+SNIPPETS CHANGES:
+
+PLUGINS CHANGES:
+
